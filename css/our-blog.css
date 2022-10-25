@@ -206,7 +206,7 @@ footer{
 
 @media (min-width:720px) {
     footer{
-        background-image: url(../img/heroBacground.png);
+        background-image: url(../assets/img/heroBacground.png);
         padding-bottom: 6%;
     }
     .our-blogcard-container{
@@ -303,7 +303,7 @@ footer{
     }
     .download{
         height: 472px;
-        background-image: url(../img/dwnload-bg.png);
+        background-image: url(../assets/img/dwnload-bg.png);
         margin-top: 10%;
     }
     .p-bold p:nth-child(1){

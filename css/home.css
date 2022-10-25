@@ -12,7 +12,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(./img/Group\ 1000001268.png);
+    background-image: url(../assets/img/heroBacground.png);
     background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 50%;
@@ -210,7 +210,7 @@ header{
     isolation: isolate;
 }
 .flexibility::after{
-    content: url(../img/Vector\(1\).png);
+    content: url(../assets/img/bg-img-left.png);
     position: absolute;
     opacity: .2;
     left: -150px;
@@ -223,7 +223,7 @@ header{
 }
 .vectr{
     display: none;
-    content: url(../img/Vector2.png);
+    content: url(../assets/img/bg-btm-right.png);
     position: absolute;
     right: -9rem;
     bottom: 0;
@@ -232,7 +232,7 @@ header{
 }
 .vect2{
     display: none;
-    content: url(../img/Vector3.png);
+    content: url(../assets/img/bg-top-right.png);
     position: absolute;
     right: -8rem;
     top: 3px;
@@ -302,7 +302,7 @@ header{
 .pic{
     width: 56px;
     height: 56px;
-    background-color: var(--BeautyBush);
+    background-color: var(--Beauty-Bush);
     border-radius: 50%;
     margin-bottom: 13px;
 }
