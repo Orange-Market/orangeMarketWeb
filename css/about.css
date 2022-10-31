@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist';
+}
+.header-about{
+    background-image: url(../assets/img/heroBacground.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+.about-container{
+    width: 100%;
+    text-align: center;
+    padding:6% 4% 20% 8% ;
+    bottom: 7%;
+}
+.abt-hero-txt h1{
+    font-size: 32px;
+    font-weight: bold; 
+    margin-bottom: 3%; 
+}
+.abt-hero-txt p{
+    width: 80%;
+    margin: 0 auto;
+    line-height: 23px;
+    margin-bottom: 7%;
+}
+.about-hero a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: .8em 1.6em;
+    background-color: var(--Thunderbird);
+    color: var(--white);
+    border-radius: 10px;
+}
+.supplies-grid-container{
+    display: none;
+}
+/* who we are */
+.who-we{
+    padding: 0 5%;
+}
+.who-we-crd{
+    width: 90%;
+    height: 200px;
+    position: relative;
+    background-color: var(--Whisper);
+    border-radius: 10px;
+    box-shadow: 3px 3px 30px  var(--Mischka);
+    margin-bottom: 16%;
+}
+.who-we-crd::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -2.2rem;
+    right: -2.2rem;
+    background-color: var(--Whisper);
+    border-radius: 10px;
+    z-index: -1;
+}
+/* who we are text */
+.who-we-txt h2{
+    margin-bottom: 5%;
+    font-size: 24px;
+}
+.who-we-txt p{
+    margin-bottom: 5%;
+    line-height: 24px;
+}
+/* team */
+.team{
+    padding: 0 5%;
+    margin: 10% 0;
+}
+.team-txt h1{
+    font-size: 24px;
+    margin-bottom: 5%;
+    color: var(--font-Zeus);
+}
+.tmp1-pic{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--Beauty-Bush);
+    margin-bottom: 10px;
+    
+}
+.tm-p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.team-profile1{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+.tm-p1 h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.tm-p1 p{
+    font-size: 12px;
+    color: var(--Thunderbird);
+}
+.tm-p1 a{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--CadetBlue);
+}
+.in{
+    margin-right: 2px;
+}
+/* our-mission */
+.our-mission{
+    display: none;
+}
+/* our value */
+.you-want{
+    padding: 4rem 1.3rem 2rem;
+}
+.you-want p{
+    color: var(--Tapa);
+}
+.you-card{
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: -4px 12px 14px -1px var(--gallary) ;
+    margin-bottom: 35px;
+}
+.pic{
+    width: 56px;
+    height: 56px;
+    background-color: var(--Beauty-Bush);
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+.you-want-txt h2{
+    font-size:24px ;
+    font-weight: bold;
+}
+.you-want-txt p{
+    width: 86%;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+}
+
+.you-card h4{
+    font-size: 20px;
+    font-weight:bold ;
+    margin-bottom: 10px;
+}
+.you-card p{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:720px) {
+    /* hero text styling */
+    .abt-hero-txt h1{
+        font-size: 42px;
+        font-weight: bold; 
+        margin-bottom: 5%; 
+    }
+    .abt-hero-txt p{
+        width: 100%;
+        margin: 0 auto;
+        line-height: 23px;
+        margin-bottom: 9%;
+    }
+    .about-hero a{
+        text-decoration: none;
+        font-size: 14px;
+        padding: .8em 1.6em;
+        background-color: var(--Thunderbird);
+        color: var(--white);
+        border-radius: 10px;
+    }
+    .about-hero{
+        align-self: end;
+        flex: .8;
+        margin-top: 7%;
+    }
+    /* about container */
+    .about-container{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        text-align: left;
+        padding:6% 4% 10% 8% ;
+    }
+
+
+    .supplies-grid{
+        width: 100%;
+    }
+    .supplies-grid{
+        display: flex;
+        gap: 3%;
+    }
+    .supplies-grid-container{
+        display: block;
+        width: 40%;
+        padding: 15px;
+    }
+    .supplies-grd{
+        width: 50%;
+        margin-top: 5%;
+    }
+    /* grid card design */
+.gridcard-1{
+    width: 50%;
+    min-height: 150px;
+    background-color: var(--Wild-Sand);
+    border-radius: 10px;
+    position: relative;
+    
+}
+.gridcard-1::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--Wild-Sand);
+    bottom: -105%;
+    border-radius: 10px;
+}
+.gridcard-2{
+    width: 50%;
+    min-height: 150px;
+    background-color: var(--Wild-Sand);
+    border-radius: 10px;
+    position: relative;
+    bottom: 15px;
+}
+.gridcard-2::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--Wild-Sand);
+    bottom: -105%;
+}
+/* who we are design */
+.who-we{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10%;
+    padding-right: 10%;
+    
+
+}
+.who-we-txt{
+    flex: 1;
+}
+.who-we-crd{
+    flex: 1;
+    align-self: center;
+}
+
+.who-we-crd{
+    width: 40%;
+    height: 200px;
+    position: relative;
+    background-color: var(--Whisper);
+    border-radius: 10px;
+    box-shadow: 3px 3px 30px var(--Mischka);
+    margin-bottom: 7%;
+}
+.who-we-crd::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -2.2rem;
+    right: -2.2rem;
+    background-color: var(--Whisper);
+    border-radius: 10px;
+    z-index: -1;
+}
+/* who we are text */
+.who-we-txt h2{
+    margin-bottom: 5%;
+    font-size: 24px;
+}
+.who-we-txt p{
+    font-size: 14px;
+    margin-bottom: 5%;
+    line-height: 24px;
+}
+/* team */
+.team-profile{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.team-profile1{
+    flex:1;
+    justify-content: space-between;
+    flex: 1;
+}
+.team-txt p{
+    width: 80%;
+}
+.team-profile1{
+    display: flex;
+    margin-top: 5%;
+}
+/* our mission */
+.our-mission{
+    flex-direction: row;
+}
+.our-mission a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: .8em 1.6em;
+    background-color: var(--Thunderbird);
+    color: var(--white);
+    border-radius: 10px;
+}
+/* our vale */
+.you-want{
+    padding: 10% 5%;
+}
+.you-want-card{
+    display: flex;
+    gap: 10px;
+}
+.you-want-txt h2{
+    font-size: 44px;
+}
+.you-want-txt{
+    font-size:18px ;
+    font-weight: 400;
+}
+.value-card h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+.you-card{
+    background-color: var(--white);
+    position: relative;
+    box-shadow: -4px 32px 14px -1px var(--Porcelain);
+}
+.value-card p{
+    font-size: 14px;
+}
+.you-card::after{
+    content:'';
+    position: absolute;
+    width: 98%;
+    height: 5%;
+    z-index: -1;
+    background-color: var(--white);
+    box-shadow:-0px 50px 29px  40px  var(--Porcelain);
+}
+.you-card:nth-child(1)::after {
+    width: 70%;
+    left: 50px;
+}
+.you-card:nth-child(3)::after{
+    width: 70%;
+    right: 40px;
+}
+.our-value-txt h2{
+    margin-bottom: 30px;
+}
+our-value-txt p{
+    margin-bottom: 20px;
+}
+}
+@media (min-width:920px){
+    .gridcard-1{
+        min-height: 170px;
+    }
+    .gridcard-2{
+        min-height: 170px;
+    }
+    /* who we are */
+    .who-we-crd{
+        width: 90%;
+        height: 290px;
+
+    }
+    /* team design */
+    .team-txt p{
+        width: 78%;
+        font-size: 18px;
+    }
+    .team{
+        padding: 0 5%;
+        margin: 5% 0;
+    }
+    .team-txt h1{
+        font-size: 24px;
+        margin-bottom: 5%;
+        color: var(--font-Zeus);
+    }
+    .tm-p11{
+        position: relative;
+        left: -77px;
+    }
+
+    .tmp1-pic{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .tm-p1 h3{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .tm-p1 p{
+        font-size: 16px;
+    }
+    .tm-p1 a{
+        font-size: 16px;
+        color: var(--CadetBlue);
+    }
+    .in{
+        margin-right: 2px;
+    }
+    /* option */
+    .team{
+    padding: 0 5%;
+    margin: 10% 0;
+}
+.team-txt h1{
+    font-size: 24px;
+    margin-bottom: 5%;
+    color: var(--font-Zeus);
+}
+.tmp1-pic{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--Tuscany);
+    margin-bottom: 10px;
+    
+}
+.tm-p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.team-profile1{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+.tm-p1 h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.tm-p1 p{
+    font-size: 16px;
+    color: var(--Thunderbird);
+}
+
+/* who we are */
+.who-we-txt h2{
+    font-size: 25px;
+}
+.who-we-txt p{
+    font-size: 16px;
+}
+/* our mission */
+.our-mission p{
+    font-size: 16px;
+}
+.our-mission a{
+    font-size: 16px;
+}
+/* our value */
+.our-value-txt p{
+    width: 45%;
+}
+
+} 
+@media (min-width:1020px) {
+    .value-card{
+        height: 250px;
+        padding-left: 20px;
+    }
+    .value-card p{
+        width: 85%;
+        font-size: 17px;
+    }
+    .about-hero{
+        margin-bottom: 7%;
+    }
+}
+@media (min-width:1200px) {
+    /* grid */
+    .gridcard-1{
+        min-height: 200px;
+    }
+    .gridcard-2{
+        min-height: 200px;
+    }
+    .abt-hero-txt h1{
+        font-size: 60px;
+        font-weight: bold; 
+        margin-bottom: 1%; 
+    }
+    .abt-hero-txt p{
+        width: 90%;
+        margin: 0 ;
+        line-height: 28px;
+        margin-bottom: 9%;
+        font-size: 16px;
+    }
+    .about-hero a{
+        text-decoration: none;
+        font-size: 16px;
+        padding: .8em 1.6em;
+        background-color: var(--Thunderbird);
+        color: var(--white);
+        border-radius: 10px;
+    }
+    .about-hero{
+        margin-top: 7%;
+    }
+    /* who we are */
+    .who-we-txt h2{
+        font-size: 29px;
+    }
+    .who-we-txt p{
+        font-size: 18px;
+    }
+    /* team design */
+    .team-txt p{
+        width: 70%;
+    }
+    /* option */
+    .team-profile1{
+        margin-top: 3%;
+    }
+    .team-txt h1{
+        margin-bottom: 3%;
+    }
+    .team-profile{
+        width: 100%;
+    }
+    /* our mission */
+    /* our mission */
+    .our-mission p{
+        font-size: 18px;
+    }
+    .our-mission a{
+        font-size: 17px;
+    }
+    /* our value */
+    
+}
+@media (min-width:1300px) {
+    /* grid */
+    .abt-hero-txt h1{
+        font-size: 69px; 
+    }
+    .abt-hero-txt p{
+        width: 90%;
+        margin: 0 ;
+        line-height: 28px;
+        margin-bottom: 9%;
+        font-size: 18px;
+    }
+    /* who we are */
+    .who-we-txt h2{
+        margin-bottom: 5%;
+        font-size: 44px;
+    }
+    .who-we-txt p{
+        font-size: 16px;
+    }
+    .who-we-crd{
+        width: 90%;
+        height: 310px;
+
+    }
+}
