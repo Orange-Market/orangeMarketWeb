@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Urbanist:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.hero-suppliers{
+    background-image: url(../assets/img/heroBacground.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.hero-suppliers-container{
+    width: 100%;
+    text-align: center;
+}
+.h-suppliers-txt{
+    margin-bottom: 30px;
+    padding: 5% 5% 0;
+}
+.h-suppliers-txt h1{
+    font-size: 34px;
+    line-height: 47px;
+}
+.h-suppliers-txt p{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 30px;
+}
+.h-suppliers-txt a{
+    font-size: 14px;
+    text-decoration: none;
+    padding: .8em 1.6em;
+    background-color: var(--Thunderbird);
+    color: var(--white);
+    border-radius: 10px;
+}
+.h-suppliers-img{
+    width: 100%;
+    display: flex;
+}
+.h-suppliers-img img{
+    width: 100%;
+    position: relative;
+    margin-left: 0px;
+}
+.second-img{
+    display: none;
+}
+/* our */
+.you-want{
+    padding: 4rem 1.3rem 2rem;
+}
+.you-want p{
+    color: var(--Tapa);
+}
+.you-card{
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: -4px 12px 14px -1px var(--gallary) ;
+    margin-bottom: 35px;
+}
+.you-want-txt h2{
+    font-size:24px ;
+    font-weight: bold;
+}
+
+.you-card h4{
+    font-size: 20px;
+    font-weight:bold ;
+    margin-bottom: 10px;
+}
+.you-card p{
+    width: 100%;
+}
+/* becomme one of us */
+.becom-1{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--Thunderbird);
+    isolation: isolate;
+}
+.becom-1::after{
+    position: absolute;
+    content: url(../assets/img/bg-img-left.png);
+    height: 100%;
+    width: 50%;
+    top:0;
+    left: -130px;
+    z-index: -1;
+    opacity: .2;
+}
+.becom1-container{
+    width: 100%;
+    padding: 13% 5%;
+    color: var(--white);
+
+}
+.becom1-txt1 h1{
+    font-size: 24px;
+    margin-bottom:15px ;
+}
+.becom1-txt1 p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.becom-btn1{
+    display: none;
+}
+.bc-txt h3{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+.bc-txt p{
+    font-size: 14px;
+    width: 90%;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.becom1-txt2 a{
+    font-size: 14px;
+    text-decoration: none;
+    padding: 1em 1.6em;
+    background-color: var(--white) ;
+    color: var(--Thunderbird);
+    border-radius: 10px;
+}
+/* testimony */
+.testi-txt{
+    width: 100%;
+    padding: 0 5%;
+    position: relative;
+    top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:720px) {
+    .hero-suppliers-container{
+        display: flex;
+    }
+    .first-img{
+        display: none;
+    }
+    .second-img{
+        display: block;
+    }
+    .h-suppliers-img{
+        width: 100%;
+    }
+    .h-suppliers-txt{
+        width: 100%;
+        margin-bottom: 7%;
+    }
+    .h-suppliers-txt p{
+        font-size: 16px;
+        width: 135%;
+    }
+    .h-suppliers-img img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .hero-suppliers-container{
+        text-align: left;
+    }
+    /* head text */
+    .headt{
+        padding: 5% 5%;
+    }
+    
+    .you-want-card{
+        display: flex;
+        gap: 10px;
+    }
+    .you-want-txt h2{
+        font-size: 44px;
+    }
+
+    .headtxt-card h4{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .you-card{
+        background-color: var(--white);
+        position: relative;
+        box-shadow: -4px 32px 14px -1px var(--Porcelain);
+    }
+    .headtxt-card p{
+        font-size: 14px;
+    }
+    .you-card::after{
+        content:'';
+        position: absolute;
+        width: 98%;
+        height: 5%;
+        z-index: -1;
+        background-color: #ffffff;
+        box-shadow:-0px 50px 29px  40px  var(--Porcelain);
+    }
+    .you-card:nth-child(1)::after {
+        width: 70%;
+        left: 50px;
+    }
+    .you-card:nth-child(3)::after{
+        width: 70%;
+        right: 40px;
+    }
+    .headt-txt h2{
+        margin-bottom: 30px;
+    }
+    /* become one our */
+    .becom1-container{
+        display: flex;
+        gap: 20px;
+        padding: 5%;
+    }
+    .becom-btn2{
+        display: none;
+    }
+    .becom-btn1{
+        display: inline-block;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 1em 1.6em;
+        background-color:var(--white) ;
+        color: var(--Thunderbird);
+        border-radius: 10px;
+    }
+    .bc-txt p{
+        width: 100%;
+    }
+    .bc-txt{
+        position: relative;
+    }
+    .bc-txt::after{
+        position: absolute;
+        content: '';
+        width: 30px;
+        height: 30px;
+        top: 0;
+        left: -50px;
+        border-radius: 50%;
+        background-color:var(--white) ;
+        opacity: .42;
+    }
+    .becom-1::before{
+        position: absolute;
+        content: url(../assets/img/bg-top-right.png);
+        height: 50%;
+        width: 20%;
+        top:-20px;
+        right:66rem;
+        transform: rotate(-5deg);
+        z-index: -1;
+        opacity: .2;
+    }
+    .vector{
+        position: absolute;
+        content: url(../assets/img/bg-btm-right.png);
+        height: 100%;
+        width: 50%;
+        bottom:0px;
+        right: 0px;
+        transform: rotate(0deg);
+        z-index: -1;
+        opacity: .2;
+    }
+    .becom1-txt1 h1{
+        font-size: 4 0px;
+    }
+    .becom1-txt1 p{
+        width: 90%;
+    }
+    .testi-txt{
+        position: relative;
+        top: 2rem;
+        margin-bottom: 0;
+    }
+    .testi-txt p{
+        color: var(--font-Zeus);
+    }
+}
+@media (min-width:920px){
+    .becom1-container{
+        gap: 20px;
+        padding: 7% 5%;
+    }
+    .headtxt-card p{
+        width: 85%;
+        font-size: 17px
+    }
+    /* become */
+        .becom-1::before{
+        height: 30%;
+        width: 20%;
+        right:65rem;
+        top: -10px;
+    }
+    .vector{
+        width: 40%;
+    }
+    .becom1-txt1 h1{
+        font-size: 40px;
+        width: 80%;
+    }
+    .becom1-txt1 p{
+        width: 70%;
+        font-size: 16px;
+    }
+    .bc-txt p{
+        font-size: 16px;
+    }
+    .bc-txt h3{
+        font-size: 20px;
+
+    }
+}
+@media (min-width:1020px) {
+    .h-suppliers-txt h1{
+        width: 130%;
+        font-size: 50px;
+        line-height: 60px;
+    }
+    .h-suppliers-txt p{
+        font-size: 18px;
+        width: 110%;
+        line-height: 30px;
+    }
+    .h-suppliers-txt a{
+        font-size: 15px;
+    }
+    /* head text */
+    .headt-card{
+        gap: 10px;
+    }
+    .headtxt-card{
+        height: 180px;
+        padding-left: 20px;
+    }
+    .headtxt-card p{
+        width: 95%;
+        font-size: 18px;
+    }
+    /* become one */
+    .becom-1::before{
+        height: 40%;
+        width: 30%;
+        right:57rem;
+        top: 20px;
+    }
+    .vector{
+        width: 37%;
+    }
+    .becom1-txt1 h1{
+        font-size: 40px;
+        width: 80%;
+    }
+    .becom1-txt1 p{
+        width: 80%;
+        font-size: 19px;
+    }
+    .becom1-txt1 a{
+        font-size: 16px;
+    }
+    .bc-txt p{
+        font-size: 18px;
+    }
+    .bc-txt h3{
+        font-size: 27px;
+    }
+}
+@media (min-width:1200px){
+    .h-suppliers-txt h1{
+        font-size: 59px;
+    }
+    .h-suppliers-txt p{
+        font-size: 19px;
+        width: 105%;
+    }
+    .h-suppliers-txt a{
+        font-size: 16px;
+    }
+}
+@media (min-width:1300px){
+    .h-suppliers-txt h1{
+        font-size: 69px;
+        line-height: 75px;
+    }
+    .h-suppliers-txt p{
+        width: 97%;
+    }
+    .headtxt-card{
+        width: 35%;
+    }
+    /* become */
+    .becom1-container{
+        padding: 5%;
+    }
+    .becom1-txt1 h1{
+        font-size: 50px;
+        width: 60%;
+    }
+    .vector{
+        width: 30%;
+    }
+    .becom-1::before{
+        right:50rem;
+        top: 50px;
+    }
+    .becom1-txt1 p{
+        width: 85%;
+        font-size: 19px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    .bc-txt p{
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .bc-txt h3{
+        font-size: 27px;
+    }
+    .bc-txt p{
+        font-size: 18px;
+        width: 100%;
+    }
+
+}
+@media (min-width:1400px){
+    .h-suppliers-txt h1{
+        width: 110%;
+        margin-bottom: 3%;
+    }
+    .h-suppliers-txt p{
+        width: 80%;
+    }
+    .becom1-txt1 h1{
+        font-size: 69px;
+    }
+    .becom1-txt1 p{
+        width: 60%;
+    }
+    .bc-txt p{
+        width: 85%;
+    }
+}
