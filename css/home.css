@@ -214,9 +214,9 @@ header{
     position: absolute;
     opacity: .2;
     left: -150px;
-    top: -120px;
+    top: 0px;
     bottom: 0;
-    width: 20%;
+    width: 30%;
     height: 100%;
     transform: scale(1);
     z-index: -1;
