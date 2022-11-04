@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../css/our-blog.css">
     <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <script src="../js/nav.js"></script>
+    <script src="../js/nav.js" defer></script>
     <title>About</title>
 </head>
 <body>
@@ -20,9 +20,9 @@
         </div>
         <script src="https://code.jquery.com/jquery.min.js"></script>
         <script>
-            $.get("navs.html", function(data){
-                $("#nav-placeholder").replaceWith(data);
-            });
+        $.get("../html/navs.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
+        });
         </script>
         <div class="about-container">
             <div class="about-hero">
@@ -135,12 +135,12 @@
     </div>
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <script>
-        $.get("our-blog.html", function(data){
+        $.get("../html/our-blog.html", function(data){
             $("#footer").replaceWith(data);
         });
     </script>
 
 
-    <script src="../js/all.js"></script>
+    <script src="../js/all.js" defer></script>
 </body>
 </html>

@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/testimonia.css">
-    <link rel="stylesheet" href="./css/our-blog.css">
-    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/testimonia.css">
+    <link rel="stylesheet" href="../css/our-blog.css">
+    <link rel="stylesheet" href="../css/all.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <script src="./js/nav.js" defer></script>
+    <script src="../js/nav.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
         </div>
         <script src="https://code.jquery.com/jquery.min.js"></script>
         <script>
-            $.get("navs.html", function(data){
+            $.get("../html/navs.html", function(data){
                 $("#nav-placeholder").replaceWith(data);
             });
         </script>
@@ -188,7 +189,7 @@
     </div>
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <script>
-        $.get("testimonia.html", function(data){
+        $.get("../html/testimonia.html", function(data){
             $("#testimonia").replaceWith(data);
         });
     </script>
@@ -197,11 +198,11 @@
     </div>
     <script src="https://code.jquery.com/jquery.min.js"></script>
     <script>
-        $.get("our-blog.html", function(data){
+        $.get("../html/our-blog.html", function(data){
             $("#footer").replaceWith(data);
         });
     </script>
 
-    <script src="./js/all.js"></script>
+    <script src="../js/all.js"></script>
 </body>
 </html>
