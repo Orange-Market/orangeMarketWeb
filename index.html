@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/home.css">
-    <link rel="stylesheet" href="./css/nav.css">
-    <link rel="stylesheet" href="./css/testimonia.css">
-    <link rel="stylesheet" href="./css/our-blog.css">
-    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/testimonia.css">
+    <link rel="stylesheet" href="../css/our-blog.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./js/nav.js" defer></script>
     <title>Document</title>
 </head>
@@ -18,9 +19,8 @@
         <!-- Navigation bar -->
         <div id="nav-placeholder">
         </div>
-        <script src="https://code.jquery.com/jquery.min.js"></script>
         <script>
-            $.get("navs.html", function(data){
+            $.get("../html/navs.html", function(data){
                 $("#nav-placeholder").replaceWith(data);
             });
         </script>
@@ -34,34 +34,34 @@
                 </div>
                 <div class="hero-bnt">
                     <div class="hero-btn1">
-                        <a href=""><img src="./assets/img/appstore-btn1.svg" alt=""></a>
+                        <a href=""><img src="../assets/img/appstore-btn1.svg" alt=""></a>
                     </div>
                     <div class="hero-btn1 btn2">
-                        <a href=""><img src="./assets/img/appstore-btn2.svg" alt=""></a>
+                        <a href=""><img src="../assets/img/appstore-btn2.svg" alt=""></a>
                     </div>
                 </div>
             </div>
                 <div class="hero-img">
-                    <img src="./assets/img/Hero-img.png" alt="">
+                    <img src="../assets/img/Hero-img.png" alt="">
                 </div>
         </div>
         <div class="hero-trusted">
             <p>Trusted by 2000+ businesses</p>
             <div class="hero-sociallinks social-web1">
-                <span><a href=""><img src="./assets/img/slack-icon.svg" alt=""></a></span>
-                <span><a href=""><img src="./assets/img/coinbase.svg" alt=""></a></span>
-                <span><a href=""><img src="./assets/img/spotify.svg" alt=""></a></span>
-                <span><a href=""><img src="./assets/img/dropbox-icon.svg" alt=""></a></span>
-                <span><a href=""><img src="./assets/img/webflow.svg" alt=""></a></span>
-                <span><a href=""><img src="./assets/img/zoom.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/slack-icon.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/coinbase.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/spotify.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/dropbox-icon.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/webflow.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/zoom.svg" alt=""></a></span>
             </div>
             <div class="hero-sociallinks social-web2">
-                <span><a href=""><img src="./assets/img/transistor.svg" alt=""></a></span>
-                <span><a href=""><img src="./assets/img/tuple.svg" alt=""></a></span>
-                <span><a href=""><img src="./assets/img/statickit.svg" alt=""></a></span>
-                <span><a href=""><img src="./assets/img/mirage.svg" alt=""></a></span>
-                <span><a href=""><img src="./assets/img/laravel.svg" alt=""></a></span>
-                <span><a href=""><img src="./assets/img/statamic.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/transistor.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/tuple.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/statickit.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/mirage.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/laravel.svg" alt=""></a></span>
+                <span><a href=""><img src="../assets/img/statamic.svg" alt=""></a></span>
             </div>
         </div>
     </header>
@@ -81,13 +81,13 @@
             </p>
             <ul>
                 <li>
-                    <span class="supplies-icon"><img src="./assets/img/sup-mark.svg" alt=""></span> Fast delivery
+                    <span class="supplies-icon"><img src="../assets/img/sup-mark.svg" alt=""></span> Fast delivery
                 </li>
                 <li>
-                    <span class="supplies-icon"><img src="./assets/img/sup-mark.svg" alt=""></span> Cheaper deals on products
+                    <span class="supplies-icon"><img src="../assets/img/sup-mark.svg" alt=""></span> Cheaper deals on products
                 </li>
                 <li>
-                    <span class="supplies-icon"><img src="./assets/img/sup-mark.svg" alt=""></span>Structured data to help you make decisions
+                    <span class="supplies-icon"><img src="../assets/img/sup-mark.svg" alt=""></span>Structured data to help you make decisions
                 </li>
             </ul>
             <a href="" class="supplies-btn">
@@ -115,7 +115,7 @@
                 <a href="" class="text-btn">Download the app</a>
             </div>
             <div class="flexiible-img">
-                <img src="./assets/img/two-phoness.svg" alt="">
+                <img src="../assets/img/two-phoness.svg" alt="">
             </div>
             <div class="vectr"></div>
             <div class="vect2"></div>
@@ -158,7 +158,7 @@
     <section class="start-using">
         <div class="su-crd">
             <div class="su-img-crd">
-                <img src="./assets/img/txt-phone.svg" alt="">
+                <img src="../assets/img/txt-phone.svg" alt="">
             </div>
         </div>
         <div class="su-txt">
@@ -186,22 +186,18 @@
     <div id="testimonia">
         
     </div>
-    <script src="https://code.jquery.com/jquery.min.js"></script>
     <script>
-        $.get("testimonia.html", function(data){
+        $.get("../html/testimonia.html", function(data){
             $("#testimonia").replaceWith(data);
         });
     </script>
     <!-- Navigation bar -->
     <div id="footer">
     </div>
-    <script src="https://code.jquery.com/jquery.min.js"></script>
     <script>
-        $.get("our-blog.html", function(data){
+        $.get("../html/our-blog.html", function(data){
             $("#footer").replaceWith(data);
         });
     </script>
-
-    <script src="./js/all.js"></script>
 </body>
 </html>
