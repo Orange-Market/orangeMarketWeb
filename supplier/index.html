@@ -10,6 +10,7 @@
     <link rel="stylesheet" type="text/css" href="../css/testimonia.css">
     <link rel="stylesheet"type="text/css"  href="../css/our-blog.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="../js/nav.js" defer></script>
     <title>Supplie</title>
 </head>
@@ -18,7 +19,6 @@
         <!-- Navigation bar -->
         <div id="nav-placeholder">
         </div>
-        <script src="https://code.jquery.com/jquery.min.js"></script>
         <script>
             $.get("../html/navs.html", function(data){
                 $("#nav-placeholder").replaceWith(data);
@@ -96,7 +96,6 @@
     <div id="testimonia">
         
     </div>
-    <script src="https://code.jquery.com/jquery.min.js"></script>
     <script>
         $.get("../html/testimonia.html", function(data){
             $("#testimonia").replaceWith(data);
@@ -106,13 +105,10 @@
     <!-- our-blog -->
     <div id="footer">
     </div>
-    <script src="https://code.jquery.com/jquery.min.js"></script>
     <script>
         $.get("../html/our-blog.html", function(data){
             $("#footer").replaceWith(data);
         });
     </script>
-
-    <script src="../js/all.js" defer></script>
 </body>
 </html>
