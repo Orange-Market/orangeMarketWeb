@@ -128,7 +128,7 @@ body{
         justify-content: space-between;
         justify-items: center;
     }
-    .fa-angle-right{
+    .primary-navigation .fa-angle-right{
         display: block;
     }
     .hamburger{
