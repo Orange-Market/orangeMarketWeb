@@ -19,11 +19,6 @@
         <!-- Navigation bar -->
         <div id="nav-placeholder">
         </div>
-        <script>
-            $.get("../html/navs.html", function(data){
-                $("#nav-placeholder").replaceWith(data);
-            });
-        </script>
         <div class="hero">
             <div class="hero-container">
                 <div class="hero-text">
@@ -186,15 +181,23 @@
     <div id="testimonia">
         
     </div>
-    <script>
-        $.get("../html/testimonia.html", function(data){
-            $("#testimonia").replaceWith(data);
-        });
-    </script>
     <!-- Navigation bar -->
     <div id="footer">
     </div>
+
+
+
+
+
+
+    
     <script>
+        $.get("../html/navs.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+            });
+        $.get("../html/testimonia.html", function(data){
+            $("#testimonia").replaceWith(data);
+        });
         $.get("../html/our-blog.html", function(data){
             $("#footer").replaceWith(data);
         });
