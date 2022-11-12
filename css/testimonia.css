@@ -37,11 +37,11 @@
     align-items: center;
     border-radius: 50%;
 }
-.testimonia-img .fa-angle-left, .testimonia-img .fa-angle-right, .testimonia-img .fa-play{
+.testimonia-img .fa-angle-right, .testimonia-img .fa-play{
     background-color: var(--Thunderbird);
     color: var(--white);
 }
-.testimonia-img .fa-angle-left:hover{ 
+.testimonia-img .fa-angle-left{ 
     background-color: #ffffff;
     color: lightgray;
     cursor: pointer;
@@ -102,14 +102,14 @@
     }
     .testimonia-img .fa-angle-left{
         top: 45%;
-        font-size: 30px;
-        padding: 5px 12px;
+        font-size: 20px;
+        padding: .3em .5em;
     }
     .testimonia-img .fa-angle-right{
-        right:-150%;
+        right:-155%;
         top: 45%;
-        font-size: 30px;
-        padding: 5px 12px;
+        font-size: 20px;
+        padding: .3em .5em;
     }
     /* testimonia-txt */
     .testimonia-txt{
@@ -123,13 +123,12 @@
         display: block;
         left: 44%;
         top: 45%;
-        font-size: 30px;
-        padding: 8px 11px 8px 13px;
-    }
-    .testimonia-img .fa-play:hover{
+        font-size: 15px;
+        padding: .6em .8em;
         color: var(--Thunderbird);
         background-color: var(--white);
     }
+    
     .testimonia-txt p{
         width: 85%;
         font-size: 14px;
@@ -169,7 +168,7 @@
     /* testimonia-txt */
     .testimonia-txt{
         position: relative;
-        top:10px;
+        top: 80px;
     }
     .testimonia-img{
         width: 100%;
@@ -182,7 +181,7 @@
     .testimonia-txt p{
         width: 85%;
         font-size: 18px;
-        margin-bottom: 10px;
+        margin: 20px 0;
     }
     .test-p-pic{
         width: 19%;
@@ -198,8 +197,14 @@
 }
 @media (min-width:1220px){
     .testimonia-img .fa-angle-right{
+
         right:-35rem;
         top: 45%;
     }
-    
+    .testimonia-img .fa-angle-right, .testimonia-img .fa-angle-left {
+        font-size: 25px;
+    }
+    .testimonia-img .fa-play{
+        padding: .8em 1em;
+    }
 }

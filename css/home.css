@@ -37,7 +37,8 @@ header{
 .hero-text h1{
     font-size: 2.13rem;
     color: var(--Thunderbird);
-    text-shadow: 1px  1px 1px var(--black);
+    text-shadow: 2px  2px 1px var(--black);
+    margin-bottom: 2%;
 }
 .hero-text p{
     margin: 0 auto;
@@ -51,13 +52,26 @@ header{
 /* hero btn styling */
 .hero-bnt{
     display: flex;
-    gap: 10px;
+    justify-content: center;
+    gap: 2%;
 }
 .hero-btn1{
     width: 50%;
+    position: relative;
 }
 .hero-btn1 img{
     width: 100%;
+    visibility: hidden;
+}
+.hero-btn1::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: orangered;
+    z-index: 9999;
+    left: -1%;
+    border-radius: 10px;
 }
 /* hero img */
 .hero-img{
@@ -203,6 +217,7 @@ header{
 /* flexibility */
 .flexibility{
     margin-top: 14rem;
+    padding-bottom: 2rem;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -212,11 +227,11 @@ header{
 .flexibility::after{
     content: url(../assets/img/bg-img-left.png);
     position: absolute;
-    opacity: .2;
-    left: -150px;
-    top: 0px;
+    opacity: .1;
+    left: -80px;
+    top: -50px;
     bottom: 0;
-    width: 30%;
+    width: 40%;
     height: 100%;
     transform: scale(1);
     z-index: -1;
@@ -227,7 +242,7 @@ header{
     position: absolute;
     right: -9rem;
     bottom: 0;
-    opacity: .3;
+    opacity: .1;
     z-index: -1;
 }
 .vect2{
@@ -237,7 +252,7 @@ header{
     right: -8rem;
     top: 3px;
     z-index: -1;
-    opacity: .3;
+    opacity: .1;
     
 }
 .flexible-container{
@@ -276,9 +291,12 @@ header{
     margin-bottom: 10%;
 }
 .text-btn{
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight:bolder;
     color: var(--Thunderbird);
     text-decoration: none;
-    padding: .7em .7em;
+    padding: 1.2em 1em;
     background-color:var(--white);
     border-radius: 10px;
 
@@ -309,15 +327,16 @@ header{
 .you-want-txt h2{
     font-size:24px ;
     font-weight: bold;
+    margin-bottom: 5px;
 }
 .you-want-txt p{
-    width: 86%;
+    width: 89%;
     line-height: 1.5rem;
     margin-bottom: 25px;
 }
 
 .you-card h4{
-    font-size: 20px;
+    font-size: 18px;
     font-weight:bold ;
     margin-bottom: 10px;
 }
@@ -337,6 +356,7 @@ header{
 }
 .start-using{
     padding: 3.4%;
+    margin-bottom: 8%;
 }
 .su-txt h3{
     font-size:24px ;
@@ -356,6 +376,7 @@ header{
     display: flex;
     align-items: center;
     color: var(--cloud);
+    margin-bottom: 20px;
 }
 .su{
     display: inline-block;
@@ -368,11 +389,12 @@ header{
 .su-btn{
     text-decoration: none;
     font-size: 14px;
-    font-weight: bold;
+    font-weight: bolder;
     padding: 15px 15px;
     background-color: var(--Thunderbird);
     border-radius: 10px;
     color: #ffffff;
+
 } .su-txt p{
     display: none;
 }
@@ -408,32 +430,33 @@ header{
 
 @media (min-width:330px) and (max-width:719px){
     .hero-img img{
-        width:47rem;
+        width:55rem;
         position: relative;
         right: -7rem;
-        top: 3rem;
+        top: -1rem;
 
     }
     .hero-text h1{
-        width: 50%;
+        width: 40%;
         font-size: 2rem;
         color: var(--Thunderbird);
         text-shadow: 1px  1px 1px var(--black);
         text-align: center;
         margin: 0 auto;
+        margin-bottom: 2%;
     }
     .hero-text p{
         margin: 0 auto;
-        width: 51%;
+        width: 40%;
         font-size:1.13rem ;
         color: var(--Thunderbird);
         text-align:center;
-        margin-bottom: 10%;
+        margin-bottom: 2%;
         
     }
     .hero-btn1{
         width: 45%;
-        margin: 0 auto;
+        
         
     }
     .All-supplies{
@@ -471,7 +494,7 @@ header{
     align-items: flex-start;
     }
     .hero-text{
-        margin-top: 10%;
+        margin-top: 2%;
     }
     .hero-text h1{
         width: 50%;
@@ -482,16 +505,32 @@ header{
     }
     .hero-text p{
         width: 45%;
-        margin:  0 0 5% ;
+        margin:  0 0 2% ;
         text-align: left;
         font-size: 1rem;
+        color: var(--black);
+    }
+    .hero-bnt{
+        justify-content: flex-start;
+    }
+    .hero-btn1{
+        width:45%;
+        margin: 0;
+        
+    }
+    .hero-btn1 img{
+        width: 100%;
+        visibility: visible;
+    }
+    .hero-btn1::after{
+        display: none;
     }
     .hero-img{
         position: absolute;
         bottom:0;
         width:45rem ;
         right: -28rem;
-        top: -100px;
+        top: -120px;
         overflow: visible;
         z-index: -1;
     }
@@ -500,9 +539,7 @@ header{
         width: 100%;
         top: 0;
     }
-    .hero-btn1{
-        width: 40%;
-    }
+    
 
     .hero-trusted{
         overflow:visible ;
@@ -649,15 +686,15 @@ header{
         display: flex;
     }
     .you-want-txt h2{
-        font-size: 44px;
+        font-size: 34px;
     }
     .you-want-txt{
         font-size:18px ;
         font-weight: 400;
     }
     .you-card h4{
-        font-size: 24px;
-        font-size: 16px;
+        
+        font-size: 18px;
         font-weight: 400;
     }
     .you-card{
@@ -681,6 +718,12 @@ header{
     .you-card:nth-child(3)::after{
         width: 70%;
         right: 40px;
+    }
+    .you-want-txt p{
+        font-size: 14px;
+    }
+    .you-want-txt .yu-p{
+        width: 70%;
     }
 
     /* su style */
@@ -706,7 +749,7 @@ header{
         display: block;
     }
     .su-img-crd{
-        width: 259px;
+        width: 289px;
         position: relative;
         top: 20px;
         left: 50px;
@@ -756,9 +799,9 @@ header{
     .hero-img{
         position: absolute;
         bottom:0;
-        width:56rem ;
+        width:55rem ;
         right: -31rem;
-        top: -150px;
+        top: -170px;
         overflow: visible;
         z-index: -1;
     }
@@ -781,7 +824,7 @@ header{
         display: block;
     }
     .su-img-crd{
-        width: 255px;
+        width: 289px;
         position: relative;
         top: 20px;
         left: 75px;
@@ -800,9 +843,9 @@ header{
 
     }
     .hero-img{
-        width:58rem ;
+        width:55rem ;
         right: -32rem;
-        top: -160px;
+        top: -170px;
         
     }
     /* flexibility */
@@ -815,9 +858,9 @@ header{
 }
 @media (min-width:850px){
     .hero-img{
-        width:58rem ;
+        width:52rem ;
         right: -35rem;
-        top: -180px;
+        top: -160px;
         
     }
     .flexibility-text p{
@@ -832,7 +875,15 @@ header{
         padding: 0px;
         font-size: 14px;
     }
-    
+    .you-want-txt p{
+        font-size: 15px;
+    }
+    .you-want-txt .yu-p{
+        width: 60%;
+    }
+    .you-want-txt h2{
+        font-size: 38px;
+    }
     
 }
 @media (min-width:1020px) {
@@ -852,16 +903,16 @@ header{
     }
     .hero-text p{
         width: 50%;
-        margin:  0 0 5% ;
+        margin:  0 0 3% ;
         text-align: left;
         font-size: 1.1rem;
     }
     .hero-img{
         position: absolute;
         bottom:0;
-        width:70rem ;
-        right: -41rem;
-        top: -205px;
+        width:55rem ;
+        right: -34rem;
+        top: -145px;
         overflow: visible;
         z-index: -1;
     }
@@ -876,6 +927,14 @@ header{
     .gridcard-2, .gridcard-1{
         min-height: 220px;
     }
+    /* you want */
+    .you-want-txt p{
+        font-size: 16px;
+    }
+    .you-want-txt .yu-p{
+        width: 60%;
+    }
+    /*  */
     .supplies-txt ul li{
         font-size: 1rem;
     }
@@ -948,24 +1007,31 @@ header{
     }
     .hero-text p{
         width: 50%;
-        margin:  0 0 5% ;
+        margin:  0 0 3% ;
         text-align: left;
         font-size: 1.3rem;
     }
     .hero-img{
-        position: absolute;
-        bottom:0;
-        width:80rem ;
-        right: -50rem;
-        top: -255px;
-        overflow: visible;
-        z-index: -1;
+        width:73rem ;
+        right: -45rem;
+        top: -215px;
     }
 
     .All-supplies{
         top: 45rem;
 
     }
+    /* you want */
+    .you-want-txt p{
+        font-size: 18px;
+    }
+    .you-want-txt .yu-p{
+        width: 50%;
+    }
+    .you-want-txt h2{
+        font-size: 44px;
+    }
+    /*  */
     .supplies-txt h1{
         font-size: 44px;
         width: 90%;

@@ -58,8 +58,9 @@ body{
 .menu{
     position: relative;
     display: inline-block;
-    width: 34px;
+    width: 29px;
     height: 4px;
+    border-radius: 100px;
     background-color:black ;
     top: -2px;
     cursor: pointer;
@@ -69,6 +70,7 @@ body{
     content: '';
     width: 100%;
     height: 100%;
+    border-radius: 100px;
     background-color:black ;
 }
 .menu::after{
@@ -86,8 +88,15 @@ body{
     color: var(--Thunderbird);
 }
 @media (max-width:730px) {
+    .primary-header{
+        margin-bottom: 15%;
+    }
     .logo{
         max-width: 30%;
+        position: fixed;
+        top: 1.5rem;
+        left: 1.5rem;
+        z-index: 1000;
     }
     .logo img{
         width: 100%;
@@ -133,32 +142,38 @@ body{
     }
     .hamburger{
         display: block;
-        position: absolute;
-        z-index: 9999;
+        position: fixed;
+        top: 1.5rem;
+        right: 1.5rem;
+        z-index: 1000;
+        
         background-color:transparent;
         background-repeat: no-repeat;
         border: 0;
         width: 1.5rem;
         aspect-ratio:1 ;
-        top: 1.5rem;
-        right: 1.5rem;
+
     }
     .menu{
         top: 0;
+        
+
     }
     .hamburger.is-active .menu{
         transform: rotate(40deg);
         width: 65%;
         height: 2px;
-        left: 1px;
+        left: .1px;
+        right: 20px;
         top: -4.2px;
         
         
     }
     .hamburger.is-active .menu::after{
         transform: rotate(-80deg);
-        left: 0px;
-        top: 0;
+        left: .9px;
+        top: 0px;
+    
     }
     .hamburger.is-active .menu::before{
         opacity: 0;

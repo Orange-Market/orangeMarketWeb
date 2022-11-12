@@ -136,6 +136,7 @@
     border-radius: 10px;
     box-shadow: -4px 12px 14px -1px var(--gallary) ;
     margin-bottom: 35px;
+    margin:0 10px 5px;
 }
 .pic{
     width: 56px;
@@ -151,7 +152,7 @@
 .you-want-txt p{
     width: 86%;
     line-height: 1.5rem;
-    margin-bottom: 25px;
+    margin-bottom: 5px;
 }
 
 .you-card h4{
@@ -160,7 +161,7 @@
     margin-bottom: 10px;
 }
 .you-card p{
-    width: 100%;
+    width: 95%;
 }
 
 
@@ -227,6 +228,7 @@
         display: block;
         width: 40%;
         padding: 15px;
+        padding-bottom: 0px;
     }
     .supplies-grd{
         width: 50%;
@@ -285,7 +287,7 @@
 
 .who-we-crd{
     width: 40%;
-    height: 200px;
+    height: 180px;
     position: relative;
     background-color: var(--Whisper);
     border-radius: 10px;
@@ -314,6 +316,9 @@
     line-height: 24px;
 }
 /* team */
+.team{
+    margin-top: 8%;
+}
 .team-profile{
     display: flex;
     justify-content: space-between;
@@ -324,8 +329,17 @@
     justify-content: space-between;
     flex: 1;
 }
+.team-txt h1{
+    font-size: 20px;
+    margin-bottom: 2%;
+}
 .team-txt p{
-    width: 80%;
+    width: 70%;
+    font-size: 14px;
+}
+.tm-p1 h3{
+    font-weight: bold;
+    font-size: 18px;
 }
 .team-profile1{
     display: flex;
@@ -352,7 +366,7 @@
     gap: 10px;
 }
 .you-want-txt h2{
-    font-size: 44px;
+    font-size: 24px;
 }
 .you-want-txt{
     font-size:18px ;
@@ -388,7 +402,7 @@
     right: 40px;
 }
 .our-value-txt h2{
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 our-value-txt p{
     margin-bottom: 20px;
@@ -404,13 +418,16 @@ our-value-txt p{
     /* who we are */
     .who-we-crd{
         width: 90%;
-        height: 290px;
+        height: 240px;
 
+    }
+    .who-we-crd::before{
+        bottom: -3rem;
     }
     /* team design */
     .team-txt p{
-        width: 78%;
-        font-size: 18px;
+        width: 60%;
+        font-size: 14px;
     }
     .team{
         padding: 0 5%;
@@ -423,7 +440,7 @@ our-value-txt p{
     }
     .tm-p11{
         position: relative;
-        left: -77px;
+        left: 0px;
     }
 
     .tmp1-pic{
@@ -433,10 +450,10 @@ our-value-txt p{
     
     .tm-p1 h3{
         font-weight: bold;
-        font-size: 20px;
+        font-size: 19px;
     }
     .tm-p1 p{
-        font-size: 16px;
+        font-size: 14px;
     }
     .tm-p1 a{
         font-size: 16px;
@@ -448,11 +465,11 @@ our-value-txt p{
     /* option */
     .team{
     padding: 0 5%;
-    margin: 10% 0;
+    margin: 8% 0;
 }
 .team-txt h1{
     font-size: 24px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     color: var(--font-Zeus);
 }
 .tmp1-pic{
@@ -487,20 +504,29 @@ our-value-txt p{
 /* who we are */
 .who-we-txt h2{
     font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 2%;
 }
 .who-we-txt p{
-    font-size: 16px;
+    font-size: 14px;
 }
 /* our mission */
 .our-mission p{
-    font-size: 16px;
+    font-size: 14px;
 }
 .our-mission a{
     font-size: 16px;
 }
 /* our value */
 .our-value-txt p{
-    width: 45%;
+    width: 100%;
+}
+.our-value-txt .p{
+    width: 50%;
+    font-size: 14px;
+}
+.about-container{
+    padding:6% 4% 10% 8% ;
 }
 
 } 
@@ -510,11 +536,22 @@ our-value-txt p{
         padding-left: 20px;
     }
     .value-card p{
-        width: 85%;
-        font-size: 17px;
+        width: 100%;
+        font-size: 16px;
     }
     .about-hero{
         margin-bottom: 7%;
+    }
+    .tm-p11{
+        
+        left: -17px;
+    }
+    .about-container{
+        padding:6% 4% 7% 8% ;
+    }
+    .team-txt p{
+        width: 70%;
+        font-size: 15px;
     }
 }
 @media (min-width:1200px) {
@@ -557,7 +594,8 @@ our-value-txt p{
     }
     /* team design */
     .team-txt p{
-        width: 70%;
+        width: 60%;
+        font-size: 16px;
     }
     /* option */
     .team-profile1{
@@ -578,7 +616,17 @@ our-value-txt p{
         font-size: 17px;
     }
     /* our value */
-    
+    .value-card{
+        height: fit-content;
+        padding-left: 20px;
+    }
+    .you-want-txt h2{
+        font-size: 44px;
+    }
+    /* .about-container*/
+    .about-container{
+        padding:6% 4% 5% 8% ;
+    }
 }
 @media (min-width:1300px) {
     /* grid */
@@ -601,8 +649,30 @@ our-value-txt p{
         font-size: 16px;
     }
     .who-we-crd{
-        width: 90%;
+        width: 40%;
         height: 310px;
-
+        flex: none;
+    }
+    
+    /* tm */
+    .tm-p12{
+        position: relative;
+        left: -50px;
+    }
+    .tm-p11{
+        
+        left:-50px ;
+    }
+    /*  value-card */
+    .value-card p{
+        width: 100%;
+        padding-bottom:0 ;
+    }
+    .about-container{
+        padding:6% 4% 0% 8% ;
+    }
+    .who-we-crd::before{
+        bottom: -4rem;
+        right: -3.1rem;
     }
 }
