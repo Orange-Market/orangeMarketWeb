@@ -11,6 +11,9 @@
     background-repeat: no-repeat;
     margin-bottom: 10%;
 }
+.tx{
+    margin-top: 10%;
+}
 .about-container{
     width: 100%;
     text-align: center;
@@ -183,6 +186,9 @@
 
 @media(min-width:720px) {
     /* hero text styling */
+    .tx{
+        margin-top: 0;
+    }
     .abt-hero-txt h1{
         font-size: 42px;
         font-weight: bold; 
