@@ -210,7 +210,7 @@ footer{
         padding-bottom: 6%;
     }
     .footer-logo p{
-        font-size: 12px;
+        font-size: 10px;
     }
     .our-blog > p{
         font-size: 13px;
@@ -312,11 +312,11 @@ footer{
     .footer-product h3{
         font-size: 1.25rem;
     }
-    .footer-product li{
-        font-size: 1.13;
+    .footer-product li a{
+        font-size: 11px;
     }
     .heade-office h3:nth-child(2){
-        font-size: 14px;
+        font-size: 11px;
         width: 100%;
     }
     .our-Locations{
@@ -328,13 +328,13 @@ footer{
         
     }
     .heade-office{
-        width: 40%;
+        width: 5 0%;
     }
     .footer-product a{
         font-size: 14px;
     }
     .footer-product h3{
-        font-size:1rem ;
+        font-size:.8rem ;
     }
 
     .footer-copyright{
@@ -389,6 +389,12 @@ footer{
     .footer-icons .fa-facebook-f, .footer-icons .fa-twitter,.footer-icons .fa-instagram, .footer-icons .fa-linkedin, .footer-icons .fa-youtube{
         font-size: 22px
     }
+    .footer-product li a{
+        font-size: 13px;
+    }
+    .footer-logo p{
+        font-size: 10px;
+    }
     .our-blogcard-container{
         margin-bottom: 30%;
     }
@@ -402,6 +408,16 @@ footer{
         
         width: 70%;
     }
+    .footer-productlinks{
+        flex: 1;
+        margin-right: 5%;
+    }
+    .heade-office{
+        width: 60%;
+    }
+    .our-lc{
+        margin-right: 20%;
+    }
 }
 @media (min-width:1020px){
     .download{
@@ -412,6 +428,42 @@ footer{
     }
     .aside-img0{
         width: 60%;
+    }
+    .footer-product h3{
+        font-size: .9rem;
+    }
+    .footer-productlinks{
+        margin-right: 2%;
+    }
+    .our-lc{
+        margin-right: 10%;
+    }
+    .heade-office{
+        width: 50%;
+    }
+    .heade-office h3:nth-child(2){
+        font-size: 13px;
+    }
+    .footer-logo p{
+        font-size: 12px;
+    }
+    .footer-productlinks{
+        flex: .7;
+        margin-right: 4%;
+    }
+}
+@media (min-width:1200px){
+    .footer-logo p{
+        font-size: 14px;
+    }
+    .footer-product li a{
+        font-size: 14px;
+    }
+    .footer-product h3{
+        font-size: 1rem;
+    }
+    .heade-office h3:nth-child(2){
+        font-size: 14px;
     }
 }
 @media (min-width:1254px) {
@@ -477,4 +529,10 @@ footer{
     .footer-copyright h2{
         font-size:1rem ;
     }
+    .heade-office h3:nth-child(2){
+        font: 18px;
+    }
+}
+@media (min-width:1300px){
+
 }

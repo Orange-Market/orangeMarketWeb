@@ -106,7 +106,7 @@
         padding: .3em .5em;
     }
     .testimonia-img .fa-angle-right{
-        right:-155%;
+        right:-142%;
         top: 45%;
         font-size: 20px;
         padding: .3em .5em;
@@ -128,28 +128,80 @@
         color: var(--Thunderbird);
         background-color: var(--white);
     }
+    .testimonia-img img{
+        border-bottom-right-radius:0;
+        border-top-right-radius:0;
+    }
     
     .testimonia-txt p{
         width: 85%;
-        font-size: 14px;
+        font-size: 12px;
         margin-bottom: 10px;
         color: var(--cloud);
     }
+    .testi-txt p{
+        font-size: 12px;
+    }
     .test-p-pic{
-        width: 19%;
+        width: 15%;
+    }
+    .testi-txt h1{
+        font-size: 30px;
     }
     .test-p-text h2{
-        font-size: 17px;
+        font-size: 12px;
         margin-bottom: 2px;
+        font-weight: bold;
     }
     .test-p-text p{
-        font-size: 15;
+        font-size: 12px;
         width: 100%;
     }
+    
 }
 @media (min-width:820px){
     .testimonia-img .fa-angle-right{
-        right:-27rem;
+        right:-25.5rem;
+    }
+    .testi-txt p{
+        font-size: 13px;
+    }
+    .test-p-text h2{
+        font-size: 13px;
+    }
+    .test-p-text p{
+        font-size: 14px;
+    }
+    .testimonia-txt p{
+        font-size: 14px;
+    }
+    .testi-txt h1 {
+        font-size: 34px;
+    }
+}
+@media (min-width:920px){
+    .testi-txt p{
+        font-size: 14px;
+    }
+    .test-p-text p{
+        font-size: 15px;
+    }
+    .test-p-text h2{
+        font-size: 15px;
+    }
+    
+    .testimonia-txt p{
+        font-size: 16px;
+    }
+    .testimonia-img .fa-angle-right{
+        right:-30rem;
+        top: 45%;
+    }
+    .testimonia-txt{
+        top: 1.5rem;
+    }
+    .testi-txt h1 {
+        font-size: 36px;
     }
 }
 @media (min-width:1020px){
@@ -162,13 +214,13 @@
         top: 45%;
     }
     .testimonia-img .fa-angle-right{
-        right:-35rem;
+        right:-33rem;
         top: 45%;
     }
     /* testimonia-txt */
     .testimonia-txt{
         position: relative;
-        top: 80px;
+        top: 50px;
     }
     .testimonia-img{
         width: 100%;
@@ -180,7 +232,7 @@
     }
     .testimonia-txt p{
         width: 85%;
-        font-size: 18px;
+        font-size: 17px;
         margin: 20px 0;
     }
     .test-p-pic{
@@ -193,6 +245,16 @@
     .test-p-text p{
         font-size: 17px;
         width: 100%;
+        margin: 10px 0;
+    }
+    .testi-txt p{
+        font-size: 15px;
+    }
+    .testi-txt h1 {
+        font-size: 35px;
+    }
+    .test-p-pic{
+        width: 13%;
     }
 }
 @media (min-width:1220px){
@@ -207,4 +269,29 @@
     .testimonia-img .fa-play{
         padding: .8em 1em;
     }
+    .testimonia-txt p{
+        font-size: 18px;
+    }
+    .testi-txt p{
+        font-size: 17px;
+    }
+    .testi-txt h1 {
+        font-size: 42px;
+    }
 }
+@media (min-width:1300px){
+    .testi-txt h1 {
+        font-size: 44px;
+    }
+    .testi-txt p{
+        font-size: 18px;
+    }
+    .testimonia-txt p{
+        font-size: 22px;
+    }
+    .testimonia-img .fa-angle-right{
+        right:-38rem;
+        top: 45%;
+    }
+}
+

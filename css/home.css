@@ -282,6 +282,9 @@ header{
     padding: 0 10px;
     text-align: left;
 }
+.flex-p{
+    color: var(--Cashmere);
+}
 .text-dif{
     padding: 10px;
     background-color: rgba(255, 255, 255,.1);
@@ -437,7 +440,7 @@ header{
 
     }
     .hero-text h1{
-        width: 40%;
+        width: 55%;
         font-size: 2rem;
         color: var(--Thunderbird);
         text-shadow: 1px  1px 1px var(--black);
@@ -447,7 +450,7 @@ header{
     }
     .hero-text p{
         margin: 0 auto;
-        width: 40%;
+        width: 68%;
         font-size:1.13rem ;
         color: var(--Thunderbird);
         text-align:center;
@@ -476,45 +479,48 @@ header{
 
 @media (min-width:720px){
     header{
-        height: 455px;
+        height: 425px;
         position: relative;
         background-image: none;
         background-color: #FFE8E3;
-        overflow: visible;
+        overflow:visible;
         isolation: isolate;
     }
     .hero{
         width: 100%;
         display: flex;
-        height: none;
+        height: 100%;
         position: relative;
+        overflow: hidden;
     }
     .hero-container{
     justify-content: flex-start;
     align-items: flex-start;
     }
     .hero-text{
-        margin-top: 2%;
+        margin-top: 70px;
     }
     .hero-text h1{
-        width: 50%;
+        width: 60%;
         text-align: left;
-        font-size: 2.2rem;
+        font-size: 2.1rem;
         font-weight: bold;
         color: var(--black);
+        text-shadow: none;
     }
     .hero-text p{
-        width: 45%;
+        width: 55%;
         margin:  0 0 2% ;
         text-align: left;
-        font-size: 1rem;
+        font-size: 10px;
         color: var(--black);
+        line-height: 20px;
     }
     .hero-bnt{
         justify-content: flex-start;
     }
     .hero-btn1{
-        width:45%;
+        width:28%;
         margin: 0;
         
     }
@@ -530,7 +536,7 @@ header{
         bottom:0;
         width:45rem ;
         right: -28rem;
-        top: -120px;
+        top: -115px;
         overflow: visible;
         z-index: -1;
     }
@@ -550,6 +556,7 @@ header{
     .hero-trusted p{
         margin-bottom: 0%;
         margin-left: 4%;
+        font-size: 10px;
     }
     .social-web1{
         display: none;
@@ -581,7 +588,7 @@ header{
         justify-content: space-between;
         position: absolute;
         width: 100%;
-        top: 34rem;
+        top: 32rem;
         padding: 5%;
         margin-top:0px;
     }
@@ -590,20 +597,23 @@ header{
         top:4rem;
     }
     .supplies-txt p{
-        font-size:.9rem ;
+        font-size:.72rem ;
         width: 100%;
 
     }
     .supplies-txt ul{
         margin-bottom: 20px;
-        font-size: .9rem;
+        font-size: .7rem;
     }
     .supplies-icon{
         width: 5.5%;
         margin-right: 10px;
     }
     .supplies-txt a{
-        font-size: 12px;
+        font-size: 10px;
+    }
+    .supplies-txt h1{
+        font-size:1.3rem ;
     }
     .testi-txt{
         position: relative;
@@ -612,8 +622,8 @@ header{
     }
     /* flex */
     .flexibility{
-        margin-top: 43rem;
-        height: 710px;
+        margin-top: 39rem;
+        height: 550px;
         overflow-y: hidden;
         position: relative;
         
@@ -626,7 +636,7 @@ header{
         background-color: var(--black);
         bottom: -50px;
         right: 0;
-        box-shadow: -50px -20px 29px  40px var(--Thunderbird);
+        box-shadow: -50px -20px 30px  40px var(--Thunderbird);
         z-index: 9999;
     }
     .flexible-container{
@@ -636,15 +646,16 @@ header{
     }
     .flexibility-text{
         height: 100%;
-        width: 50%;
+        width: 43%;
+        margin-top: 30px;
 
     }
     /* design */
     .flexiible-img{
         display: block;
-        width: 320px;
+        width: 350px;
         position: absolute;
-        bottom: -5rem;
+        bottom: -7rem;
         right: 2rem;
     }
     .flexiible-img img{
@@ -652,22 +663,28 @@ header{
         width: 100%;
     }
     .flexibility-text h2{
-        font-size: 33px;
-        width: 100%;
+        font-size: 25px;
+        width: 120%;
     }
     .flexibility-text p{
-        font-size:13px ;
-        width: 100%;
+        font-size:10px ;
+        width: 105%;
         line-height: 20px;
+        margin-bottom: 4%;
     }
     .text-here{
         width: 100%;
         font-size: 12px;
         text-align: left;
     }
+    
     .text-here p{
         line-height: 20px;
-        padding: 5px;
+        padding: 2px;
+        font-size: 10px;
+    }
+    .text-here h3{
+        font-size: 1rem;
     }
     .flexibility::after{
     left: 0%;
@@ -692,15 +709,21 @@ header{
         font-size:18px ;
         font-weight: 400;
     }
+    .pic{
+        width: 46px;
+        height: 46px;
+        margin-bottom: 10px;
+    }
     .you-card h4{
-        
         font-size: 18px;
         font-weight: 400;
+        margin-bottom: 5px;
     }
     .you-card{
         background-color: #ffffff;
         position: relative;
         box-shadow: -4px 32px 14px -1px var(--Porcelain);
+        margin-right: 10px;
     }
     .you-card::after{
         content:'';
@@ -709,7 +732,7 @@ header{
         height: 5%;
         z-index: -1;
         background-color: #ffffff;
-        box-shadow:-0px 50px 29px  40px  var(--Porcelain);
+        box-shadow:-0px 30px 20px  30px  var(--Porcelain);
     }
     .you-card:nth-child(1)::after {
         width: 70%;
@@ -720,10 +743,12 @@ header{
         right: 40px;
     }
     .you-want-txt p{
-        font-size: 14px;
+        font-size: 10px;
+        margin-bottom: 10px;
+        line-height: 20px;
     }
     .you-want-txt .yu-p{
-        width: 70%;
+        width: 50%;
     }
 
     /* su style */
@@ -732,7 +757,7 @@ header{
         gap: 20px;
     }
     .su-crd{
-        width: 60%;
+        width: 50%;
         position: relative;
     }
     .su-crd::after{
@@ -749,10 +774,10 @@ header{
         display: block;
     }
     .su-img-crd{
-        width: 289px;
+        width: 270px;
         position: relative;
-        top: 20px;
-        left: 50px;
+        top: 45px;
+        left: 35px;
     }
     .su-img-crd img{
         width: 100%;
@@ -760,58 +785,91 @@ header{
     }
     .su-txt{
         position: relative;
-        top: 5rem;
+        top: 3.4rem;
     }
     .su-txt li a{
-        font-size: 18px;
+        font-size: 13px;
         font-weight: 400;
         line-height: 60px;
+        margin-bottom:10px;
     }
-
+    .su-txt h3{
+        font-size: 20px;
+    }
+    .su-txt p{
+        display: block;
+        font-size: 12px;
+    }
+    .su {
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+    }
     .su-img-crd::before{
         content: '';
         position: absolute;
-        width: 70%;
+        width: 60%;
         height: 20%;
         background-color: var(--white);
+        border-radius: 10px;
         top: 55%;
         box-shadow: 2px 2px 5px -1px lightgrey;
-        right: -60px;
+        right: -20px;
         z-index: 1;
+    }
+    .su-btn{
+        font-size: 11px;
     }
 
 
 }
-@media (min-width:800px){
+@media (min-width:760px) {
     .hero-text h1{
-        width: 50%;
-        text-align: left;
-        font-size: 2.2rem;
-        font-weight: bold;
-        color: var(--black);
+        width: 60%;
+        font-size: 2.7rem;
     }
     .hero-text p{
-        width: 49%;
-        margin:  0 0 5% ;
-        text-align: left;
-        font-size: .88rem;
+        width: 55%;
+        font-size: 12px;
+
     }
-    .hero-img{
+    .hero-btn1{
+        width:35%;
+    }
+    /* .hero-img{
         position: absolute;
         bottom:0;
-        width:55rem ;
-        right: -31rem;
-        top: -170px;
+        width:42rem ;
+        right: -26.5rem;
+        top: -115px;
         overflow: visible;
         z-index: -1;
+    } */
+    .su-img-crd::before{
+        top: 55%;
+        box-shadow: 2px 2px 5px -1px lightgrey;
+        right: -45px;
+    }
+}
+@media (min-width:800px){
+    .hero-text h1{
+        width: 60%;
+        font-size: 2.1rem;
+    }
+    .hero-text p{
+        width: 60%;
+        margin:  0 0 5% ;
+        text-align: left;
+        font-size: 11px;
+    }
+    .hero-img{
+        width:45rem ;
+        right: -28rem;
+        top: -120px;
     }
     .All-supplies{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: space-between;
-        position: absolute;
         width: 100%;
-        top: 40rem;
+        top: 32rem;
         padding: 5%;
     }
     .supplies-txt{
@@ -827,13 +885,44 @@ header{
         width: 289px;
         position: relative;
         top: 20px;
-        left: 75px;
+        left: 25px;
     }
     .su-img-crd img{
         width: 100%;
     }
+    .su-img-crd::before{
+        width: 65%;
+    }
     .flexibility{
-        height: 710px;
+        height: 570px;
+    }
+    .flexibility-text h2{
+        font-size: 30px;
+    }
+    .flexibility-text p{
+        font-size: 12px;
+        width: 122%;
+    }
+    .text-here p{
+        width: 100%;
+        font-size: 10px;
+    }
+    .text-here{
+        width: 100%;
+        padding-left: 10px;
+    }
+    .flexiible-img{
+        width: 370px;
+        bottom: -8rem;
+    }
+    .you-want-txt .yu-p{
+        font-size: 12px;
+    }
+    .you-want-txt p{
+        font-size: 12px;
+    }
+    .you-card h4{
+        font-size: 19px;
     }
 
 }
@@ -843,10 +932,25 @@ header{
 
     }
     .hero-img{
-        width:55rem ;
-        right: -32rem;
-        top: -170px;
+        width:50rem ;
+        right: -31.5rem;
+        top: -120px;
         
+    }
+    .hero-text{
+        margin-top: 95px;
+    }
+    .hero-text h1{
+        font-size: 2.4rem;
+    }
+    .hero-text p{
+        font-size: 12px;
+    }
+    .hero-trusted p{
+        font-size: 11px;
+    }
+    .All-supplies{
+        top: 34rem;
     }
     /* flexibility */
     .vect2{
@@ -855,12 +959,29 @@ header{
     .vectr{
         display: block;
     }
+    /* all supplies */
+    .supplies-txt ul{
+        font-size: .8rem;
+    }
+    .su-img-crd::before{
+        top: 55%;
+        right: -58px;
+    }
+    .su-txt li a{
+        font-size: 13px;
+    }
+    .su-txt p{
+        font-size: 13px;
+    }
+    .su-txt h3{
+        font-size: 29px;
+    }
 }
 @media (min-width:850px){
     .hero-img{
         width:52rem ;
-        right: -35rem;
-        top: -160px;
+        right: -32.5rem;
+        top: -140px;
         
     }
     .flexibility-text p{
@@ -884,45 +1005,89 @@ header{
     .you-want-txt h2{
         font-size: 38px;
     }
+    .supplies-txt p{
+        font-size: .8rem;
+    }
     
 }
+@media (min-width:920px) {
+    .su-txt h3{
+        font-size: 34px;
+    }
+    .su-txt p{
+        font-size: 14px;
+    }
+    .su-txt li a{
+        font-size: 14px;
+    }
+    .su-img-crd{
+        left: 55px;
+    }
+    .you-card h4{
+        font-size: 20px;
+    }
+    .you-want-txt p{
+        font-size: 14px;
+    }
+    .you-want-txt .yu-p{
+        font-size: 14px;
+        width: 50%;
+    }
+}
+
 @media (min-width:1020px) {
     header{
         height: 555px;
 
     }
     .hero-text{
-        margin-top: 10%;
+        margin-top: 13%;
     }
     .hero-text h1{
         width: 60%;
-        text-align: left;
         font-size: 3.2rem;
-        font-weight: bold;
-        color: var(--ebony);
+        
+    }
+    .hero-trusted p{
+        font-size: 13px;
     }
     .hero-text p{
         width: 50%;
         margin:  0 0 3% ;
         text-align: left;
-        font-size: 1.1rem;
+        font-size: .9rem;
+        line-height: 25px;
     }
     .hero-img{
         position: absolute;
         bottom:0;
-        width:55rem ;
-        right: -34rem;
-        top: -145px;
+        width:56rem ;
+        right: -35.5rem;
+        top: -125px;
         overflow: visible;
         z-index: -1;
+    }
+    .hero-trusted p{
+        font-size: 13px;
+    }
+    .All-supplies{
+        top: 41rem;
     }
     .gridcard-2, .gridcard-1{
         min-height: 200px;
     }
-    .supplies-txt p{
-        font-size:1.13rem ;
+    .supplies-txt h1{
+        font-size: 2rem;
         width: 85%;
+    }
+    .supplies-txt p{
+        font-size:.9rem ;
+        width: 95%;
+        margin-bottom: 15px;
 
+    }
+    .supplies-txt{
+        top: 3.4rem;
     }
     .gridcard-2, .gridcard-1{
         min-height: 220px;
@@ -936,21 +1101,21 @@ header{
     }
     /*  */
     .supplies-txt ul li{
-        font-size: 1rem;
+        font-size: .9rem;
     }
     .supplies-txt ul{
-        margin-bottom: 4rem;
+        margin-bottom: 2.5rem;
     }
     .supplies-txt a{
         font-size: 1rem;
     }
     .su-crd{
-        width: 540px;
+        width: 440px;
         max-height:621px ;
         overflow-y: hidden;
     }
     .su-txt h3{
-        font-size: 40px;
+        font-size: 37px;
         width: 100%;
     }
     .su-txt p{
@@ -961,37 +1126,95 @@ header{
         font-size: 16px;
     }
     .su-img-crd{
-        width: 359px;
+        width: 309px;
         position: relative;
         top: 20px;
         left: 50px;
     }
     .su-img-crd::before{
-        content: '';
-        position: absolute;
-        width: 70%;
-        height: 20%;
-        background-color: var(--Porcelain);
         top: 55%;
-        box-shadow: 2px 2px 5px -1px lightgrey;
         right: -70px;
-        z-index: 1;
     }
     .su{
         width: 20px;
         height: 20px;
     }
+    .start-using{
+        gap: 30px;
+    }
+    .su-btn{
+        font-size: 13px;
+    }
     /* flexibility */
     .flexibility{
-        height: 710px;
+        height: 680px;
+        margin-top: 45rem;
     }
     .flexible-container{
         padding-top: 7%;
     }
     .flexiible-img{
-        width: 370px;
-        bottom: -9rem;
+        width: 420px;
+        bottom: -12rem;
         right: 3rem;
+    }
+    .flexibility-text h2{
+        font-size: 34px;
+    }
+    .text-here p{
+        font-size: 13px;
+    }
+    .text-here{
+        padding-bottom: 5px;
+    } 
+    .text-dif{
+        margin-bottom: 10px;
+    }
+}
+@media (min-width:1050px) {
+    .hero-text{
+        margin-top: 7%;
+    }
+    .hero-text h1{
+        font-size: 3.5rem;
+    }
+    .hero-text p{
+        font-size: 15px;
+    }
+    .start-using{
+        gap: 40px;
+    }
+}
+@media (min-width:1200px) {
+    .supplies-txt h1{
+        font-size: 2.5rem;
+        width: 90%;
+    }
+    .supplies-txt p{
+        font-size:1rem ;
+    }
+    .hero-btn1{
+        width: 40%;
+    }
+    .hero-bnt{
+        gap: 4%;
+    }
+    .hero-trusted p{
+        font-size: 14px;
+    }
+    .su-txt h3{
+        font-size: 40px;
+    }
+    .you-want-txt h2{
+        font-size: 40px;
+    }
+    .you-want-txt .yu-p{
+        font-size: 16px;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .you-want-txt p{
+        line-height: 25px;
     }
 }
 @media (min-width:1300px){
@@ -1009,14 +1232,19 @@ header{
         width: 50%;
         margin:  0 0 3% ;
         text-align: left;
-        font-size: 1.3rem;
+        font-size: 1rem;
     }
     .hero-img{
         width:73rem ;
         right: -45rem;
         top: -215px;
     }
-
+    .hero-btn1{
+        width: 42%;
+    }
+    .hero-trusted p{
+        font-size: 16px;
+    }
     .All-supplies{
         top: 45rem;
 
@@ -1026,10 +1254,14 @@ header{
         font-size: 18px;
     }
     .you-want-txt .yu-p{
-        width: 50%;
+        width: 45.5%;
     }
     .you-want-txt h2{
         font-size: 44px;
+    }
+    .pic{
+        width: 56px;
+        height: 56px;
     }
     /*  */
     .supplies-txt h1{
@@ -1061,10 +1293,13 @@ header{
 
     }
     .text-here p{
-        font-size: 18px;
-
+        font-size: 14px;
+        width: 100%;
         padding: 0px 4px;
         text-align: left;
+    }
+    .flexibility {
+        height: 780px;
     }
     .flexibility{
         margin-top: 53rem;
@@ -1072,9 +1307,31 @@ header{
     }
     .flexiible-img{
         display: block;
-        width: 600px;
+        width: 630px;
         position: absolute;
-        bottom: -19rem;
+        bottom: -26rem;
         right: 3rem;
+    }
+    .flexibility-text  .flex-p{
+        width: 120%;
+    }
+    .text-here h3{
+        font-size: 1.2rem;
+    }
+    .su-txt h3{
+        font-size: 44px;
+    }
+    .su-txt p{
+        font-size: 17px;
+    }
+    .su-txt li a{
+        font-size: 17px;
+    }
+    .su{
+        width: 25px;
+        height: 25px;
+    }
+    .su-btn{
+        font-size: 14px;
     }
 }
