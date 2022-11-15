@@ -19,17 +19,12 @@
         <!-- Navigation bar -->
         <div id="nav-placeholder">
         </div>
-        <script>
-            $.get("../html/navs.html", function(data){
-                $("#nav-placeholder").replaceWith(data);
-            });
-        </script>
         <div class="hero">
             <div class="hero-container">
-                <div class="hero-text">
+                <div class="hero-text tx">
                     <h1>Manage, Control & Procure Inventory</h1>
                 <p>
-                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
+                    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet <br> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet
                 </p>
                 </div>
                 <div class="hero-bnt">
@@ -99,7 +94,7 @@
         <div class="flexible-container">
             <div class="flexibility-text">
                 <h2>Flexible payment options</h2>
-                <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet Neque porro quisquam est qui dolorem ipsum quia dolor sit amet  porro quisquam est qui dolorem ipsum quia dolor sit amet </p>
+                <p class="flex-p">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet Neque porro quisquam est qui dolorem ipsum quia dolor sit amet  porro quisquam est qui dolorem ipsum quia dolor sit amet </p>
                 <div class="text-here text-dif">
                     <h3>Text here</h3>
                     <p> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet EXX Wallet is for you if you desire to</p>
@@ -124,7 +119,7 @@
     <section class="you-want">
         <div class="you-want-txt">
             <h2>You want it, We can get it!</h2>
-            <p>
+            <p class="yu-p">
                 From the freshest produce to quality drinks and processed foods, we provide a wide variety of the finest items in the market
             </p>
             <div class="you-want-card">
@@ -139,7 +134,7 @@
                 <div class="you-card">
                     <div class="pic">
                     </div>
-                    <h4>Dry Goods</h4>
+                    <h4>Processed Foods</h4>
                     <p>
                         We keep your business in mind, guarantee great products, and at even better prices. With orange market, you get:
                     </p>
@@ -147,7 +142,7 @@
                 <div class="you-card">
                     <div class="pic">
                     </div>
-                    <h4>Dry Goods</h4>
+                    <h4>Drinks</h4>
                     <p>
                         We keep your business in mind, guarantee great products, and at even better prices. With orange market, you get:
                     </p>
@@ -186,15 +181,23 @@
     <div id="testimonia">
         
     </div>
-    <script>
-        $.get("../html/testimonia.html", function(data){
-            $("#testimonia").replaceWith(data);
-        });
-    </script>
     <!-- Navigation bar -->
     <div id="footer">
     </div>
+
+
+
+
+
+
+    
     <script>
+        $.get("../html/navs.html", function(data){
+                $("#nav-placeholder").replaceWith(data);
+            });
+        $.get("../html/testimonia.html", function(data){
+            $("#testimonia").replaceWith(data);
+        });
         $.get("../html/our-blog.html", function(data){
             $("#footer").replaceWith(data);
         });
