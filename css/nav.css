@@ -11,6 +11,7 @@ a{
     width: 90%;
     margin: 0 5%;
     padding: 20px 0;
+    background-color: rgba(190, 55, 23, .4);
 }
 nav > ul{
     display: flex;
@@ -89,13 +90,17 @@ body{
 }
 @media (max-width:719px) {
     .primary-header{
-        margin-bottom: 15%;
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 10px 10px;
+        margin-left: 0;
+        justify-content: space-between;
+        z-index: 2000;
     }
     .logo{
         max-width: 30%;
-        position: fixed;
-        top: 1.5rem;
-        left: 1.5rem;
         z-index: 1000;
     }
     .logo img{
@@ -142,11 +147,9 @@ body{
     }
     .hamburger{
         display: block;
-        position: fixed;
-        top: 1.5rem;
-        right: 1.5rem;
         z-index: 1000;
-        
+        position: relative;
+        right: -30%;
         background-color:transparent;
         background-repeat: no-repeat;
         border: 0;
