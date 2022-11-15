@@ -416,7 +416,10 @@ footer{
         width: 60%;
     }
     .our-lc{
-        margin-right: 20%;
+        margin-right: 15%;
+    }
+    .footer-product h3{
+        font-size: .7rem;
     }
 }
 @media (min-width:1020px){
