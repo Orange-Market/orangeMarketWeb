@@ -19,11 +19,6 @@
         <!-- Navigation bar -->
         <div id="nav-placeholder">
         </div>
-        <script>
-        $.get("../html/navs.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-        </script>
         <div class="about-container tx">
             <div class="about-hero">
                 <div class="abt-hero-txt">
@@ -133,10 +128,17 @@
     <!-- footer -->
     <div id="footer">
     </div>
-    <script defer>
-        $.get("../html/our-blog.html", function(data){
-            $("#footer").replaceWith(data);
+
+
+
+
+<script>
+    $.get("../html/navs.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
         });
-    </script>
+    $.get("../html/our-blog.html", function(data){
+        $("#footer").replaceWith(data);
+    });
+</script>
 </body>
 </html>
