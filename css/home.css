@@ -15,7 +15,7 @@ header{
     background-image: url(../assets/img/heroBacground.png);
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 50%;
+    margin-bottom: 30%;
     overflow: hidden;
 }
 
@@ -86,7 +86,7 @@ header{
 /* hero img */
 .hero-img{
     position: relative;
-    bottom:150px ;
+    bottom:250px ;
     max-width:100%;
     overflow: visible;
 }
@@ -170,7 +170,7 @@ header{
 .All-supplies{
     position: relative;
     margin-bottom: 30px;
-    margin-top: 300px;
+    margin-top: 230px;
 }
 .All-supplies p{
     color: var(--cloud);

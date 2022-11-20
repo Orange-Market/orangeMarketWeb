@@ -1,17 +1,13 @@
-window.onload = function() {
-    window.addEventListener('scroll', function (e){
-        if (window.pageYOffset > 100) {
-            document.querySelector("header").classList.add('is-scrolling');
-        } else {
-            document.querySelector("header").classList.remove('is-scrolling');
+const menu_btn = document.getElementById('hamburger');
+    const mobile_menu = document.getElementById('primary-navigation');
+    document.onclick = function(e){
+        if(e.target.id !== 'primary-navigation' && e.target.id !== 'hamburger')
+        {
+            menu_btn.classList.remove('is-active');
+            mobile_menu.classList.remove('is-active');
         }
-    });
-
-    const menu_btn = document.querySelector('.hamburger');
-    const mobile_menu = document.querySelector('.primary-navigation');
-
-    menu_btn.addEventListener('click', function(){
+    }
+    menu_btn.onclick = function(){
         menu_btn.classList.toggle('is-active');
         mobile_menu.classList.toggle('is-active');
-    });
-}
+    };
