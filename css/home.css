@@ -68,9 +68,12 @@ header{
 }
 .hero-btn1 img{
     width: 100%;
-    visibility: hidden;
+}
+.btn3{
+    bottom: 2.9rem;
 }
 .hero-btn1::after{
+    display: none;
     position: absolute;
     content: '';
     width: 100%;
@@ -457,18 +460,21 @@ header{
     }
     .hero-text p{
         margin: 0 auto;
-        width: 68%;
+        width: 70%;
         font-size:1.13rem ;
         color: var(--Thunderbird);
         text-align:center;
         margin-bottom: 2%;
+        padding: 0 5%;
         
     }
     .hero-btn1{
-        width: 45%;
-        
-        
+        width: 20%;
     }
+    .btn3{
+        bottom: 3.3rem;
+    }
+    
     .All-supplies{
         top: -9rem;
     }
@@ -530,9 +536,12 @@ header{
         justify-content: flex-start;
     }
     .hero-btn1{
-        width:28%;
+        width:15%;
         margin: 0;
         
+    }
+    .btn3{
+        bottom: 2rem;
     }
     .hero-btn1 img{
         width: 100%;
@@ -844,7 +853,7 @@ header{
 
     }
     .hero-btn1{
-        width:35%;
+        width:15%;
     }
     /* .hero-img{
         position: absolute;
@@ -876,6 +885,9 @@ header{
         width:45rem ;
         right: -28rem;
         top: -120px;
+    }
+    .btn3{
+        bottom: 2.3rem;
     }
     .All-supplies{
         width: 100%;
@@ -1020,7 +1032,18 @@ header{
     }
     
 }
+@media (min-width:900px){
+    .hero-btn1{
+        width:13%;
+    }
+    .btn3{
+        bottom: 2.2rem;
+    }
+}
 @media (min-width:920px) {
+    .hero-btn1{
+        width:13%;
+    }
     .su-txt h3{
         font-size: 34px;
     }
@@ -1057,6 +1080,9 @@ header{
         width: 60%;
         font-size: 3.2rem;
         
+    }
+    .btn3{
+        bottom: 2.5rem;
     }
     .hero-trusted p{
         font-size: 13px;
@@ -1204,7 +1230,10 @@ header{
         font-size:1rem ;
     }
     .hero-btn1{
-        width: 40%;
+        width: 13%;
+    }
+    .btn3{
+        bottom: 2.7rem;
     }
     .hero-bnt{
         gap: 4%;
@@ -1250,7 +1279,7 @@ header{
         top: -215px;
     }
     .hero-btn1{
-        width: 42%;
+        width: 14%;
     }
     .hero-trusted p{
         font-size: 16px;

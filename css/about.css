@@ -17,7 +17,7 @@
 .about-container{
     width: 100%;
     text-align: center;
-    padding:6% 4% 20% 8% ;
+    padding:20% 4% 20% 8% ;
     bottom: 7%;
 }
 .abt-hero-txt h1{
@@ -195,10 +195,11 @@
         margin-bottom: 5%; 
     }
     .abt-hero-txt p{
-        width: 100%;
+        width: 105%;
         margin: 0 auto;
         line-height: 23px;
         margin-bottom: 9%;
+        font-size: 11px;
     }
     .about-hero a{
         text-decoration: none;
@@ -279,12 +280,12 @@
     display: flex;
     flex-direction: row-reverse;
     gap: 10%;
-    padding-right: 10%;
+    padding-right: 6%;
     
 
 }
 .who-we-txt{
-    flex: 1;
+    flex: 1.2;
 }
 .who-we-crd{
     flex: 1;
@@ -317,7 +318,7 @@
     font-size: 24px;
 }
 .who-we-txt p{
-    font-size: 14px;
+    font-size: 10px;
     margin-bottom: 5%;
     line-height: 24px;
 }
@@ -341,7 +342,7 @@
 }
 .team-txt p{
     width: 70%;
-    font-size: 14px;
+    font-size: 12px;
 }
 .tm-p1 h3{
     font-weight: bold;
@@ -378,8 +379,12 @@
     font-size:18px ;
     font-weight: 400;
 }
+.you-want-txt p{
+    font-size: 12px;
+    width: 70%;
+}
 .value-card h4{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
 }
 .you-card{
@@ -388,7 +393,8 @@
     box-shadow: -4px 32px 14px -1px var(--Porcelain);
 }
 .value-card p{
-    font-size: 14px;
+    font-size: 11px;
+    width: 100%;
 }
 .you-card::after{
     content:'';
