@@ -17,13 +17,26 @@
 <body>
     <header class="header-about">
         <!-- Navigation bar -->
-        <div id="nav-placeholder">
+        <div class="primary-header">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/img/OrangeMarketicon.svg" alt="OrangeMarketicon"></a>
+            </div>
+            <button class="hamburger">
+                <span class="menu"></span>
+            </button>
+            <nav>
+                <ul id="primary-navigation"   class="primary-navigation">
+                    <li><a href="../index.html">Home<span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                    <li><a href="../about/index.html"> About<span><i class="fa-solid fa-angle-right"></i></span></a></a></li>
+                    <li><a href="../supplier/index.html">Resources<span><i class="fa-solid fa-angle-right"></i></a></li>
+                    <li><a href="#blog">Blog <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                </ul>
+            </nav>
+            
+            <div class="downloadbtn">
+                <a href="#">Download the app</a>
+            </div>
         </div>
-        <script>
-        $.get("../html/navs.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
-        </script>
         <div class="about-container tx">
             <div class="about-hero">
                 <div class="abt-hero-txt">
@@ -133,10 +146,17 @@
     <!-- footer -->
     <div id="footer">
     </div>
-    <script defer>
-        $.get("../html/our-blog.html", function(data){
-            $("#footer").replaceWith(data);
+
+
+
+
+<script>
+    $.get("../html/navs.html", function(data){
+            $("#nav-placeholder").replaceWith(data);
         });
-    </script>
+    $.get("../html/our-blog.html", function(data){
+        $("#footer").replaceWith(data);
+    });
+</script>
 </body>
 </html>

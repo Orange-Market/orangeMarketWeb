@@ -17,7 +17,25 @@
 <body>
     <header>
         <!-- Navigation bar -->
-        <div id="nav-placeholder">
+        <div class="primary-header">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/img/OrangeMarketicon.svg" alt="OrangeMarketicon"></a>
+            </div>
+            <button class="hamburger">
+                <span class="menu"></span>
+            </button>
+            <nav>
+                <ul id="primary-navigation"   class="primary-navigation">
+                    <li><a href="../index.html">Home<span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                    <li><a href="../about/index.html"> About<span><i class="fa-solid fa-angle-right"></i></span></a></a></li>
+                    <li><a href="../supplier/index.html">Resources<span><i class="fa-solid fa-angle-right"></i></a></li>
+                    <li><a href="#blog">Blog <span><i class="fa-solid fa-angle-right"></i></span></a></li>
+                </ul>
+            </nav>
+            
+            <div class="downloadbtn">
+                <a href="#">Download the app</a>
+            </div>
         </div>
         <div class="hero">
             <div class="hero-container">
@@ -28,8 +46,8 @@
                 </p>
                 </div>
                 <div class="hero-bnt">
-                    <div class="hero-btn1">
-                        <a href=""><img src="../assets/img/appstore-btn1.svg" alt=""></a>
+                    <div class="hero-btn1 btn3">
+                        <a href=""><img src="./assets/img/favpng_google-play-google-logo-android.png" alt=""></a>
                     </div>
                     <div class="hero-btn1 btn2">
                         <a href=""><img src="../assets/img/appstore-btn2.svg" alt=""></a>
@@ -192,9 +210,6 @@
 
     
     <script>
-        $.get("../html/navs.html", function(data){
-                $("#nav-placeholder").replaceWith(data);
-            });
         $.get("../html/testimonia.html", function(data){
             $("#testimonia").replaceWith(data);
         });
