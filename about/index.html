@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/colors.css">
     <link rel="stylesheet" href="../css/about.css">
-
     <link rel="stylesheet" href="../css/nav.css">
     <link rel="stylesheet" href="../css/our-blog.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
@@ -21,7 +20,7 @@
             <div class="logo">
                 <a href="../index.html"><img src="../assets/img/OrangeMarketicon.svg" alt="OrangeMarketicon"></a>
             </div>
-            <button class="hamburger">
+            <button class="hamburger" id="hamburger">
                 <span class="menu"></span>
             </button>
             <nav>
@@ -132,7 +131,7 @@
                         We keep your business in mind, guarantee great products, and at even better prices. With orange market, you get:
                     </p>
                 </div>
-                <div class="you-card value-card">
+                <div class="you-card value-card" id="blog">
                     <div class="pic value-pic">
                     </div>
                     <h4>Value 3</h4>
@@ -151,9 +150,6 @@
 
 
 <script>
-    $.get("../html/navs.html", function(data){
-            $("#nav-placeholder").replaceWith(data);
-        });
     $.get("../html/our-blog.html", function(data){
         $("#footer").replaceWith(data);
     });
