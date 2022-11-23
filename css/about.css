@@ -5,7 +5,7 @@
     font-family: 'Urbanist';
 }
 .header-about{
-    background-image: url(../assets/img/heroBacground.png);
+    background-image: url(../assets/img/background-mobile.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -186,6 +186,10 @@
 
 @media(min-width:720px) {
     /* hero text styling */
+    .header-about{
+        background-image: url(../assets/img/heroBacground.png);
+        
+    }
     .tx{
         margin-top: 0;
     }
