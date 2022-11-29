@@ -139,6 +139,7 @@ header{
     width: 50%;
     min-height: 200px;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/detergent.svg);
     border-radius: 10px;
     position: relative;
     
@@ -149,6 +150,7 @@ header{
     height: 100%;
     position: absolute;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/all-pepper-svg.svg);
     bottom: -105%;
     border-radius: 10px;
 }
@@ -156,6 +158,7 @@ header{
     width: 50%;
     min-height: 200px;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/man-apple.svg);
     border-radius: 10px;
     position: relative;
     bottom: 15px;
@@ -166,8 +169,13 @@ header{
     height: 100%;
     position: absolute;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/veg-lady.svg);
     bottom: -105%;
     border-radius: 10px;
+}
+.gridcard-1, .gridcard-2, .gridcard-1::after, .gridcard-2::after{
+    background-position: center;
+    background-size: cover;
 }
 .All-supplies{
     position: relative;
@@ -723,7 +731,7 @@ header{
         display: block;
         width: 350px;
         position: absolute;
-        bottom: -7rem;
+        bottom: 0rem;
         right: 2rem;
     }
     .flexiible-img img{
@@ -834,7 +842,7 @@ header{
         gap: 20px;
     }
     .su-crd{
-        width: 50%;
+        width: 65%;
         position: relative;
     }
     .su-crd::after{
@@ -851,9 +859,9 @@ header{
         display: block;
     }
     .su-img-crd{
-        width: 270px;
+        width: 250px;
         position: relative;
-        top: 45px;
+        top: 65px;
         left: 35px;
     }
     .su-img-crd img{
@@ -891,7 +899,7 @@ header{
         height: 20%;
         background-color: var(--white);
         border-radius: 10px;
-        top: 55%;
+        top: 65%;
         box-shadow: 2px 2px 5px -1px lightgrey;
         right: -20px;
         z-index: 1;
@@ -916,7 +924,7 @@ header{
         width:15%;
     }
     .su-img-crd::before{
-        top: 55%;
+        top: 65%;
         box-shadow: 2px 2px 5px -1px lightgrey;
         right: -45px;
     }
@@ -955,9 +963,9 @@ header{
         display: block;
     }
     .su-img-crd{
-        width: 289px;
+        width: 265px;
         position: relative;
-        top: 20px;
+        top: 50px;
         left: 25px;
     }
     .su-img-crd img{
@@ -965,6 +973,7 @@ header{
     }
     .su-img-crd::before{
         width: 65%;
+        
     }
     .flexibility{
         height: 570px;
@@ -986,7 +995,7 @@ header{
     }
     .flexiible-img{
         width: 370px;
-        bottom: -8rem;
+        bottom: 0;
     }
     .you-want-txt .yu-p{
         font-size: 12px;
@@ -1201,7 +1210,7 @@ header{
         font-size: 1rem;
     }
     .su-crd{
-        width: 440px;
+        width: 65%;
         max-height:621px ;
         overflow-y: hidden;
     }
@@ -1248,8 +1257,8 @@ header{
     }
     .flexiible-img{
         width: 420px;
-        bottom: -12rem;
-        right: 3rem;
+        bottom: 0;
+        right: 4rem;
     }
     .flexibility-text h2{
         font-size: 34px;
@@ -1277,6 +1286,10 @@ header{
     .start-using{
         gap: 40px;
     }
+    .su-crd{
+        width: 55%;
+        max-height:621px ;
+    }
 }
 @media (min-width:1200px) {
     .supplies-txt h1{
@@ -1300,6 +1313,10 @@ header{
     }
     .su-txt h3{
         font-size: 40px;
+    }
+    .su-crd{
+        width: 50%;
+
     }
     .you-want-txt h2{
         font-size: 40px;
@@ -1406,10 +1423,9 @@ header{
     }
     .flexiible-img{
         display: block;
-        width: 630px;
+        width: 530px;
         position: absolute;
-        bottom: -26rem;
-        right: 3rem;
+        right: 9rem;
     }
     .flexibility-text  .flex-p{
         width: 120%;

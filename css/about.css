@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Urbanist';
+    font-family: 'Urbanist', sans-serif;
 }
 .header-about{
     background-image: url(../assets/img/background-mobile.png);
@@ -210,8 +211,8 @@
     .tx{
         margin-top: 0;
     }
-    .abt-hero-txt h1{
-        font-size: 42px;
+    .abt-hero-txt .abt-h1{
+        font-size: 30px;
         font-weight: bold; 
         margin-bottom: 5%; 
     }
@@ -265,8 +266,9 @@
     /* grid card design */
 .gridcard-1{
     width: 50%;
-    min-height: 150px;
+    height: 130px;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/woman-tomato.svg);
     border-radius: 10px;
     position: relative;
     
@@ -277,13 +279,15 @@
     height: 100%;
     position: absolute;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/carrot.svg);
     bottom: -105%;
     border-radius: 10px;
 }
 .gridcard-2{
     width: 50%;
-    min-height: 150px;
+    height: 130px;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/woman-onion.svg);
     border-radius: 10px;
     position: relative;
     bottom: 15px;
@@ -294,7 +298,13 @@
     height: 100%;
     position: absolute;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/fruites.svg);
     bottom: -105%;
+    border-radius: 10px;
+}
+.gridcard-1, .gridcard-2, .gridcard-1::after, .gridcard-2::after{
+    background-position:center ;
+    background-size: cover;
 }
 /* who we are design */
 .who-we{
@@ -317,10 +327,16 @@
     width: 40%;
     height: 180px;
     position: relative;
-    background-color: var(--Whisper);
+    /* background-color: var(--Whisper); */
     border-radius: 10px;
     box-shadow: 3px 3px 30px var(--Mischka);
     margin-bottom: 7%;
+    background-image: url(../assets/img/who-team.svg);
+    background-position: center;
+    background-size: cover;
+}
+#our-mcard{
+    background-image: url(../assets/img/ourm-card.svg);
 }
 .who-we-crd::before{
     content: '';
@@ -364,7 +380,7 @@
     margin-bottom: 2%;
 }
 .team-txt p{
-    width: 72%;
+    width: 85%;
     font-size: 12px;
     line-height: 24px;
 }
@@ -444,16 +460,17 @@
 .our-value-txt h2{
     margin-bottom: 15px;
 }
-our-value-txt p{
+.our-value-txt p{
     margin-bottom: 20px;
 }
+
 }
 @media (min-width:920px){
     .gridcard-1{
-        min-height: 170px;
+        height: 160px;
     }
     .gridcard-2{
-        min-height: 170px;
+        height: 160px;
     }
     /* who we are */
     .who-we-crd{
@@ -568,12 +585,14 @@ our-value-txt p{
 .about-container{
     padding:6% 4% 10% 8% ;
 }
-
+.abt-hero-txt .abt-h1{
+    font-size: 35px;
+}
 } 
 @media (min-width:983px) {
-    .abt-hero-txt h1
+    .abt-hero-txt .abt-h1
     {
-        font-size: 44px;
+        font-size: 40px;
     }
 }
 @media (min-width:1020px) {
@@ -608,8 +627,8 @@ our-value-txt p{
     .gridcard-2{
         min-height: 200px;
     }
-    .abt-hero-txt h1{
-        font-size: 60px;
+    .abt-hero-txt .abt-h1{
+        font-size: 50px;
         font-weight: bold; 
         margin-bottom: 1%; 
     }
@@ -675,9 +694,10 @@ our-value-txt p{
     }
 }
 @media (min-width:1300px) {
+
     /* grid */
-    .abt-hero-txt h1{
-        font-size: 69px; 
+    .abt-hero-txt .abt-h1{
+        font-size: 55px; 
     }
     .abt-hero-txt p{
         width: 90%;
@@ -715,7 +735,7 @@ our-value-txt p{
         padding-bottom:0 ;
     }
     .about-container{
-        padding:6% 4% 0% 8% ;
+        padding:6% 4% 4% 8% ;
     }
     .who-we-crd::before{
         bottom: -4rem;
