@@ -575,6 +575,7 @@ header{
     }
     .hero-bnt{
         justify-content: flex-start;
+        align-items:flex-start;
     }
     .hero-btn1{
         width:15%;
@@ -690,7 +691,7 @@ header{
     /* flex */
     .flexibility{
         margin-top: 39rem;
-        height: 550px;
+        height: 580px;
         overflow-y: hidden;
         position: relative;
         
@@ -737,8 +738,8 @@ header{
         font-size:10px ;
         width: 105%;
         line-height: 20px;
-        margin-bottom: 4%;
     }
+    
     .text-here{
         width: 100%;
         font-size: 12px;
@@ -765,6 +766,9 @@ header{
 
     .last-child{
         margin-bottom: 40px;
+    }
+    .flexibility .flex-p{
+        margin-bottom: 50px;
     }
     /* you can */
     .you-want{
@@ -1183,6 +1187,9 @@ header{
         width: 52%;
         font-size: 16px;
     }
+    .you-want-txt h2{
+        line-height: 42px;
+    }
     /*  */
     .supplies-txt ul li{
         font-size: .9rem;
@@ -1332,7 +1339,7 @@ header{
         width: 15%;
     }
     .btn3 {
-        bottom: 2.9rem;
+        bottom: 3rem;
     }
     .hero-trusted p{
         font-size: 16px;

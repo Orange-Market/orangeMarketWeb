@@ -89,7 +89,7 @@
         padding: 0px;
     }
     .kfc-logo img{
-        width: 130px;
+        width: 100px;
     }
     .test-p-pic img{
         width: 100%;
@@ -256,6 +256,9 @@
     .test-p-pic{
         width: 13%;
     }
+    .kfc-logo img{
+        width: 110px;
+    }
 }
 @media (min-width:1220px){
     .testimonia-img .fa-angle-right{
@@ -292,6 +295,9 @@
     .testimonia-img .fa-angle-right{
         right:-38rem;
         top: 45%;
+    }
+    .kfc-logo img{
+        width: 130px;
     }
 }
 
