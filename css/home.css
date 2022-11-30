@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Urbanist:wght@100;200;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -43,14 +43,15 @@ header{
 /* hero text styling */
 .hero-text h1{
     font-size: 2.13rem;
-    color: var(--Thunderbird);
+    color: var(--black);
     margin-bottom: 2%;
+    font-weight: 900;
 }
 .hero-text p{
     margin: 0 auto;
     width: 81%;
     font-size:1rem ;
-    color: var(--black);
+    color: var(--headerp);
     text-align:center;
     margin-bottom: 10%;
     
@@ -138,6 +139,7 @@ header{
     width: 50%;
     min-height: 200px;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/detergent.svg);
     border-radius: 10px;
     position: relative;
     
@@ -148,6 +150,7 @@ header{
     height: 100%;
     position: absolute;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/all-pepper-svg.svg);
     bottom: -105%;
     border-radius: 10px;
 }
@@ -155,6 +158,7 @@ header{
     width: 50%;
     min-height: 200px;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/man-apple.svg);
     border-radius: 10px;
     position: relative;
     bottom: 15px;
@@ -165,8 +169,13 @@ header{
     height: 100%;
     position: absolute;
     background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/veg-lady.svg);
     bottom: -105%;
     border-radius: 10px;
+}
+.gridcard-1, .gridcard-2, .gridcard-1::after, .gridcard-2::after{
+    background-position: center;
+    background-size: cover;
 }
 .All-supplies{
     position: relative;
@@ -183,11 +192,13 @@ header{
     padding: 0 12px;
 }
 .supplies-txt h1{
-    width: 80%;
+    width: 100%;
     font-size: 1.5rem;
 }
 .supplies-txt p{
     margin:14px 0 10px ;
+    font-size: 18px;
+    line-height: 30px;
 }
 .supplies-txt ul{
     list-style: none;
@@ -196,8 +207,12 @@ header{
     display: flex;
     align-items: center;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     color: var(--cloud);
+    font-size: 18px;
+}
+.supplies-txt ul li:last-child{
+    margin-bottom: 55px;
 }
 .supplies-icon{
     width: 6.5%;
@@ -208,8 +223,8 @@ header{
 }
 .supplies-txt a{
     background-color: var(--Thunderbird);
-    padding: 1.1em 1.1em;
-    border-radius: 15px;
+    padding: 1.29em 1.48em;
+    border-radius: 20px;
     font-size: 14px;
     font-weight: bold;
     color: var(--white);
@@ -221,6 +236,7 @@ header{
     position: relative;
     top: 2rem;
     margin-bottom: 2rem;
+    margin-top: 100px;
 }
 .testi-txt p{
     color: var(--cloud);
@@ -228,7 +244,7 @@ header{
 /* flexibility */
 .flexibility{
     margin-top: 14rem;
-    padding-bottom: 2rem;
+    padding-bottom: 2.5rem;
     position: relative;
     width: 100%;
     overflow: hidden;
@@ -272,12 +288,15 @@ header{
     color: var(--white);
 }
 .flexibility-text h2{
-    font-size: 1.5rem;
+    font-size: 1.44rem;
     margin-bottom: 3%;
+    font-weight: bolder;
 }
 .flexibility-text p{
     line-height: 1.9rem;
     margin-bottom: 7%;
+    font-size: 1rem;
+    width: 80%;
 }
 .text-here{
     margin-bottom: 3%;
@@ -286,12 +305,18 @@ header{
     font-size: 1.13rem;
     font-weight: bold;
     margin-bottom: 2%;
+    margin-left: 10px;
 }
 .text-here p{
-    font-size: 0.9rem;
+    width: 95%;
+    font-size: 0.84rem;
     line-height: 2rem;
     padding: 0 10px;
     text-align: left;
+}
+.text-dif p{
+    width: 100%;
+    margin-bottom: 0;
 }
 .flex-p{
     color: var(--Cashmere);
@@ -299,10 +324,10 @@ header{
 .text-dif{
     padding: 10px;
     background-color: rgba(255, 255, 255,.1);
-    border-radius: 5px;
+    border-radius: 10px;
 }
 .last-child{
-    margin-bottom: 10%;
+    margin-bottom: 76px;
 }
 .text-btn{
     font-family: sans-serif;
@@ -326,8 +351,8 @@ header{
     color: var(--cloud);
 }
 .you-card{
-    padding: 12px;
-    border-radius: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
     box-shadow: -4px 12px 14px -1px var(--gallary) ;
     margin-bottom: 35px;
 }
@@ -336,23 +361,27 @@ header{
     height: 56px;
     background-color: var(--Beauty-Bush);
     border-radius: 50%;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 .you-want-txt h2{
     font-size:24px ;
     font-weight: bold;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
+    line-height: 36px;
 }
 .you-want-txt p{
-    width: 89%;
+    width: 100%;
     line-height: 1.5rem;
-    margin-bottom: 25px;
+    font-size: 16px;
 }
-
+.yu-p{
+    margin-bottom: 20px;
+}
 .you-card h4{
-    font-size: 18px;
+    font-size: 20px;
     font-weight:bold ;
     margin-bottom: 10px;
+    line-height: 32px;
 }
 .you-card p{
     width: 100%;
@@ -390,7 +419,17 @@ header{
     display: flex;
     align-items: center;
     color: var(--cloud);
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+}
+.testi-txt h1{
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 24px;
+    margin-bottom:13px ;
+    width: 100%;
+}
+.testi-txt p{
+    line-height: 30px;
 }
 .su{
     display: inline-block;
@@ -458,18 +497,19 @@ header{
     }
     .hero-text h1{
         width: 55%;
-        font-size: 2.04rem;
-        color: var(--Thunderbird);
+        font-size: 34px;
+        font-weight:bold;
         text-align: center;
         margin: 0 auto;
         margin-bottom: 2%;
+        font-family:'Urbanist', sans-serif ;
     }
     .hero-text p{
         margin: 0 auto;
-        width: 70%;
+        width: 60%;
         font-size:1rem ;
         line-height: 25px;
-        color: var(--black);
+        color: var(--headerp);
         text-align:center;
         margin-bottom: 2%;
         padding: 0 5%;
@@ -488,6 +528,9 @@ header{
     .gridcard-1, .gridcard-2{
         height: 210px;
     } 
+    .you-card{
+        margin-bottom: 16px;
+    }
 }
 
 
@@ -541,6 +584,7 @@ header{
     }
     .hero-bnt{
         justify-content: flex-start;
+        align-items:flex-start;
     }
     .hero-btn1{
         width:15%;
@@ -646,10 +690,17 @@ header{
         top: 2rem;
         margin-bottom: 0;
     }
+    .supplies-txt ul li{
+        font-size: .72rem;
+        margin-bottom: 20px;
+    }
+    .supplies-txt ul li:last-child {
+        margin-bottom: 35px;
+      }
     /* flex */
     .flexibility{
         margin-top: 39rem;
-        height: 550px;
+        height: 580px;
         overflow-y: hidden;
         position: relative;
         
@@ -681,7 +732,7 @@ header{
         display: block;
         width: 350px;
         position: absolute;
-        bottom: -7rem;
+        bottom: 0rem;
         right: 2rem;
     }
     .flexiible-img img{
@@ -696,8 +747,8 @@ header{
         font-size:10px ;
         width: 105%;
         line-height: 20px;
-        margin-bottom: 4%;
     }
+    
     .text-here{
         width: 100%;
         font-size: 12px;
@@ -711,6 +762,7 @@ header{
     }
     .text-here h3{
         font-size: 1rem;
+        margin-left: 0;
     }
     .flexibility::after{
     left: 0%;
@@ -721,6 +773,12 @@ header{
     z-index: -1;
     } 
 
+    .last-child{
+        margin-bottom: 40px;
+    }
+    .flexibility .flex-p{
+        margin-bottom: 50px;
+    }
     /* you can */
     .you-want{
         padding: 10% 5%;
@@ -729,7 +787,9 @@ header{
         display: flex;
     }
     .you-want-txt h2{
-        font-size: 34px;
+        font-size: 24px;
+        width: 50%;
+        font-weight: bolder;
     }
     .you-want-txt{
         font-size:18px ;
@@ -774,7 +834,7 @@ header{
         line-height: 20px;
     }
     .you-want-txt .yu-p{
-        width: 50%;
+        width: 43%;
     }
 
     /* su style */
@@ -783,7 +843,7 @@ header{
         gap: 20px;
     }
     .su-crd{
-        width: 50%;
+        width: 65%;
         position: relative;
     }
     .su-crd::after{
@@ -800,9 +860,9 @@ header{
         display: block;
     }
     .su-img-crd{
-        width: 270px;
+        width: 250px;
         position: relative;
-        top: 45px;
+        top: 65px;
         left: 35px;
     }
     .su-img-crd img{
@@ -816,11 +876,13 @@ header{
     .su-txt li a{
         font-size: 13px;
         font-weight: 400;
-        line-height: 60px;
+        line-height: 40px;
         margin-bottom:10px;
     }
     .su-txt h3{
-        font-size: 20px;
+        font-size: 24px;
+        font-weight: bolder;
+        width: 75%;
     }
     .su-txt p{
         display: block;
@@ -838,7 +900,7 @@ header{
         height: 20%;
         background-color: var(--white);
         border-radius: 10px;
-        top: 55%;
+        top: 65%;
         box-shadow: 2px 2px 5px -1px lightgrey;
         right: -20px;
         z-index: 1;
@@ -863,7 +925,7 @@ header{
         width:15%;
     }
     .su-img-crd::before{
-        top: 55%;
+        top: 65%;
         box-shadow: 2px 2px 5px -1px lightgrey;
         right: -45px;
     }
@@ -871,11 +933,11 @@ header{
 @media (min-width:800px){
     .hero-text h1{
         width: 60%;
-        font-size: 2.1rem;
+        font-size: 2.6rem;
     }
     .hero-text p{
-        width: 60%;
-        margin:  0 0 5% ;
+        width: 55%;
+        margin:  0 0 2% ;
         text-align: left;
         font-size: 11px;
     }
@@ -902,9 +964,9 @@ header{
         display: block;
     }
     .su-img-crd{
-        width: 289px;
+        width: 265px;
         position: relative;
-        top: 20px;
+        top: 50px;
         left: 25px;
     }
     .su-img-crd img{
@@ -912,6 +974,7 @@ header{
     }
     .su-img-crd::before{
         width: 65%;
+        
     }
     .flexibility{
         height: 570px;
@@ -933,10 +996,11 @@ header{
     }
     .flexiible-img{
         width: 370px;
-        bottom: -8rem;
+        bottom: 0;
     }
     .you-want-txt .yu-p{
         font-size: 12px;
+        width: 48%;
     }
     .you-want-txt p{
         font-size: 12px;
@@ -998,7 +1062,12 @@ header{
     }
 }
 @media (min-width:850px){
-    
+    .hero-btn1{
+        width:14%;
+    }
+    .btn3{
+        bottom: 2.25rem;
+    }
     .flexibility-text p{
         font-size:15px ;
 
@@ -1084,7 +1153,7 @@ header{
         width: 50%;
         margin:  0 0 3% ;
         text-align: left;
-        font-size: .9rem;
+        font-size: .8rem;
         line-height: 25px;
     }
     .hero-img{
@@ -1125,7 +1194,11 @@ header{
         font-size: 16px;
     }
     .you-want-txt .yu-p{
-        width: 60%;
+        width: 52%;
+        font-size: 16px;
+    }
+    .you-want-txt h2{
+        line-height: 42px;
     }
     /*  */
     .supplies-txt ul li{
@@ -1138,7 +1211,7 @@ header{
         font-size: 1rem;
     }
     .su-crd{
-        width: 440px;
+        width: 65%;
         max-height:621px ;
         overflow-y: hidden;
     }
@@ -1149,9 +1222,11 @@ header{
     .su-txt p{
         display: block;
         font-size: 16px;
+        margin-bottom: 30px;
     }
     .su-txt li a{
         font-size: 16px;
+        margin-bottom: 30px;
     }
     .su-img-crd{
         width: 309px;
@@ -1183,8 +1258,8 @@ header{
     }
     .flexiible-img{
         width: 420px;
-        bottom: -12rem;
-        right: 3rem;
+        bottom: 0;
+        right: 4rem;
     }
     .flexibility-text h2{
         font-size: 34px;
@@ -1212,6 +1287,10 @@ header{
     .start-using{
         gap: 40px;
     }
+    .su-crd{
+        width: 55%;
+        max-height:621px ;
+    }
 }
 @media (min-width:1200px) {
     .supplies-txt h1{
@@ -1222,19 +1301,23 @@ header{
         font-size:1rem ;
     }
     .hero-btn1{
-        width: 13%;
+        width: 14%;
     }
     .btn3{
-        bottom: 2.7rem;
+        bottom: 2.8rem;
     }
     .hero-bnt{
-        gap: 4%;
+        gap: 10px;
     }
     .hero-trusted p{
         font-size: 14px;
     }
     .su-txt h3{
         font-size: 40px;
+    }
+    .su-crd{
+        width: 50%;
+
     }
     .you-want-txt h2{
         font-size: 40px;
@@ -1271,7 +1354,10 @@ header{
         top: -170px;
     }
     .hero-btn1{
-        width: 14%;
+        width: 15%;
+    }
+    .btn3 {
+        bottom: 3rem;
     }
     .hero-trusted p{
         font-size: 16px;
@@ -1334,14 +1420,13 @@ header{
     }
     .flexibility{
         margin-top: 53rem;
-        height: 800px;
+        height: 740px;
     }
     .flexiible-img{
         display: block;
-        width: 630px;
+        width: 530px;
         position: absolute;
-        bottom: -26rem;
-        right: 3rem;
+        right: 9rem;
     }
     .flexibility-text  .flex-p{
         width: 120%;
