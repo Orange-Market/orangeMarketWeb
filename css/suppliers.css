@@ -111,28 +111,29 @@
 .vec, .vec2, .vec1{
     position:absolute ;
     z-index: -1;
-    opacity: .2;
+    opacity: .1;
 }
 .vec{
-    width: 115%;
+    width: 127%;
     top: -5rem;
     left: -3rem;
     z-index: -1;
-    opacity: .2;
-    transform: rotate(7deg);
+    opacity: .1;
+    transform: rotate(8deg);
 }
 .vec img,.vec2 img, .vec1 img{
     width: 100%;
 }
 .becom1-container{
     width: 100%;
-    padding: 13% 8%;
+    padding: 13% 8% 15%;
     color: var(--white);
 
 }
 .becom1-txt1 h1{
     font-size: 24px;
     margin-bottom:15px ;
+    font-weight: bolder;
 }
 .becom1-txt1 p{
     font-size: 16px;
@@ -143,16 +144,19 @@
     display: none;
 }
 .bc-txt h3{
-    font-size: 16px;
-    font-weight: bolder;
+    font-size: 18px;
+    font-weight: bold;
     margin-bottom: 10px;
 }
 .bc-txt p{
-    font-size: 15px;
+    font-size: 14px;
     width: 100%;
     line-height: 25px;
     margin-bottom: 25px;
-    font-weight: bold;
+    font-weight: normal;
+}
+.bctxtp p{
+    margin-bottom: 50px;
 }
 .becom1-txt2 a{
     font-size: 14px;
@@ -169,6 +173,7 @@
     position: relative;
     top: 2rem;
     margin-bottom: 2rem;
+    margin-top: 80px;
 }
 
 
@@ -568,16 +573,17 @@
     }
     .becom1-txt1 p{
         width: 70%;
-        font-size: 19px;
+        font-size: 18px;
     }
     .becom1-txt1 a{
         font-size: 16px;
     }
     .bc-txt p{
         font-size: 16px;
+        font-weight: normal;
     }
     .bc-txt h3{
-        font-size: 20px;
+        font-size: 24px;
     }
     .vec{
         width: 35%;
@@ -600,6 +606,28 @@
         font-weight: bolder;
         font-size: 30px;
 }
+}
+@media (min-width:1080px) {
+    .bc-txt::after{
+        width: 40px;
+        height: 40px;
+        left: -60px;
+        opacity: .42;
+    }
+    .vec2{
+        width: 30%;
+        top: 3rem;
+        right: 0;
+    }
+    .vec1 {
+        left: -3rem;
+        width: 100%;
+      }
+      .vec, .vec2, .vec1{
+        position:absolute ;
+        z-index: -1;
+        opacity: .1;
+    }
 }
 @media (min-width:1200px){
     .h-suppliers-txt h1{

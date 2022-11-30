@@ -2,10 +2,19 @@
 .testimonia{
     padding: 20px;
 }
+.testi-txt h1{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.testi-txt p{
+    font-size:16px ;
+    color: var(--font-Zeus);
+}
 .testimonia-img{
     width: 100%;
     margin: 0 auto;
     position: relative;
+    margin-bottom: 20px;
 }
 .testimonia-img img{
     width: 100%;
@@ -55,7 +64,7 @@
     width: 34%;
 }
 .kfc-logo img{
-    width: 90px;
+    width: 110px;
 }
 .test-p-pic{
     width: 20%;
@@ -64,7 +73,7 @@
     margin-right: 10px;
 }
 .test-p-pic img{
-    max-width: 100%;
+    width: 100%;
 }
 .test-profile{
     display: flex;
@@ -72,14 +81,20 @@
 }
 .test-p-text h2{
     margin-bottom: 7px;
+    font-size: 18px;
 }
 .testimonia-txt p{
     width: 100%;
-    line-height: 25px;
-    margin-bottom: 25px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: var(--font-Zeus);
 }
 .test-p-text p{
     font-family: 'Caveat', cursive;
+    margin-bottom: 0;
+    color: var(--testi);
+    font-size: 18px;
 }
 .testimonia-img .fa-play{
     display: none;
@@ -97,7 +112,7 @@
 
     .testimonia-container{
         display: flex;
-        gap: 30px;
+        gap: 40px;
         margin: 6% 5%;
     }
     .testimonia-img .fa-angle-left{
@@ -114,7 +129,7 @@
     /* testimonia-txt */
     .testimonia-txt{
         position: relative;
-        top: 0px;
+        top: 30px;
     }
     .testimonia-img{
         width: 100%;
@@ -137,7 +152,7 @@
         width: 85%;
         font-size: 12px;
         margin-bottom: 10px;
-        color: var(--cloud);
+        color: var(--font-Zeus);
     }
     .testi-txt p{
         font-size: 12px;
@@ -147,6 +162,7 @@
     }
     .testi-txt h1{
         font-size: 30px;
+        margin-bottom: 15px;
     }
     .test-p-text h2{
         font-size: 12px;
@@ -198,7 +214,7 @@
         top: 45%;
     }
     .testimonia-txt{
-        top: 1.5rem;
+        top: 50px;
     }
     .testi-txt h1 {
         font-size: 36px;
@@ -220,7 +236,7 @@
     /* testimonia-txt */
     .testimonia-txt{
         position: relative;
-        top: 50px;
+        top: 60px;
     }
     .testimonia-img{
         width: 100%;
@@ -261,9 +277,12 @@
     }
 }
 @media (min-width:1220px){
+    .testimonia-img{
+        margin-right: 70px;
+    }
     .testimonia-img .fa-angle-right{
 
-        right:-35rem;
+        right:-39rem;
         top: 45%;
     }
     .testimonia-img .fa-angle-right, .testimonia-img .fa-angle-left {
@@ -281,6 +300,9 @@
     .testi-txt h1 {
         font-size: 42px;
     }
+    .testimonia-txt{
+        top: 90px;
+    }
 }
 @media (min-width:1300px){
     .testi-txt h1 {
@@ -293,7 +315,7 @@
         font-size: 22px;
     }
     .testimonia-img .fa-angle-right{
-        right:-38rem;
+        right:-42rem;
         top: 45%;
     }
     .kfc-logo img{
