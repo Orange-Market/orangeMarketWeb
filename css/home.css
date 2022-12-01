@@ -458,6 +458,9 @@ header{
 .su-crd img{
     display: none;
 }
+.checked{
+    color: var(--Thunderbird);
+}
 
 
 
