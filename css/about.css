@@ -31,7 +31,8 @@
     margin: 0 auto;
     line-height: 23px;
     margin-bottom: 7%;
-    color: var(--font-Zeus);
+    color: var(--headerp);
+    font-weight: normal;
 }
 .about-hero a{
     text-decoration: none;
@@ -95,7 +96,7 @@
 }
 .team-txt p{
     font-size: 16px;
-    color: var(--Nobel);
+    color: var(--font-Zeus);
     line-height: 30px;
 }
 .tmp1-pic{
@@ -103,6 +104,7 @@
     height: 90px;
     border-radius: 50%;
     background-color: var(--Beauty-Bush);
+    opacity: .2;
     margin-bottom: 7px;
     
 }
@@ -463,7 +465,9 @@
 .our-value-txt p{
     margin-bottom: 20px;
 }
-
+.our-mission-crd{
+    margin-top: 7%
+}
 }
 @media (min-width:920px){
     .gridcard-1{
@@ -622,10 +626,10 @@
 @media (min-width:1200px) {
     /* grid */
     .gridcard-1{
-        min-height: 200px;
+        height: 220px;
     }
     .gridcard-2{
-        min-height: 200px;
+        height: 220px;
     }
     .abt-hero-txt .abt-h1{
         font-size: 50px;
@@ -698,11 +702,11 @@
     /* grid */
     .abt-hero-txt .abt-h1{
         font-size: 55px; 
+        font-weight: bolder;
     }
     .abt-hero-txt p{
-        width: 90%;
-        margin: 0 ;
-        line-height: 28px;
+        width: 100%;
+        line-height: 30px;
         margin-bottom: 9%;
         font-size: 18px;
     }
@@ -740,5 +744,13 @@
     .who-we-crd::before{
         bottom: -4rem;
         right: -3.1rem;
+    }
+    .who-we-txt p{
+        width: 93%;
+        line-height: 30px;
+    }
+    .team-txt p{
+        width: 75%;
+        line-height: 30px;
     }
 }
