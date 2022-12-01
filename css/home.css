@@ -817,6 +817,7 @@ header{
         position: relative;
         box-shadow: -4px 32px 14px -1px var(--Porcelain);
         margin-right: 10px;
+        width: 45%;
     }
     .you-card::after{
         content:'';
