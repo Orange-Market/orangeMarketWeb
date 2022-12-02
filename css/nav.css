@@ -28,6 +28,9 @@ nav > ul li a{
     font: 14px;
 
 }
+.checked a{
+    color: var(--Thunderbird);
+}
 li a> span img{
     display: none;
 }
