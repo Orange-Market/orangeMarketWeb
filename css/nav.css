@@ -155,15 +155,17 @@ body{
         z-index: 1000;
         position: relative;
         right: -31%;
+        top: 3px;
         background-color:transparent;
         background-repeat: no-repeat;
         border: 0;
-        width: 1.5rem;
+        width:2.4rem;
         aspect-ratio:1 ;
 
     }
     .menu{
-        top: 0;
+        top: -3px;
+        left: -1px;
         
 
     }
@@ -193,6 +195,7 @@ body{
         box-sizing: content-box;
         padding: .5px .5px .5px;
         border-radius: 50%;
+        width: 1.5rem;
     }
     .primary-navigation.is-active{
         transform: translateX(0%);
