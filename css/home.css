@@ -183,7 +183,7 @@ header{
     margin-top: 230px;
 }
 .All-supplies p{
-    color: var(--cloud);
+    color: var(--font-Zeus);
 }
 .supplies-txt{
     position: relative;
@@ -208,14 +208,14 @@ header{
     align-items: center;
     font-weight: 500;
     margin-bottom: 40px;
-    color: var(--cloud);
+    color: var(--font-Zeus);
     font-size: 18px;
 }
 .supplies-txt ul li:last-child{
     margin-bottom: 55px;
 }
 .supplies-icon{
-    width: 6.5%;
+    width: 4.5%;
     margin-right: 10px;
 }
 .supplies-icon img{
@@ -348,7 +348,7 @@ header{
     padding: 4rem 1.3rem 2rem;
 }
 .you-want p{
-    color: var(--cloud);
+    color: var(--CadetBlue);
 }
 .you-card{
     padding: 10px 20px;
@@ -373,6 +373,10 @@ header{
     width: 100%;
     line-height: 1.5rem;
     font-size: 16px;
+    color: var(--font-Zeus);
+}
+.you-want-card p{
+    color: var(--CadetBlue);
 }
 .yu-p{
     margin-bottom: 20px;
@@ -453,6 +457,9 @@ header{
 }
 .su-crd img{
     display: none;
+}
+.checked{
+    color: var(--Thunderbird);
 }
 
 
@@ -676,7 +683,7 @@ header{
         font-size: .7rem;
     }
     .supplies-icon{
-        width: 5.5%;
+        width: 4.3%;
         margin-right: 10px;
     }
     .supplies-txt a{
@@ -692,7 +699,7 @@ header{
     }
     .supplies-txt ul li{
         font-size: .72rem;
-        margin-bottom: 20px;
+        margin-bottom: 40px;
     }
     .supplies-txt ul li:last-child {
         margin-bottom: 35px;
@@ -810,6 +817,7 @@ header{
         position: relative;
         box-shadow: -4px 32px 14px -1px var(--Porcelain);
         margin-right: 10px;
+        width: 45%;
     }
     .you-card::after{
         content:'';
@@ -1179,7 +1187,7 @@ header{
     }
     .supplies-txt p{
         font-size:.9rem ;
-        width: 95%;
+        width: 80%;
         margin-bottom: 15px;
 
     }
@@ -1330,6 +1338,9 @@ header{
     .you-want-txt p{
         line-height: 25px;
     }
+    .you-card{
+        padding: 15px 25px 30px;
+    }
 }
 @media (min-width:1300px){
     header{
@@ -1375,6 +1386,7 @@ header{
     }
     .you-want-txt h2{
         font-size: 44px;
+        line-height: 50px;
     }
     .pic{
         width: 56px;
@@ -1393,7 +1405,7 @@ header{
     }
     .gridcard-2, .gridcard-1{
         width: 45%;
-        min-height: 250px;
+        height: 300px;
     }
     /* flexibility */
     .flexibility-text h2{
@@ -1412,7 +1424,7 @@ header{
     .text-here p{
         font-size: 14px;
         width: 100%;
-        padding: 0px 4px;
+        padding: 0px;
         text-align: left;
     }
     .flexibility {
@@ -1436,6 +1448,7 @@ header{
     }
     .su-txt h3{
         font-size: 44px;
+        width: 60%;
     }
     .su-txt p{
         font-size: 17px;
@@ -1449,5 +1462,29 @@ header{
     }
     .su-btn{
         font-size: 14px;
+    }
+    .su-crd{
+        width: 42%;
+    }
+    .you-card{
+        padding: 20px 30px 35px;
+        margin-right: 25px;
+    }
+    .you-card::after{
+        width: 85%;
+    }
+}
+@media (min-width:1400px) {
+    .supplies-txt ul li{
+        font-size: 18px;
+    }
+    .you-want-txt h2{
+        line-height: 54px;
+    }
+    .you-want-card p{
+        line-height: 30px;
+    }
+    .su-crd{
+        width: 35%;
     }
 }

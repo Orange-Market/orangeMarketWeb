@@ -28,6 +28,9 @@ nav > ul li a{
     font: 14px;
 
 }
+.checked a{
+    color: var(--Thunderbird);
+}
 li a> span img{
     display: none;
 }
@@ -197,7 +200,7 @@ body{
 }
 @media (min-width:720px) {
     .logo{
-        width: 15%;
+        width: 12.4%;
     }
     .logo img{
         width: 100%;
@@ -253,6 +256,6 @@ body{
     
     }
     .downloadbtn a{
-        font-size: 16px;
+        font-size: 14px;
     }
 }

@@ -61,8 +61,8 @@
     display: none;
     padding: 4rem 1.3rem 2rem;
 }
-.you-want p{
-    color: var(--Tapa);
+.you-want .value-card p{
+    color: var(--CadetBlue);
 }
 .you-card{
     padding: 12px;
@@ -175,6 +175,9 @@
     margin-bottom: 2rem;
     margin-top: 80px;
 }
+/* .checked{
+    color: var(--Thunderbird);
+} */
 
 
 
@@ -718,7 +721,7 @@
     }
     .bc-txt p{
         font-size: 18px;
-        width: 100%;
+        width: 80%;
     }
 
 }
