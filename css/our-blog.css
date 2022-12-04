@@ -250,7 +250,7 @@ footer{
         height: 30vh;
         background-color:var(--Thunderbird);
         border-radius: 20px;
-        margin-top: 2%;
+        margin-top: 20%;
     }
     .aside{
         display: flex;
@@ -312,7 +312,7 @@ footer{
         margin-right: 5%;
     }
     .footer-productlinks{
-        flex: .7;
+        flex: .5;
     }
     .footer-product h3{
         font-size: 1.25rem;
@@ -320,6 +320,7 @@ footer{
     .footer-product li a{
         font-size: 11px;
     }
+    
     .heade-office h3:nth-child(2){
         font-size: 11px;
         width: 100%;
@@ -362,6 +363,10 @@ footer{
     .footer-icons .fa-facebook-f, .footer-icons .fa-twitter,.footer-icons .fa-instagram, .footer-icons .fa-linkedin, .footer-icons .fa-youtube{
         font-size: 18px
     }
+    .company{
+        flex: .2;
+        justify-content: flex-start;
+    }
 }
 @media (min-width:790px) {
     .abt-hero-txt h1{
@@ -371,6 +376,7 @@ footer{
 @media (min-width:820px){
     .download{
         height: 35vh;
+        margin-top: 30%;
     }
 
     .aside-download h1{
@@ -419,7 +425,7 @@ footer{
         font-size: 1rem;
     }
     .footer-copyright h2{
-        font-size:1rem ;
+        font-size:.8rem ;
     }
     .aside-img0{
         width: 55%;
@@ -478,6 +484,9 @@ footer{
     .aside-img0{
         width: 50%;
     }
+    .download{
+        margin-top: 25%;
+    }
 }
 @media (min-width:1200px){
     .footer-logo p{
@@ -509,7 +518,6 @@ footer{
     .download{
         height: 472px;
         background-image: url(../assets/img/dwnload-bg.png);
-        margin-top: 10%;
     }
     .p-bold p:nth-child(1){
         width: 70%;
@@ -548,13 +556,13 @@ footer{
         margin-top: 10%;
     }
     .footer-product li a{
-        font-size: 18px;
+        font-size: 16px;
     }
     .footer-product h3{
-        font-size:20px ;
+        font-size:18.5px ;
     }
     .footer-logo p{
-        font-size: 16px;
+        font-size: 14.5px;
         width:90%;
     }
     .footer-logo-img{
@@ -571,18 +579,24 @@ footer{
         font-size:1rem ;
     }
     .heade-office h3:nth-child(2){
-        font-size: 18px;
+        font-size: 16px;
         width: 130%;
     }
     .footer-productlinks {
         flex: .5;
     }
+   
     .footer-productlinks {
         display: flex;
         justify-content: space-around;
     }
+    .company{
+        flex: .2;
+        justify-content: flex-start;
+    }
     .our-lc{
         margin-right: 60px;
+        
     }
 }
 @media (min-width:1300px){
