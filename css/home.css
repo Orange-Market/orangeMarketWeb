@@ -184,6 +184,7 @@ header{
 }
 .All-supplies p{
     color: var(--font-Zeus);
+    opacity: 0.6;
 }
 .supplies-txt{
     position: relative;
@@ -208,9 +209,10 @@ header{
     align-items: center;
     font-weight: 500;
     margin-bottom: 40px;
-    color: var(--font-Zeus);
+    color: var(--font-zeusA);
     font-size: 18px;
 }
+
 .supplies-txt ul li:last-child{
     margin-bottom: 55px;
 }
@@ -373,7 +375,7 @@ header{
     width: 100%;
     line-height: 1.5rem;
     font-size: 16px;
-    color: var(--font-Zeus);
+    color: var(--font-zeusA);
 }
 .you-want-card p{
     color: var(--CadetBlue);
