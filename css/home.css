@@ -361,9 +361,32 @@ header{
 .pic{
     width: 56px;
     height: 56px;
-    background-color: var(--Beauty-Bush);
     border-radius: 50%;
     margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+}
+.dry{
+    background-image: url(../assets/img/rice.jpg);
+    
+}
+.meat{
+    background-image: url(../assets/img/top-view-fresh-meat-slices-raw-meat-round-wooden-desk-dark-food-freshness-animal-cow-meal-food-kitchen.jpg);
+}
+.poultry{
+    background-image: url(../assets/img/top-view-organic-raw-chicken-meats-plate.jpg)
+}
+.Dairy{
+    background-image: url(../assets/img/glass-jug-milk-eggs-whisker-wooden-table.jpg)
+}
+.Fruits{
+    background-image: url(../assets/img/mix-vegetable.jpg)
+}
+.vegs{
+    background-image: url(../assets/img/1000_F_279692875_lo8ut2yXoB97Jfws81xgUrykp9epWrF8.jpg)
+}
+.drinks{
+    background-image: url(../assets/img/colorful-fruits-tasty-fresh-ripe-juicy-white-desk.jpg)
 }
 .you-want-txt h2{
     font-size:24px ;
@@ -388,6 +411,41 @@ header{
     font-weight:bold ;
     margin-bottom: 10px;
     line-height: 32px;
+}
+.you-want-card{
+    display:grid;
+    grid-auto-flow:column ;
+    grid-auto-columns: 49%;
+    overflow-x: auto;
+    overscroll-behavior-inline:contain;
+    padding-left: 2px;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-left: 10px;
+}
+.you-card{
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: -7px 22px 14px -5px var(--Porcelain);
+    margin-right: 10px;
+    scroll-snap-align: start;
+    scroll-padding-inline: 10px;
+}
+.you-want-card::-webkit-scrollbar{
+    width: 10px;
+}
+.you-want-card::-webkit-scrollbar-track{
+    background: rgb(238, 235, 235);
+    border-radius: 100vw;
+}
+.you-want-card::-webkit-scrollbar-thumb{
+    background-color: var(--Thunderbird);
+    border-radius: 100vw;
+}
+@supports(scrollbar-color: white var(--Thunderbird)){
+    .you-want-card{
+        scrollbar-color:var(--Thunderbird) rgb(238, 235, 235) ;
+        scrollbar-width: thin;
+    }
 }
 .you-card p{
     width: 100%;
@@ -793,7 +851,32 @@ header{
         padding: 10% 5%;
     }
     .you-want-card{
-        display: flex;
+        display:grid;
+        grid-auto-flow:column ;
+        grid-auto-columns: 31%;
+        overflow-x: auto;
+        overscroll-behavior-inline:contain;
+        padding-left: 2px;
+        scroll-snap-type: inline mandatory;
+        scroll-padding-left: 10px;
+    }
+    .you-want-card::-webkit-scrollbar{
+        width: 10px;
+    }
+    .you-want-card::-webkit-scrollbar-track{
+        background: rgb(238, 235, 235);
+        border-radius: 100vw;
+    }
+    .you-want-card::-webkit-scrollbar-thumb{
+        background-color: var(--Thunderbird);
+        border-radius: 100vw;
+    }
+
+    @supports(scrollbar-color: white var(--Thunderbird)){
+        .you-want-card{
+            scrollbar-color:var(--Thunderbird) rgb(238, 235, 235) ;
+            scrollbar-width: thin;
+        }
     }
     .you-want-txt h2{
         font-size: 24px;
@@ -817,18 +900,19 @@ header{
     .you-card{
         background-color: #ffffff;
         position: relative;
-        box-shadow: -4px 32px 14px -1px var(--Porcelain);
+        box-shadow: -7px 22px 14px -5px var(--Porcelain);
         margin-right: 10px;
-        width: 45%;
+        scroll-snap-align: start;
+        scroll-padding-inline: 10px;
     }
     .you-card::after{
         content:'';
         position: absolute;
-        width: 95%;
+        width: 90%;
         height: 5%;
         z-index: -1;
         background-color: #ffffff;
-        box-shadow:-0px 30px 20px  30px  var(--Porcelain);
+        box-shadow:-0px 45px 40px  30px  var(--Porcelain);
     }
     .you-card:nth-child(1)::after {
         width: 70%;

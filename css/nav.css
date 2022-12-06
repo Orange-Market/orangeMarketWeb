@@ -67,6 +67,7 @@ body{
     background-color:black ;
     top: -2px;
     cursor: pointer;
+    z-index: -1;
 }
 .menu::after, .menu::before{
     position: absolute;
@@ -75,6 +76,7 @@ body{
     height: 100%;
     border-radius: 100px;
     background-color:black ;
+    z-index: -1;
 }
 .menu::after{
     top: 10px;
@@ -161,11 +163,13 @@ body{
         border: 0;
         width:2.4rem;
         aspect-ratio:1 ;
+        isolation: isolate;
 
     }
     .menu{
         top: -3px;
         left: -1px;
+        z-index: -1;
         
 
     }
