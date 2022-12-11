@@ -215,6 +215,7 @@ footer{
     .footer-logo p{
         font-size: 10px;
         color: var(--font-Zeus);
+        width: 100%;
     }
     .our-blog > p{
         font-size: 13px;
@@ -305,7 +306,7 @@ footer{
         display: block;
     }
     .footer-logo{
-        flex: .7;
+        flex: .9;
     }
     .footer-icons span{
         display: inline-block;
@@ -327,6 +328,7 @@ footer{
     }
     .our-Locations{
         flex: .9;
+        justify-content: center;
     }
     .about{
         text-align: none;
@@ -334,7 +336,7 @@ footer{
         
     }
     .heade-office{
-        width: 50%;
+        width: 70%;
     }
     .footer-product a{
         font-size: 14px;
@@ -364,8 +366,8 @@ footer{
         font-size: 18px
     }
     .company{
-        flex: .2;
-        justify-content: flex-start;
+        flex: 1;
+        justify-content: space-between;
     }
 }
 @media (min-width:790px) {

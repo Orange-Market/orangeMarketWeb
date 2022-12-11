@@ -357,14 +357,22 @@ header{
     border-radius: 20px;
     box-shadow: -4px 12px 14px -1px var(--gallary) ;
     margin-bottom: 35px;
+    text-align: center;
+    perspective: 200px;
+    transition: transform 1%;
+}
+.you-card:hover{
+    transform: translateZ(50px);
 }
 .pic{
-    width: 56px;
-    height: 56px;
+    width: 76px;
+    height: 76px;
     border-radius: 50%;
     margin-bottom: 10px;
     background-position: center;
     background-size: cover;
+    position: relative;
+    margin: 0 auto;
 }
 .dry{
     background-image: url(../assets/img/rice.jpg);
@@ -374,7 +382,9 @@ header{
     background-image: url(../assets/img/top-view-fresh-meat-slices-raw-meat-round-wooden-desk-dark-food-freshness-animal-cow-meal-food-kitchen.jpg);
 }
 .poultry{
-    background-image: url(../assets/img/top-view-organic-raw-chicken-meats-plate.jpg)
+    background-image: url(../assets/img/top-view-organic-raw-chicken-meats-plate.jpg);
+    background-position: left;
+
 }
 .Dairy{
     background-image: url(../assets/img/glass-jug-milk-eggs-whisker-wooden-table.jpg)
@@ -417,34 +427,34 @@ header{
     grid-auto-flow:column ;
     grid-auto-columns: 49%;
     overflow-x: auto;
-    overscroll-behavior-inline:contain;
+    /* overscroll-behavior-inline:contain; */
     padding-left: 2px;
-    scroll-snap-type: inline mandatory;
-    scroll-padding-left: 10px;
 }
+
 .you-card{
     background-color: #ffffff;
     position: relative;
     box-shadow: -7px 22px 14px -5px var(--Porcelain);
     margin-right: 10px;
-    scroll-snap-align: start;
+    /* scroll-snap-align: start;
     scroll-padding-inline: 10px;
+    animation: scroll 40s linear infinite; */
 }
 .you-want-card::-webkit-scrollbar{
-    width: 10px;
+    width: none;
 }
-.you-want-card::-webkit-scrollbar-track{
+/* .you-want-card::-webkit-scrollbar-track{
     background: rgb(238, 235, 235);
     border-radius: 100vw;
 }
 .you-want-card::-webkit-scrollbar-thumb{
     background-color: var(--Thunderbird);
     border-radius: 100vw;
-}
+} */ 
 @supports(scrollbar-color: white var(--Thunderbird)){
     .you-want-card{
         scrollbar-color:var(--Thunderbird) rgb(238, 235, 235) ;
-        scrollbar-width: thin;
+        scrollbar-width: none;
     }
 }
 .you-card p{
@@ -520,6 +530,22 @@ header{
 }
 .checked{
     color: var(--Thunderbird);
+}
+.carousel__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: carousel 10s linear infinite ;
+}
+
+@keyframes carousel {
+    0%{
+        transform: translate(0, 0);
+    }
+    100%{
+        transform: translate(-540%, 0);
+    }
 }
 
 
@@ -853,14 +879,12 @@ header{
     .you-want-card{
         display:grid;
         grid-auto-flow:column ;
-        grid-auto-columns: 31%;
+        grid-auto-columns: 25%;
         overflow-x: auto;
-        overscroll-behavior-inline:contain;
+        /* overscroll-behavior-inline:contain; */
         padding-left: 2px;
-        scroll-snap-type: inline mandatory;
-        scroll-padding-left: 10px;
     }
-    .you-want-card::-webkit-scrollbar{
+    /* .you-want-card::-webkit-scrollbar{
         width: 10px;
     }
     .you-want-card::-webkit-scrollbar-track{
@@ -870,14 +894,14 @@ header{
     .you-want-card::-webkit-scrollbar-thumb{
         background-color: var(--Thunderbird);
         border-radius: 100vw;
-    }
+    } */
 
-    @supports(scrollbar-color: white var(--Thunderbird)){
+    /* @supports(scrollbar-color: white var(--Thunderbird)){
         .you-want-card{
             scrollbar-color:var(--Thunderbird) rgb(238, 235, 235) ;
             scrollbar-width: thin;
         }
-    }
+    } */
     .you-want-txt h2{
         font-size: 24px;
         width: 50%;
@@ -888,8 +912,8 @@ header{
         font-weight: 400;
     }
     .pic{
-        width: 46px;
-        height: 46px;
+        width: 76px;
+        height: 76px;
         margin-bottom: 10px;
     }
     .you-card h4{
@@ -910,6 +934,7 @@ header{
         position: absolute;
         width: 90%;
         height: 5%;
+        bottom: 0;
         z-index: -1;
         background-color: #ffffff;
         box-shadow:-0px 45px 40px  30px  var(--Porcelain);
@@ -1002,8 +1027,48 @@ header{
     .su-btn{
         font-size: 11px;
     }
+    /* carousel */
+    .carousel{
+        position: relative;
+        overflow: hidden;
+        background-color: #FFFFFF;
+        width: 90vw;
+        
+    }
+    .carousel__slide{
+        position: relative;
+        display:grid;
+        grid-auto-flow:column ;
+        grid-auto-columns: 100%;
+        width: 100%;
+        height: 250px;
+    }
+    .carousel__list{
+        /* display: inline-block; */
+        /* position: absolute; */
+        position: relative;
+        width: 150%;
+        top: 1%;
 
+    }
+    .carousel__item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        animation: carousel 10s linear infinite ;
+    }
+    
+    @keyframes carousel {
+        0%{
+            transform: translate(0, 0);
+        }
+        100%{
+            transform: translate(-450%, 0);
+        }
+    }
 
+    
 }
 @media (min-width:760px) {
     .hero-text h1{
@@ -1161,6 +1226,9 @@ header{
     }
     .btn3{
         bottom: 2.25rem;
+    }
+    .flexibility{
+        height: 650px;
     }
     .flexibility-text p{
         font-size:15px ;
