@@ -224,7 +224,15 @@ body{
     }
     .primary-header{
         padding-bottom: 0;
+
     }
+    .supplierNAV{
+        background-color:white;
+        margin: 0;
+        width: 100%;
+        padding:1% 5% ;
+    }
+
 }
 @media (min-width:820px){
     nav > ul li a{

@@ -122,6 +122,9 @@ footer{
     color: var(--Tapa);
     font-weight: normal;
 }
+.footer-product ul a:hover{
+    color: var(--Thunderbird);
+}
 .about{
     text-align: left;
     margin-right: 30px;
@@ -181,6 +184,9 @@ footer{
 }
 .footer-icons .fa-facebook-f, .footer-icons .fa-twitter,.footer-icons .fa-instagram, .footer-icons .fa-linkedin, .footer-icons .fa-youtube{
     color: var(--Tapa);
+}
+.footer-icons .fa-facebook-f:hover, .footer-icons .fa-twitter:hover,.footer-icons .fa-instagram:hover, .footer-icons .fa-linkedin:hover, .footer-icons .fa-youtube:hover{
+    color: var(--Thunderbird);
 }
 
 
@@ -475,7 +481,7 @@ footer{
         font-size: 12px;
     }
     .footer-productlinks{
-        flex: .7;
+        flex: 1;
         margin-right: 4%;
     }
     .footer-product h3{
@@ -571,7 +577,7 @@ footer{
         width: 48%;
     }
     .footer-logo{
-        flex:.4;
+        flex:.5;
         width: fit-content;
     }
     .footer-copyright ul a{
@@ -593,8 +599,8 @@ footer{
         justify-content: space-around;
     }
     .company{
-        flex: .2;
-        justify-content: flex-start;
+        flex: .7;
+        justify-content: space-between;
     }
     .our-lc{
         margin-right: 60px;
