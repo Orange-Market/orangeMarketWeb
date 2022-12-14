@@ -60,16 +60,16 @@ header{
 .hero-bnt{
     display: flex;
     justify-content: center;
+    align-items:flex-start;
+    width: fit-content;
+    gap: 8px;
 }
 .hero-btn1{
-    width: 50%;
+    width: 70%;
     position: relative;
 }
 .hero-btn1 img{
     width: 100%;
-}
-.btn3{
-    bottom: 2.9rem;
 }
 .hero-btn1::after{
     display: none;
@@ -86,17 +86,18 @@ header{
 .hero-img{
     position: relative;
     bottom:250px ;
-    max-width:100%;
+    max-width:80%;
     overflow: visible;
 }
 .hero-img picture{
     width: 100%;
 }
 .hero-img img{
-    width: 195%;
+    width:130%;
     position: relative;
-    right: 0%;
-    top: 7rem;
+    right: .5rem;
+    top: 12.9rem;
+
 }
 .hero-trusted{
     width: 100%;
@@ -390,10 +391,10 @@ header{
     background-image: url(../assets/img/glass-jug-milk-eggs-whisker-wooden-table.jpg)
 }
 .Fruits{
-    background-image: url(../assets/img/mix-vegetable.jpg)
+    background-image: url(../assets/img/colorful-fruits-tasty-fresh-ripe-juicy-white-desk.jpg)
 }
 .vegs{
-    background-image:  url(../assets/img/colorful-fruits-tasty-fresh-ripe-juicy-white-desk.jpg);
+    background-image:  url(../assets/img/mix-vegetable.jpg);
 }
 .drinks{
     background-image: url(../assets/img/1000_F_279692875_lo8ut2yXoB97Jfws81xgUrykp9epWrF8.jpg);
@@ -582,14 +583,15 @@ header{
         margin-top: 15%;
     }
     .hero-img img{
-        width:43.5rem;
+        width:130%;
         position: relative;
-        right: -10rem;
-        top: 4.9rem;
+        right: .5rem;
+        top: 7.9rem;
 
     }
+    
     .hero-text h1{
-        width: 55%;
+        width: 95%;
         font-size: 34px;
         font-weight:bold;
         text-align: center;
@@ -599,7 +601,7 @@ header{
     }
     .hero-text p{
         margin: 0 auto;
-        width: 60%;
+        width: 99%;
         font-size:1rem ;
         line-height: 25px;
         color: var(--headerp);
@@ -609,10 +611,7 @@ header{
         
     }
     .hero-btn1{
-        width: 27%;
-    }
-    .btn3{
-        bottom: 3.2rem;
+        width: 50%;
     }
     
     .All-supplies{
@@ -628,9 +627,98 @@ header{
 
 
 
+@media (min-width:331px) {
+    header{
+        height: 700px;
+    }
+    .hero-img img{
+        top: 11.9rem;
 
+    }
+}
+@media (min-width:378px) {
+    header{
+        height: 720px;
+    }
+}
+@media (min-width:390px) {
+    header{
+        height: 750px;
+    }
+}
+@media (min-width:400px) {
+    header{
+        height: 800px;
+    }
+}
+@media (min-width:420px) {
+    header{
+        height: 830px;
+    }
+}
+@media (min-width:440px) {
+    header{
+        height: 950px;
+    }
+}
+@media (min-width:500px) {
+    .hero-img img{
+        top: 9.9rem;
 
+    }
+}
+@media (min-width:520px) {
+    header{
+        height: 1000px;
+    }
+}
+@media (min-width:540px) {
+    .tx{
+        margin-top: 5%;
+    }
+}
+@media (min-width:570px) {
+    .tx{
+        margin-top: 2%;
+    }
+}
+@media (min-width:585px) {
+    header{
+        height: 1060px;
+    }
+    .tx{
+        margin-top: 1%;
+    }
+    .hero-img img{
+        top: 8.9rem;
 
+    }
+}
+@media (min-width:570px) {
+    
+    .hero-img img{
+        top: 7.9rem;
+
+    }
+    header{
+        height: 1120px;
+    }
+}
+@media (min-width:690px) {
+    .tx{
+        margin-top: -4%;
+    }
+    .hero-img img{
+        top: 7.5rem;
+
+    }
+}
+@media (min-width:370px) {
+    .hero-btn1 img{
+        width: 159px;
+    }
+    
+}
 
 
 @media (min-width:720px){
@@ -684,9 +772,6 @@ header{
         margin: 0;
         
     }
-    .btn3{
-        bottom: 2rem;
-    }
     .hero-btn1 img{
         width: 100%;
         visibility: visible;
@@ -697,9 +782,9 @@ header{
     .hero-img{
         position: absolute;
         bottom:0;
-        width:45rem ;
-        right: -14.5rem;
-        top: -90px;
+        width:25rem ;
+        right: 0rem;
+        top: -10px;
         overflow: visible;
         z-index: -1;
     }
@@ -1101,12 +1186,9 @@ header{
         font-size: 11px;
     }
     .hero-img{
-        width:45rem ;
-        right: -14.5rem;
-        top: -90px;
-    }
-    .btn3{
-        bottom: 2.3rem;
+        width:27rem ;
+        right: 0rem;
+        top: -45px;
     }
     .All-supplies{
         width: 100%;
@@ -1175,9 +1257,8 @@ header{
 
     }
     .hero-img{
-        width:50rem ;
-        right: -16.5rem;
-        top: -90px;
+        width:28rem ;
+        top: -20px;
         
     }
     .hero-text{
@@ -1224,9 +1305,6 @@ header{
     .hero-btn1{
         width:14%;
     }
-    .btn3{
-        bottom: 2.25rem;
-    }
     .flexibility{
         height: 650px;
     }
@@ -1259,9 +1337,6 @@ header{
 @media (min-width:900px){
     .hero-btn1{
         width:13%;
-    }
-    .btn3{
-        bottom: 2.2rem;
     }
 }
 @media (min-width:920px) {
@@ -1305,9 +1380,6 @@ header{
         font-size: 3.2rem;
         
     }
-    .btn3{
-        bottom: 2.5rem;
-    }
     .hero-trusted p{
         font-size: 13px;
     }
@@ -1320,9 +1392,8 @@ header{
     }
     .hero-img{
         
-        width:64rem ;
-        right: -20.5rem;
-        top: -168px;
+        width:33rem ;
+        top: -18px;
         overflow: visible;
         z-index: -1;
     }
@@ -1465,9 +1536,6 @@ header{
     .hero-btn1{
         width: 14%;
     }
-    .btn3{
-        bottom: 2.8rem;
-    }
     .hero-bnt{
         gap: 10px;
     }
@@ -1514,16 +1582,15 @@ header{
         font-size: 1rem;
     }
     .hero-img{
-        width:73rem ;
-        right: -24rem;
-        top: -170px;
+        width:41.5rem ;
+        top: -60px;
     }
     .hero-btn1{
         width: 15%;
     }
-    .btn3 {
+    /* .btn3 {
         bottom: 3rem;
-    }
+    } */
     .hero-trusted p{
         font-size: 16px;
     }
