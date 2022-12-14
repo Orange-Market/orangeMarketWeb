@@ -67,7 +67,7 @@ body{
     background-color:black ;
     top: -2px;
     cursor: pointer;
-    z-index: -1;
+    z-index: -2;
 }
 .menu::after, .menu::before{
     position: absolute;
@@ -76,7 +76,7 @@ body{
     height: 100%;
     border-radius: 100px;
     background-color:black ;
-    z-index: -1;
+    z-index: -2;
 }
 .menu::after{
     top: 10px;
@@ -124,6 +124,7 @@ body{
         transition: transform 350ms ease-in-out;
         z-index: 9999;
         padding-top: 5px;
+        isolation: isolate;
     }
     
     .primary-navigation li{
@@ -163,7 +164,6 @@ body{
         border: 0;
         width:2.4rem;
         aspect-ratio:1 ;
-        isolation: isolate;
 
     }
     .menu{
@@ -187,8 +187,8 @@ body{
     .hamburger.is-active .menu::after{
         background-color:var(--white) ;
         transform: rotate(-110deg);
-        left: .4px;
-        top: .3px;
+        left: .2px;
+        top: .2px;
     
     }
     .hamburger.is-active .menu::before{
@@ -224,7 +224,15 @@ body{
     }
     .primary-header{
         padding-bottom: 0;
+
     }
+    .supplierNAV{
+        background-color:white;
+        margin: 0;
+        width: 100%;
+        padding:1% 5% ;
+    }
+
 }
 @media (min-width:820px){
     nav > ul li a{
