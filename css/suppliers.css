@@ -7,7 +7,8 @@
 }
 
 .hero-suppliers{
-    background-image: url(../assets/img/background-mobile.png);
+    /* background-image: url(../assets/img/background-mobile.png); */
+    background-image: linear-gradient(rgba(0, 0, 0, .3),rgba(0, 0, 0, .3)),url(../assets/img/two-women-viewing-content-phone-local-african-market\ 1.svg);
     background-position:center;
     background-size:cover;
     background-repeat: no-repeat;
@@ -18,12 +19,13 @@
 }
 .h-suppliers-txt{
     margin-bottom: 30px;
-    padding: 5% 5% 0;
+    padding: 35% 5% 37% ;
 }
 .h-suppliers-txt h1{
     font-size: 34px;
     line-height: 40px;
     margin-top: 40%;
+    color: var(--white);
 }
 .h-suppliers-txt p{
     font-size: 18px;
@@ -32,6 +34,7 @@
     margin-bottom: 30px;
     width: 95%;
     text-align: center;
+    color: var(--white);
 }
 .h-suppliers-txt a{
     font-family: sans-serif;
@@ -39,7 +42,7 @@
     /* check de font used */
     font-weight: 900;
     text-decoration: none;
-    padding: 1.6em 2.5em;
+    padding: 1.1em 1.19em;
     background-color: var(--Thunderbird);
     color: var(--white);
     border-radius: 10px;
@@ -214,9 +217,6 @@
     }
 }
 @media (min-width:720px) {
-    .hero-suppliers{
-        background-image: url(../assets/img/heroBacground.png);
-    }
     .hero-suppliers-container{
         display: flex;
     }
@@ -231,13 +231,16 @@
     }
     .h-suppliers-txt{
         width: 100%;
-        margin-bottom: 7%;
+        padding: 13% 5% 20%;
+        margin-bottom: .5%;
     }
     .h-suppliers-txt p{
         font-size: 12px;
-        width: 135%;
+        width: 55%;
         text-align: left;
+        margin: 0;
         margin-bottom: 33px;
+
     }
     .h-suppliers-img img{
         width: 100%;
@@ -387,14 +390,13 @@
     .vec, .vec2, .vec1{
         position:absolute ;
         z-index: -1;
-        opacity: .2;
+        opacity: .1;
     }
     .vec{
         width: 40%;
         top: 0;
         left: 0;
         z-index: -1;
-        opacity: .2;
         transform: rotate(0deg);
     }
     .vec1{
@@ -432,7 +434,7 @@
     }
 
     .h-suppliers-txt h1{
-        width: 150%;
+        width: 70%;
         font-size: 34px;
         font-family: 'Urbanist', sans-serif;
         font-weight: 900;
@@ -441,7 +443,7 @@
 @media (min-width:820px) {
     .h-suppliers-txt h1{
         font-size: 35px;
-        width: 150%;
+        /* width: 50%; */
     }
     .h-suppliers-txt p{
         font-size: 13px;
@@ -456,6 +458,19 @@
         font-weight: bold;
         font-size: 30px;
 }
+}
+@media (min-width:902px) {
+    .vec1{
+        top: 0;
+        left: -3rem;
+        width: 101%;
+    }
+    .vec2{
+        width: 29%;
+        top: 4.3rem;
+        right: 0;
+    }
+
 }
 @media (min-width:920px){
     .becom1-container{
@@ -514,12 +529,12 @@
     .h-suppliers-txt h1{
         font-size: 40px;
         line-height: 50px;
-        width: 130%;
+        /* width: 130%; */
     }
     .h-suppliers-txt p{
         font-size: 14px;
         margin-bottom: 35px;
-        width: 120%;
+        /* width: 120%; */
     }
     .you-want-txt .headtxt-card h4{
         font-size: 16px;
@@ -537,13 +552,13 @@
 }
 @media (min-width:1020px) {
     .h-suppliers-txt h1{
-        width: 150%;
+        /* width: 150%; */
         font-size: 45px;
         line-height: 60px;
     }
     .h-suppliers-txt p{
         font-size: 16px;
-        width: 110%;
+        /* width: 110%; */
         line-height: 30px;
     }
     .h-suppliers-txt a{
@@ -594,11 +609,11 @@
     }
     .vec1{
         left: -6rem;
-        width: 105%;
+        width: 106%;
     }
     .vec2{
         width: 30%;
-        top: 5rem;
+        top: 6.5rem;
     }
     
     .you-want-txt .headtxt-card p{
@@ -635,11 +650,11 @@
 @media (min-width:1200px){
     .h-suppliers-txt h1{
         font-size: 54px;
-        width: 150%;
+        /* width: 150%; */
     }
     .h-suppliers-txt p{
         font-size: 16px;
-        width: 105%;
+        /* width: 105%; */
         margin-bottom: 40px;
     }
     .h-suppliers-txt a{
@@ -680,14 +695,14 @@
 }
 @media (min-width:1300px){
     .h-suppliers-txt h1{
-        width: 150%;
+        /* width: 150%; */
         font-size: 67px;
         line-height: 75px;
         font-weight: bolder;
     }
-    .h-suppliers-txt p{
+    /* .h-suppliers-txt p{
         width: 97%;
-    }
+    } */
     .headtxt-card{
         width: 35%;
     }
