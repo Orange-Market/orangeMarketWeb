@@ -374,6 +374,7 @@ footer{
     .company{
         flex: 1;
         justify-content: space-between;
+        padding-right: 4%;
     }
 }
 @media (min-width:790px) {
