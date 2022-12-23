@@ -55,6 +55,7 @@
     height: 200px;
     position: relative;
     background-color: var(--Whisper);
+    background-image: url(../assets/img/who-team.svg);
     border-radius: 10px;
     box-shadow: 3px 3px 30px  var(--Mischka);
     margin-bottom: 13%;
@@ -468,6 +469,15 @@
 }
 .our-mission-crd{
     margin-top: 7%
+}
+/* our value pic */
+.value-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.value-pic img{
+    width: 60%;
 }
 }
 @media (min-width:920px){
