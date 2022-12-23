@@ -730,9 +730,11 @@ header{
         overflow:visible;
         isolation: isolate;
     }
+
     .tx{
-        margin-top: 5%;
+        margin-top: 7%;
     }
+    
     .hero{
         width: 100%;
         display: flex;
@@ -783,7 +785,7 @@ header{
         position: absolute;
         bottom:0;
         width:25rem ;
-        right: 0rem;
+        right: -0.5rem;
         top: -10px;
         overflow: visible;
         z-index: -1;
@@ -839,6 +841,7 @@ header{
         top: 32rem;
         padding: 5%;
         margin-top:0px;
+        z-index: -1;
     }
 
     .supplies-txt{
@@ -867,6 +870,7 @@ header{
         position: relative;
         top: 2rem;
         margin-bottom: 0;
+        z-index: -1;
     }
     .supplies-txt ul li{
         font-size: .72rem;
@@ -881,7 +885,7 @@ header{
         height: 580px;
         overflow-y: hidden;
         position: relative;
-        
+        z-index: -1;
     }
     .flexibility::before{
         content: '';
@@ -960,6 +964,7 @@ header{
     /* you can */
     .you-want{
         padding: 10% 5%;
+        z-index: -1;
     }
     .you-want-card{
         display:grid;
@@ -1045,10 +1050,12 @@ header{
     .start-using{
         display: flex;
         gap: 20px;
+        z-index: -1;
     }
     .su-crd{
         width: 65%;
         position: relative;
+        z-index: -1;
     }
     .su-crd::after{
         content: '';
@@ -1076,6 +1083,7 @@ header{
     .su-txt{
         position: relative;
         top: 3.4rem;
+        z-index: -1;
     }
     .su-txt li a{
         font-size: 13px;
@@ -1112,13 +1120,16 @@ header{
     .su-btn{
         font-size: 11px;
     }
+    .ts{
+        margin-top: 15%;
+    }
     /* carousel */
     .carousel{
         position: relative;
         overflow: hidden;
         background-color: #FFFFFF;
         width: 90vw;
-        
+        z-index: -1;
     }
     .carousel__slide{
         position: relative;
@@ -1187,7 +1198,7 @@ header{
     }
     .hero-img{
         width:27rem ;
-        right: 0rem;
+        right: -0.5rem;
         top: -45px;
     }
     .All-supplies{
@@ -1509,7 +1520,7 @@ header{
 }
 @media (min-width:1050px) {
     .hero-text{
-        margin-top: 7%;
+        margin-top: 10%;
     }
     .hero-text h1{
         font-size: 3.5rem;
@@ -1563,6 +1574,10 @@ header{
     .you-card{
         padding: 15px 25px 30px;
     }
+    .tx{
+        margin-top: 6%;
+    }
+    
 }
 @media (min-width:1300px){
     header{
