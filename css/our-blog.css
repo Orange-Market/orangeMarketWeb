@@ -239,6 +239,7 @@ footer{
     }
     .primary-blog{
         padding: 0 2rem;
+        z-index: -1;
     }
     .our-blogcard{
         width: 35%;
@@ -258,6 +259,7 @@ footer{
         background-color:var(--Thunderbird);
         border-radius: 20px;
         margin-top: 20%;
+        z-index: -1;
     }
     .aside{
         display: flex;
