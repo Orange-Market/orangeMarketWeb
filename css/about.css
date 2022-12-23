@@ -168,6 +168,11 @@
     border-radius: 50%;
     margin-bottom: 13px;
 }
+.value-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .you-want-txt h2{
     font-size:24px ;
     font-weight: bold;
