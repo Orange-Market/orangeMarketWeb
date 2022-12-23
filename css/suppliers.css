@@ -352,8 +352,8 @@
     }
     .bc-txt::after{
         position: absolute;
-        width: 10%;
-        /* height: 30%; */
+        width: 33px;
+        height: 33px;
         top: 0;
         left: -50px;
         border-radius: 50%;
