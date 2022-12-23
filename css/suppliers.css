@@ -352,9 +352,9 @@
     }
     .bc-txt::after{
         position: absolute;
-        width: 33px;
-        height: 33px;
-        top: 0;
+        width: 30px;
+        height: 30px;
+        top: -5px;
         left: -50px;
         border-radius: 50%;
         background-color:var(--white) ; 
@@ -362,7 +362,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: .3em .18em; 
+        padding: .3em .3em; 
     }
     .bc-txt1::after{
         content: url(../assets/img/2000+-icon.svg);
@@ -639,8 +639,8 @@
 }
 @media (min-width:1080px) {
     .bc-txt::after{
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         left: -60px;
         opacity: .42;
     }
