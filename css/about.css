@@ -470,6 +470,15 @@
 .our-mission-crd{
     margin-top: 7%
 }
+/* our value pic */
+.value-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.value-pic img{
+    width: 60%;
+}
 }
 @media (min-width:920px){
     .gridcard-1{

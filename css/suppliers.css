@@ -352,14 +352,26 @@
     }
     .bc-txt::after{
         position: absolute;
-        content: '';
-        width: 30px;
-        height: 30px;
+        width: 10%;
+        /* height: 30%; */
         top: 0;
         left: -50px;
         border-radius: 50%;
-        background-color:var(--white) ;
+        background-color:var(--white) ; 
         opacity: .42;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .3em .18em; 
+    }
+    .bc-txt1::after{
+        content: url(../assets/img/2000+-icon.svg);
+    }
+    .bc-txt2::after{
+        content: url(../assets/img/reduce-icon.svg);
+    }
+    .bc-txt3::after{
+        content: url(../assets/img/getpaid-icon.svg);
     }
     .bc-txt h3{
         font-size: 18px;
