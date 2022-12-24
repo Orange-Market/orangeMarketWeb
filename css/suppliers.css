@@ -176,21 +176,22 @@
 .bc-txt{
     position: relative;
     left: 10px;
+    margin-left: 10px;
 }
 .bc-txt::after{
     content: '';
     position: absolute;
-    width: 15px;
-    height: 15px;
+    width: 10px;
+    height: 10px;
     top: -5px;
-    left: -40px;
+    left: -48px;
     border-radius: 50%;
     background-color:var(--white) ; 
     opacity: .42;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .6em .6em;
+    padding: .8em .8em;
 }
 .bc-txt1::after{
     content: url(../assets/img/2000+-icon.svg);
