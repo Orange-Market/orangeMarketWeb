@@ -207,6 +207,13 @@ body{
     .primary-navigation.is-active{
         transform: translateX(0%);
     }
+    /* .navHome, .navAbout{
+        background-color: transparent;
+        background-image: url(../assets/img/heroBacground.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
 }
 @media (min-width:720px) {
     .logo{

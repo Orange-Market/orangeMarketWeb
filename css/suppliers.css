@@ -169,6 +169,34 @@
     color: var(--Thunderbird);
     border-radius: 10px;
 }
+.bc-txt{
+    position: relative;
+    left: 10px;
+}
+.bc-txt::after{
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -5px;
+    left: -40px;
+    border-radius: 50%;
+    background-color:var(--white) ; 
+    opacity: .42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .6em .6em;
+}
+.bc-txt1::after{
+    content: url(../assets/img/2000+-icon.svg);
+}
+.bc-txt2::after{
+    content: url(../assets/img/reduce-icon.svg);
+}
+.bc-txt3::after{
+    content: url(../assets/img/getpaid-icon.svg);
+}
 /* testimony */
 .testi-txt{
     width: 100%;

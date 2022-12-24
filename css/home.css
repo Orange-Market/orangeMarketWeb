@@ -21,12 +21,15 @@ header{
 
 /* hero styling */
 .hero{
-    height:  664px;
+    height:  694px;
     overflow: visible;
     
 }
 .tx{
     margin-top: 20%;
+}
+.ts{
+    margin-top: 12%;
 }
 .hero-trusted{
     display: none;
@@ -246,7 +249,7 @@ header{
 }
 /* flexibility */
 .flexibility{
-    margin-top: 14rem;
+    margin-top: 18rem;
     padding-bottom: 2.5rem;
     position: relative;
     width: 100%;
@@ -452,12 +455,12 @@ header{
     background-color: var(--Thunderbird);
     border-radius: 100vw;
 } */ 
-@supports(scrollbar-color: white var(--Thunderbird)){
+/* @supports(scrollbar-color: white var(--Thunderbird)){
     .you-want-card{
         scrollbar-color:var(--Thunderbird) rgb(238, 235, 235) ;
         scrollbar-width: none;
     }
-}
+} */
 .you-card p{
     width: 100%;
 }
