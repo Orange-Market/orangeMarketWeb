@@ -1,0 +1,813 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.hero-suppliers{
+    /* background-image: url(../assets/img/background-mobile.png); */
+    background-image: linear-gradient(rgba(0, 0, 0, .3),rgba(0, 0, 0, .3)),url(../assets/img/two-women-viewing-content-phone-local-african-market\ 1.svg);
+    background-position:center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.hero-suppliers-container{
+    width: 100%;
+    text-align: center;
+}
+.h-suppliers-txt{
+    margin-bottom: 30px;
+    padding: 35% 5% 37% ;
+}
+.h-suppliers-txt h1{
+    font-size: 34px;
+    line-height: 40px;
+    margin-top: 40%;
+    color: var(--white);
+}
+.h-suppliers-txt p{
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 95%;
+    text-align: center;
+    color: var(--white);
+}
+.h-suppliers-txt a{
+    font-family: sans-serif;
+    font-size: 12px;
+    /* check de font used */
+    font-weight: 900;
+    text-decoration: none;
+    padding: 1.1em 1.19em;
+    background-color: var(--Thunderbird);
+    color: var(--white);
+    border-radius: 10px;
+}
+.h-suppliers-img{
+    width: 100%;
+    display: flex;
+}
+.h-suppliers-img img{
+    width: 100%;
+    position: relative;
+    margin-left: 0px;
+}
+.second-img{
+    display: none;
+}
+/* our */
+.you-want{
+    display: none;
+    padding: 4rem 1.3rem 2rem;
+}
+.you-want .value-card p{
+    color: var(--CadetBlue);
+}
+.you-card{
+    padding: 12px ;
+    border-radius: 10px;
+    box-shadow: -4px 12px 14px -1px var(--gallary) ;
+    margin-bottom: 35px;
+}
+#value-card{
+    padding: 20px 12px 15px ;
+    margin-bottom: 40px;
+}
+.you-want-txt h2{
+    font-size:24px ;
+    font-weight: bold;
+}
+
+.you-card h4{
+    font-size: 1px;
+    font-weight:bold ;
+    margin-bottom: 10px;
+}
+.you-card p{
+    width: 100%;
+}
+.head-text{
+    display: block;
+}
+.our-value-txt h2{
+    margin-bottom: 15px;
+}
+/* becomme one of us */
+
+.becom-1{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-color: var(--Thunderbird);
+    isolation: isolate;
+}
+/* .becom-1::after{
+    position: absolute;
+    content: url(../assets/img/bg-img-left.png);
+    width: 20%;
+    top:-2rem;
+    transform: rotate(5deg);
+    left: -100px;
+    z-index: -1;
+    opacity: .1;
+} */
+.vec, .vec2, .vec1{
+    position:absolute ;
+    z-index: -1;
+    opacity: .1;
+}
+.vec{
+    width: 127%;
+    top: -5rem;
+    left: -3rem;
+    z-index: -1;
+    opacity: .1;
+    transform: rotate(8deg);
+}
+.vec img,.vec2 img, .vec1 img{
+    width: 100%;
+}
+.becom1-container{
+    width: 100%;
+    padding: 13% 8% 15%;
+    color: var(--white);
+
+}
+.becom1-txt1 h1{
+    font-size: 24px;
+    margin-bottom:15px ;
+    font-weight: bolder;
+}
+.becom1-txt1 p{
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.becom-btn1{
+    display: none;
+}
+.bc-txt h3{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.bc-txt p{
+    font-size: 14px;
+    width: 100%;
+    line-height: 25px;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+.bctxtp p{
+    margin-bottom: 50px;
+}
+.becom1-txt2 a{
+    font-size: 14px;
+    text-decoration: none;
+    padding: 1.2em 1.7em;
+    background-color: var(--white) ;
+    color: var(--Thunderbird);
+    border-radius: 10px;
+}
+.bc-txt{
+    position: relative;
+    left: 10px;
+    margin-left: 10px;
+}
+.bc-txt::after{
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: -5px;
+    left: -48px;
+    border-radius: 50%;
+    background-color:var(--white) ; 
+    opacity: .42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8em .8em;
+}
+.bc-txt1::after{
+    content: url(../assets/img/2000+-icon.svg);
+}
+.bc-txt2::after{
+    content: url(../assets/img/reduce-icon.svg);
+}
+.bc-txt3::after{
+    content: url(../assets/img/getpaid-icon.svg);
+}
+/* testimony */
+.testi-txt{
+    width: 100%;
+    padding: 0 5%;
+    position: relative;
+    top: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 80px;
+}
+/* .checked{
+    color: var(--Thunderbird);
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:420px) {
+    .vec{
+        width: 100%;
+        
+    }
+}
+@media (min-width:520px) {
+    .vec{
+        width: 80%;
+        
+    }
+}
+@media (min-width:620px) {
+    .vec{
+        width: 68%;
+        
+    }
+}
+@media (min-width:720px) {
+    .hero-suppliers-container{
+        display: flex;
+    }
+    .first-img{
+        display: none;
+    }
+    .second-img{
+        display: block;
+    }
+    .h-suppliers-img{
+        width: 110%;
+    }
+    .h-suppliers-txt{
+        width: 100%;
+        padding: 13% 5% 20%;
+        margin-bottom: .5%;
+    }
+    .h-suppliers-txt p{
+        font-size: 12px;
+        width: 55%;
+        text-align: left;
+        margin: 0;
+        margin-bottom: 33px;
+
+    }
+    .h-suppliers-img img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .hero-suppliers-container{
+        text-align: left;
+    }
+    .h-suppliers-txt a{
+        font-size: 11px;
+    }
+    .h-suppliers-txt h1{
+        margin-top: 0;
+        font-size: 35px;
+    }
+    /* head text */
+    .you-want{
+        display: block;
+    }
+    .headt{
+        padding: 5% 5%;
+    }
+    
+    .you-want-card{
+        display: flex;
+        gap: 10px;
+    }
+    .you-card h4{
+        font-size: 16px;
+    }
+    .you-want-txt h2{
+        font-size: 44px;
+    }
+    .headt-txt h2{
+        width: 50%;
+    }
+    .you-card p{
+        font-size: 14px;
+    }
+
+    .headtxt-card h4{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .you-card{
+        display: block;
+        background-color: var(--white);
+        position: relative;
+        box-shadow: -4px 32px 14px -1px var(--Porcelain);
+    }
+    .headtxt-card p{
+        font-size: 14px;
+    }
+    .you-card::after{
+        content:'';
+        position: absolute;
+        width: 98%;
+        height: 5%;
+        z-index: -1;
+        background-color: #ffffff;
+        box-shadow:-0px 50px 29px  40px  var(--Porcelain);
+    }
+    .you-card:nth-child(1)::after {
+        width: 70%;
+        left: 50px;
+    }
+    .you-card:nth-child(3)::after{
+        width: 70%;
+        right: 40px;
+    }
+    .headt-txt h2{
+        margin-bottom: 30px;
+    }
+    .you-want-txt .headt-card p{
+        width: 100%;
+    }
+    .you-want-txt .headtxt-card h4{
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    /* become one our */
+    .head-text{
+        display: none;
+    }
+    .becom1-container{
+        display: flex;
+        justify-content: space-between;
+        padding: 5%;
+    }
+    .becom-btn2{
+        display: none;
+    }
+    .becom-btn1{
+        display: inline-block;
+        font-size: 14px;
+        text-decoration: none;
+        padding: 1em 1.6em;
+        background-color:var(--white) ;
+        color: var(--Thunderbird);
+        border-radius: 10px;
+    }
+    .bc-txt p{
+        width: 80%;
+        font-size: 12px;
+    }
+    
+    .bc-txt{
+        position: relative;
+    }
+    .bc-txt::after{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        top: -5px;
+        left: -50px;
+        border-radius: 50%;
+        background-color:var(--white) ; 
+        opacity: .42;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: .3em .3em; 
+    }
+    .bc-txt1::after{
+        content: url(../assets/img/2000+-icon.svg);
+    }
+    .bc-txt2::after{
+        content: url(../assets/img/reduce-icon.svg);
+    }
+    .bc-txt3::after{
+        content: url(../assets/img/getpaid-icon.svg);
+    }
+    .bc-txt h3{
+        font-size: 18px;
+
+    }
+    /* .becom-1::before{
+        position: absolute;
+        content: url(../assets/img/bg-top-right.png);
+        height: fit-content;
+        width: 51px;
+        top:-20px;
+        right:74rem;
+        transform: rotate(-5deg);
+        z-index: -1;
+        opacity: .2;
+    } */
+    /* .vector{
+        position: absolute;
+        content: url(../assets/img/bg-btm-right.png);
+        height: 100%;
+        width: 50%;
+        bottom:0px;
+        right: 0px;
+        transform: rotate(0deg);
+        z-index: -1;
+        opacity: .2;
+    } */
+    .vec, .vec2, .vec1{
+        position:absolute ;
+        z-index: -1;
+        opacity: .1;
+    }
+    .vec{
+        width: 40%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transform: rotate(0deg);
+    }
+    .vec1{
+        top: 0;
+        left: -12rem;
+        width: 121%;
+    }
+    .vec2{
+        width: 41%;
+        top: 4rem;
+        right: 0;
+    }
+    .vec img,.vec2 img, .vec1 img{
+        width: 100%;
+    }
+    .becom1-txt1 h1{
+        font-size: 34px;
+        width: 100%;
+    }
+    .becom1-txt1 p{
+        width: 90%;
+        font-size: 12px;
+    }
+    .becom1-txt2{
+        position: relative;
+        left: 10%;
+    }
+    .testi-txt{
+        position: relative;
+        top: 2rem;
+        margin-bottom: 0;
+    }
+    .testi-txt p{
+        color: var(--font-Zeus);
+    }
+
+    .h-suppliers-txt h1{
+        width: 70%;
+        font-size: 34px;
+        font-family: 'Urbanist', sans-serif;
+        font-weight: 900;
+    }
+}
+@media (min-width:820px) {
+    .h-suppliers-txt h1{
+        font-size: 35px;
+        /* width: 50%; */
+    }
+    .h-suppliers-txt p{
+        font-size: 13px;
+        margin-bottom: 32px;
+    }
+    .you-want-txt .headtxt-card h4{
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    .you-want-txt  .headt-txt h2 {
+        width: 45%;
+        font-weight: bold;
+        font-size: 30px;
+}
+}
+@media (min-width:902px) {
+    .vec1{
+        top: 0;
+        left: -3rem;
+        width: 101%;
+    }
+    .vec2{
+        width: 29%;
+        top: 4.3rem;
+        right: 0;
+    }
+
+}
+@media (min-width:920px){
+    .becom1-container{
+        gap: 20px;
+        padding: 7% 5%;
+    }
+    .headtxt-card h4{
+        font-size: 16px;
+    }
+    .headtxt-card p{
+        width: 100%;
+        font-size: 14px
+    }
+    /* become */
+        .becom-1::before{
+        height: 30%;
+        width: 20%;
+        right:65rem;
+        top: -10px;
+    }
+    .vector{
+        width: 40%;
+    }
+    .becom1-txt1 h1{
+        font-size: 44px;
+        width: 100%;
+        line-height: 55px;
+    }
+    .becom1-txt1 p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .bc-txt p{
+        font-size: 16px;
+    }
+    .bc-txt h3{
+        font-size: 20px;
+
+    }
+    .vec{
+        width: 35%;
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+    }
+    .vec1{
+        top: 0;
+        left: -6rem;
+        width: 105%;
+    }
+    .vec2{
+        width: 35%;
+        top: 5rem;
+        right: 0;
+    }
+    .h-suppliers-txt h1{
+        font-size: 40px;
+        line-height: 50px;
+        /* width: 130%; */
+    }
+    .h-suppliers-txt p{
+        font-size: 14px;
+        margin-bottom: 35px;
+        /* width: 120%; */
+    }
+    .you-want-txt .headtxt-card h4{
+        font-size: 16px;
+        font-weight: bolder;
+    }
+    .you-want-txt .headtxt-card p{
+        font-size: 14px;
+    }
+    #headtexth2 {
+        width: 50%;
+        font-weight: bold;
+        font-size: 30px;
+}
+    
+}
+@media (min-width:1020px) {
+    .h-suppliers-txt h1{
+        /* width: 150%; */
+        font-size: 45px;
+        line-height: 60px;
+    }
+    .h-suppliers-txt p{
+        font-size: 16px;
+        /* width: 110%; */
+        line-height: 30px;
+    }
+    .h-suppliers-txt a{
+        font-size: 14px;
+    }
+    /* head text */
+    .headt-card{
+        gap: 10px;
+    }
+    .headtxt-card{
+        padding-left: 20px;
+    }
+    .headtxt-card p{
+        width: 95%;
+        font-size: 18px;
+    }
+    /* become one */
+    .becom-1::before{
+        height: 40%;
+        width: 30%;
+        right:57rem;
+        top: 20px;
+    }
+    .vector{
+        width: 37%;
+    }
+    .becom1-txt1 h1{
+        font-size: 44px;
+        width: 85%;
+    }
+    .becom1-txt1 p{
+        width: 70%;
+        font-size: 18px;
+    }
+    .becom1-txt1 a{
+        font-size: 16px;
+    }
+    .bc-txt p{
+        font-size: 16px;
+        font-weight: normal;
+    }
+    .bc-txt h3{
+        font-size: 24px;
+    }
+    .vec{
+        width: 35%;
+
+    }
+    .vec1{
+        left: -6rem;
+        width: 106%;
+    }
+    .vec2{
+        width: 30%;
+        top: 6.5rem;
+    }
+    
+    .you-want-txt .headtxt-card p{
+        font-size: 15px;
+    }
+    #headtexth2 {
+        width: 45%;
+        font-weight: bolder;
+        font-size: 30px;
+}
+}
+@media (min-width:1080px) {
+    .bc-txt::after{
+        width: 35px;
+        height: 35px;
+        left: -60px;
+        opacity: .42;
+    }
+    .vec2{
+        width: 30%;
+        top: 3rem;
+        right: 0;
+    }
+    .vec1 {
+        left: -3rem;
+        width: 100%;
+      }
+      .vec, .vec2, .vec1{
+        position:absolute ;
+        z-index: -1;
+        opacity: .1;
+    }
+}
+@media (min-width:1200px){
+    .h-suppliers-txt h1{
+        font-size: 54px;
+        /* width: 150%; */
+    }
+    .h-suppliers-txt p{
+        font-size: 16px;
+        /* width: 105%; */
+        margin-bottom: 40px;
+    }
+    .h-suppliers-txt a{
+        font-size: 15px;
+    }
+    .vec{
+        width: 30%;
+        top: 0;
+        left: 0;
+        transform: rotate(0deg);
+    }
+    .vec1{
+        top: 0;
+        left: 0rem;
+        width: 95%;
+    }
+    .vec2{
+        width: 30%;
+        top: 2rem;
+        right: 0;
+    }
+    .you-want-txt .headtxt-card h4{
+        font-weight: 20px;
+    }
+    .you-want-txt .headtxt-card p{
+        font-size: 16px;
+    }
+    #headtexth2 {
+        width: 44%;
+        font-weight: bolder;
+        font-size: 37px;
+        line-height: 54px;
+}
+.becom1-txt1 h1{
+    font-size: 44px;
+    width: 80%;
+}
+}
+@media (min-width:1300px){
+    .h-suppliers-txt h1{
+        /* width: 150%; */
+        font-size: 67px;
+        line-height: 75px;
+        font-weight: bolder;
+    }
+    /* .h-suppliers-txt p{
+        width: 97%;
+    } */
+    .headtxt-card{
+        width: 35%;
+    }
+    /* become */
+    .becom1-container{
+        padding: 5%;
+    }
+    .becom1-txt1 h1{
+        font-size: 50px;
+        width: 90%;
+    }
+    .vector{
+        width: 30%;
+    }
+    .becom-1::before{
+        right:50rem;
+        top: 50px;
+    }
+    .becom1-txt1 p{
+        width: 85%;
+        font-size: 19px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    .bc-txt p{
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+    .bc-txt h3{
+        font-size: 27px;
+    }
+    .bc-txt p{
+        font-size: 18px;
+        width: 80%;
+    }
+
+}
+@media (min-width:1400px){
+    .h-suppliers-txt h1{
+        width: 150%;
+        margin-bottom: 3%;
+    }
+    .h-suppliers-txt p{
+        width: 80%;
+        margin-left: 0;
+    }
+    .becom1-txt1 h1{
+        font-size: 60px;
+    }
+    .becom1-txt1 p{
+        width: 100%;
+    }
+    .bc-txt p{
+        width: 85%;
+    }
+    #headtexth2 {
+        width: 44%;
+        font-weight: bolder;
+        font-size: px;
+        line-height: 54px;
+}
+    
+}

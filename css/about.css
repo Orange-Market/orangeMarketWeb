@@ -1,0 +1,773 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Urbanist', sans-serif;
+}
+.header-about{
+    background-image: url(../assets/img/background-mobile.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10%;
+}
+.tx{
+    margin-top: 10%;
+}
+.about-container{
+    width: 100%;
+    text-align: center;
+    padding:35% 7% 15% 7% ;
+    bottom: 7%;
+}
+.abt-hero-txt h1{
+    font-size: 32px;
+    font-weight: bold; 
+    margin-bottom: 3%; 
+}
+.abt-hero-txt p{
+    width: 95%;
+    margin: 0 auto;
+    line-height: 23px;
+    margin-bottom: 7%;
+    color: var(--headerp);
+    font-weight: normal;
+}
+.about-hero a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: .8em 1.6em;
+    background-color: var(--Thunderbird);
+    color: var(--white);
+    border-radius: 10px;
+}
+.supplies-grid-container{
+    display: none;
+}
+/* who we are */
+.who-we{
+    margin-top: 100px;
+    padding: 0 5%;
+}
+.who-we-crd{
+    width: 90%;
+    height: 200px;
+    position: relative;
+    background-color: var(--Whisper);
+    background-image: url(../assets/img/who-team.svg);
+    border-radius: 10px;
+    box-shadow: 3px 3px 30px  var(--Mischka);
+    margin-bottom: 13%;
+}
+.who-we-crd::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -2.2rem;
+    right: -2.2rem;
+    background-color: var(--Whisper);
+    border-radius: 10px;
+    z-index: -1;
+}
+/* who we are text */
+.who-we-txt h2{
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 54px;
+    font-weight:bolder ;
+}
+.who-we-txt p{
+    margin-bottom: 5%;
+    line-height: 24px;
+    font-size: 16px;
+}
+/* team */
+.team{
+    padding: 0 5%;
+    margin: 10% 0;
+    margin-top: 100px;
+}
+.team-txt h1{
+    font-size: 24px;
+    /* margin-bottom: 5%; */
+    line-height: 54px;
+    color: var(--font-Zeus);
+}
+.team-txt p{
+    font-size: 16px;
+    color: var(--font-Zeus);
+    line-height: 30px;
+}
+.tmp1-pic{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--Beauty-Bush);
+    opacity: .2;
+    margin-bottom: 7px;
+    
+}
+.tm-p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.team-profile1{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+.tm-p1 h3{
+    font-size: 18px;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    line-height:32px ;
+}
+.tm-p1 p{
+    font-size: 12px;
+    color: var(--Thunderbird);
+    line-height: 32px;
+    margin-bottom: 10px;
+}
+.tm-p1 a{
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--CadetBlue);
+}
+.in{
+    margin-right: 2px;
+}
+/* our-mission */
+.our-mission{
+    display: none;
+}
+/* our value */
+.you-want{
+    padding: 4rem 1.3rem 2rem;
+}
+.you-want p{
+    color: var(--Tapa);
+}
+.you-card{
+    padding: 12px;
+    border-radius: 10px;
+    box-shadow: -4px 12px 14px -1px var(--gallary) ;
+    margin-bottom: 35px;
+    margin:0 10px 5px;
+}
+.pic{
+    width: 56px;
+    height: 56px;
+    background-color: var(--Beauty-Bush);
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+.value-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.you-want-txt h2{
+    font-size:24px ;
+    font-weight: bold;
+    line-height: 36px;
+}
+.you-want-txt p{
+    width: 86%;
+    line-height: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.you-card h4{
+    font-size: 20px;
+    font-weight:bold ;
+    margin-bottom: 10px;
+}
+.you-card p{
+    width: 95%;
+}
+/* supplie css */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:720px) {
+    /* hero text styling */
+    .header-about{
+        background-image: url(../assets/img/heroBacground.png);
+        
+    }
+    .tx{
+        margin-top: 5%;
+    }
+    .abt-hero-txt .abt-h1{
+        font-size: 30px;
+        font-weight: bold; 
+        margin-bottom: 5%; 
+    }
+    .abt-hero-txt p{
+        width: 105%;
+        margin: 0 auto;
+        line-height: 23px;
+        margin-bottom: 9%;
+        font-size: 11px;
+    }
+    .about-hero a{
+        text-decoration: none;
+        font-size: 14px;
+        padding: .8em 1.6em;
+        background-color: var(--Thunderbird);
+        color: var(--white);
+        border-radius: 10px;
+    }
+    .about-hero{
+        align-self: end;
+        flex: .8;
+        margin-top: 7%;
+    }
+    /* about container */
+    .about-container{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        text-align: left;
+        padding:6% 4% 10% 8% ;
+    }
+
+
+    .supplies-grid{
+        width: 100%;
+    }
+    .supplies-grid{
+        display: flex;
+        gap: 3%;
+    }
+    .supplies-grid-container{
+        display: block;
+        width: 40%;
+        padding: 15px;
+        padding-bottom: 0px;
+    }
+    .supplies-grd{
+        width: 50%;
+        margin-top: 5%;
+    }
+    /* grid card design */
+.gridcard-1{
+    width: 50%;
+    height: 130px;
+    background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/woman-tomato.svg);
+    border-radius: 10px;
+    position: relative;
+    
+}
+.gridcard-1::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/carrot.svg);
+    bottom: -105%;
+    border-radius: 10px;
+}
+.gridcard-2{
+    width: 50%;
+    height: 130px;
+    background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/woman-onion.svg);
+    border-radius: 10px;
+    position: relative;
+    bottom: 15px;
+}
+.gridcard-2::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: var(--Wild-Sand);
+    background-image: url(../assets/img/fruites.svg);
+    bottom: -105%;
+    border-radius: 10px;
+}
+.gridcard-1, .gridcard-2, .gridcard-1::after, .gridcard-2::after{
+    background-position:center ;
+    background-size: cover;
+}
+/* who we are design */
+.who-we{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 10%;
+    padding-right: 6%;
+    
+
+}
+.who-we-txt{
+    flex: 1.2;
+}
+.who-we-crd{
+    flex: 1;
+    align-self: center;
+}
+
+.who-we-crd{
+    width: 40%;
+    height: 180px;
+    position: relative;
+    /* background-color: var(--Whisper); */
+    border-radius: 10px;
+    box-shadow: 3px 3px 30px var(--Mischka);
+    margin-bottom: 7%;
+    background-image: url(../assets/img/who-team.svg);
+    background-position: center;
+    background-size: cover;
+}
+#our-mcard{
+    background-image: url(../assets/img/ourm-card.svg);
+}
+.who-we-crd::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -2.2rem;
+    right: -2.2rem;
+    background-color: var(--Whisper);
+    border-radius: 10px;
+    z-index: -1;
+}
+/* who we are text */
+.who-we-txt h2{
+    margin-bottom: 10px;
+    font-size: 24px;
+    line-height: 52px;
+    font-weight: bolder;
+}
+.who-we-txt p{
+    font-size: 10px;
+    margin-bottom: 5%;
+    line-height: 24px;
+}
+/* team */
+.team{
+    margin-top: 8%;
+}
+.team-profile{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.team-profile1{
+    flex:1;
+    justify-content: space-between;
+    flex: 1;
+}
+.team-txt h1{
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+.team-txt p{
+    width: 85%;
+    font-size: 12px;
+    line-height: 24px;
+}
+.tm-p1 h3{
+    font-weight: bold;
+    font-size: 18px;
+}
+.team-profile1{
+    display: flex;
+    margin-top: 5%;
+}
+/* our mission */
+.our-mission{
+    flex-direction: row;
+}
+.our-mission a{
+    text-decoration: none;
+    font-size: 14px;
+    padding: .8em 1.6em;
+    background-color: var(--Thunderbird);
+    color: var(--white);
+    border-radius: 10px;
+}
+/* our vale */
+.you-want{
+    padding: 60px 5% 5%;
+}
+.you-want-card{
+    display: flex;
+    gap: 1px;
+}
+.you-want-txt h2{
+    font-size: 24px;
+}
+.you-want-txt{
+    font-size:18px ;
+    font-weight: 400;
+}
+.you-want-txt p{
+    font-size: 12px;
+    width: 70%;
+}
+.value-card h4{
+    font-size: 18px;
+    font-weight: 400;
+}
+.you-card{
+    padding-right: 2px;
+    padding-left: 10px;
+    background-color: var(--white);
+    position: relative;
+    box-shadow: -4px 32px 14px -1px var(--Porcelain);
+    margin: 0 5px 5px;
+}
+
+.value-card p{
+    font-size: 11px;
+    width: 100%;
+}
+.you-card::after{
+    content:'';
+    position: absolute;
+    width: 98%;
+    height: 5%;
+    z-index: -1;
+    background-color: var(--white);
+    box-shadow:-0px 30px 30px  40px  var(--Porcelain);
+}
+.you-card:nth-child(1)::after {
+    width: 70%;
+    left: 50px;
+}
+.you-card:nth-child(3)::after{
+    width: 70%;
+    right: 40px;
+}
+.our-value-txt h2{
+    margin-bottom: 15px;
+}
+.our-value-txt p{
+    margin-bottom: 20px;
+}
+.our-mission-crd{
+    margin-top: 7%
+}
+/* our value pic */
+.value-pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.value-pic img{
+    width: 60%;
+}
+}
+@media (min-width:920px){
+    .gridcard-1{
+        height: 160px;
+    }
+    .gridcard-2{
+        height: 160px;
+    }
+    /* who we are */
+    .who-we-crd{
+        width: 90%;
+        height: 240px;
+
+    }
+    .who-we-crd::before{
+        bottom: -3rem;
+    }
+    /* team design */
+    .team-txt p{
+        width: 60%;
+        font-size: 14px;
+    }
+    .team{
+        padding: 0 5%;
+        margin: 5% 0;
+    }
+    .team-txt h1{
+        font-size: 24px;
+        margin-bottom: 5%;
+        color: var(--font-Zeus);
+    }
+    .tm-p11{
+        position: relative;
+        left: 0px;
+    }
+
+    .tmp1-pic{
+        width: 100px;
+        height: 100px;
+    }
+    
+    .tm-p1 h3{
+        font-weight: bold;
+        font-size: 19px;
+    }
+    .tm-p1 p{
+        font-size: 14px;
+    }
+    .tm-p1 a{
+        font-size: 16px;
+        color: var(--CadetBlue);
+    }
+    .in{
+        margin-right: 2px;
+    }
+    /* option */
+    .team{
+    padding: 0 5%;
+    margin: 8% 0;
+}
+.team-txt h1{
+    font-size: 24px;
+    margin-bottom: 1%;
+    color: var(--font-Zeus);
+}
+.tmp1-pic{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--Tuscany);
+    margin-bottom: 10px;
+    
+}
+.tm-p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+.team-profile1{
+    display: flex;
+    margin-top: 10%;
+    justify-content: space-between;
+}
+.tm-p1 h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.tm-p1 p{
+    font-size: 16px;
+    color: var(--Thunderbird);
+}
+
+/* who we are */
+.who-we-txt h2{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 2%;
+}
+.who-we-txt p{
+    font-size: 14px;
+}
+/* our mission */
+.our-mission p{
+    font-size: 14px;
+}
+.our-mission a{
+    font-size: 16px;
+}
+/* our value */
+.our-value-txt p{
+    width: 100%;
+}
+.our-value-txt .p{
+    width: 50%;
+    font-size: 14px;
+}
+.about-container{
+    padding:6% 4% 10% 8% ;
+}
+.abt-hero-txt .abt-h1{
+    font-size: 35px;
+}
+} 
+@media (min-width:983px) {
+    .abt-hero-txt .abt-h1
+    {
+        font-size: 40px;
+    }
+}
+@media (min-width:1020px) {
+    .value-card{
+        height: 250px;
+        padding-left: 20px;
+    }
+    .value-card p{
+        width: 100%;
+        font-size: 16px;
+    }
+    .about-hero{
+        margin-bottom: 7%;
+    }
+    .tm-p11{
+        
+        left: -17px;
+    }
+    .about-container{
+        padding:6% 4% 7% 8% ;
+    }
+    .team-txt p{
+        width: 70%;
+        font-size: 15px;
+    }
+}
+@media (min-width:1200px) {
+    /* grid */
+    .gridcard-1{
+        height: 220px;
+    }
+    .gridcard-2{
+        height: 220px;
+    }
+    .abt-hero-txt .abt-h1{
+        font-size: 50px;
+        font-weight: bold; 
+        margin-bottom: 1%; 
+    }
+    .abt-hero-txt p{
+        width: 90%;
+        margin: 0 ;
+        line-height: 28px;
+        margin-bottom: 9%;
+        font-size: 16px;
+    }
+    .about-hero a{
+        text-decoration: none;
+        font-size: 16px;
+        padding: .8em 1.6em;
+        background-color: var(--Thunderbird);
+        color: var(--white);
+        border-radius: 10px;
+    }
+    .about-hero{
+        margin-top: 7%;
+    }
+    /* who we are */
+    .who-we-txt h2{
+        font-size: 29px;
+    }
+    .who-we-txt p{
+        font-size: 18px;
+    }
+    /* team design */
+    .team-txt p{
+        width: 60%;
+        font-size: 16px;
+    }
+    /* option */
+    .team-profile1{
+        margin-top: 3%;
+    }
+    .team-txt h1{
+        margin-bottom: 3%;
+    }
+    .team-profile{
+        width: 100%;
+    }
+    /* our mission */
+    /* our mission */
+    .our-mission p{
+        font-size: 18px;
+    }
+    .our-mission a{
+        font-size: 17px;
+    }
+    /* our value */
+    .value-card{
+        height: fit-content;
+        padding-left: 20px;
+    }
+    .you-want-txt h2{
+        font-size: 44px;
+    }
+    /* .about-container*/
+    .about-container{
+        padding:6% 4% 5% 8% ;
+    }
+}
+@media (min-width:1300px) {
+
+    /* grid */
+    .abt-hero-txt .abt-h1{
+        font-size: 55px; 
+        font-weight: bolder;
+    }
+    .abt-hero-txt p{
+        width: 100%;
+        line-height: 30px;
+        margin-bottom: 9%;
+        font-size: 18px;
+    }
+    /* who we are */
+    .who-we-txt h2{
+        margin-bottom: 5%;
+        font-size: 44px;
+    }
+    .who-we-txt p{
+        font-size: 16px;
+    }
+    .who-we-crd{
+        width: 40%;
+        height: 310px;
+        flex: none;
+    }
+    
+    /* tm */
+    .tm-p12{
+        position: relative;
+        left: -50px;
+    }
+    .tm-p11{
+        
+        left:-50px ;
+    }
+    /*  value-card */
+    .value-card p{
+        width: 100%;
+        padding-bottom:0 ;
+    }
+    .about-container{
+        padding:6% 4% 4% 8% ;
+    }
+    .who-we-crd::before{
+        bottom: -4rem;
+        right: -3.1rem;
+    }
+    .who-we-txt p{
+        width: 93%;
+        line-height: 30px;
+    }
+    .team-txt p{
+        width: 75%;
+        line-height: 30px;
+    }
+}

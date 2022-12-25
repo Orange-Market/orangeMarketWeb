@@ -1,0 +1,300 @@
+a{
+    text-decoration: none;
+}
+#nav-placeholder{
+    width: 100%;
+}
+.primary-header{
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 5%;
+    padding: 20px 0;
+    z-index: 1000;
+    top: 0;
+}
+nav > ul{
+    display: flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center; 
+    color: var(--font-Zeus);
+}
+nav > ul li{
+    list-style: none;
+}
+nav > ul li a{
+    text-decoration: none;
+    color: var(--font-Zeus);
+    font: 14px;
+
+}
+.checked a{
+    color: var(--Thunderbird);
+}
+li a> span img{
+    display: none;
+}
+.sr-only{
+    display: none;
+}
+.hamburger{
+    display: none;
+}
+body{
+    overflow-x: hidden;
+}
+.downloadbtn a{
+    text-decoration: none;
+    color:#ffffff;
+    background-color: var(--Thunderbird);
+    padding: .7em .9em;
+    border-radius: 20px;
+    font-weight:bold ;
+    font-size: 16px;
+}
+.primary-navigation li a:active{
+    color: var(--Thunderbird);
+}
+.primary-navigation li a:hover{
+    color: var(--Thunderbird);
+}
+.menu{
+    position: relative;
+    display: inline-block;
+    width: 29px;
+    height: 4px;
+    border-radius: 100px;
+    background-color:black ;
+    top: -2px;
+    cursor: pointer;
+    z-index: -2;
+}
+.menu::after, .menu::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+    background-color:black ;
+    z-index: -2;
+}
+.menu::after{
+    top: 10px;
+    left: 0;
+}
+.menu::before{
+    bottom: 10px;
+    left: 0;
+}
+.primary-navigation .fa-angle-right{
+    display: none;
+}
+.primary-navigation li a:hover{
+    color: var(--Thunderbird);
+}
+@media (max-width:719px) {
+    .primary-header{
+        background-color: rgb(255, 255, 255);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 32px 20px 22px;
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: space-between;
+        z-index: 10000;
+    }
+    .logo{
+        max-width: 30%;
+        z-index: 1000;
+    }
+    .logo img{
+        width: 100%;
+    }
+    .primary-navigation{
+        position: fixed;
+        inset: 10% 0 0 0;
+        flex-direction: column;
+        background-color:white;
+        gap: 10px;
+        padding: min(7vh, 5rem)1em;
+        justify-content:flex-start;
+        align-items:flex-start;
+        transform: translateX(100%);
+        transition: transform 350ms ease-in-out;
+        z-index: 9999;
+        padding-top: 5px;
+        isolation: isolate;
+    }
+    
+    .primary-navigation li{
+        width: 100%;
+        border-bottom: 2px solid var(--Wild-Sand) ;
+        padding: 30px 0;
+        color: var(--Tapa);
+    }
+
+    .primary-navigation li:active{
+        color: var(--Neon-Carrot);
+    }
+    .downloadbtn{
+        display: none;
+    }
+    .primary-navigation li a> span img{
+        display: block;
+    }
+    .primary-navigation li a{
+        display: flex;
+        justify-content: space-between;
+        justify-items: center;
+        font-weight: 700;
+        font-size:25px ;
+    }
+    .primary-navigation .fa-angle-right{
+        display: block;
+    }
+    .hamburger{
+        display: block;
+        z-index: 1000;
+        position: relative;
+        right: -31%;
+        top: 3px;
+        background-color:transparent;
+        background-repeat: no-repeat;
+        border: 0;
+        width:2.4rem;
+        aspect-ratio:1 ;
+
+    }
+    .menu{
+        top: -3px;
+        left: -1px;
+        z-index: -1;
+        
+
+    }
+    .hamburger.is-active .menu{
+        transform: rotate(55deg);
+        width: 60%;
+        height: 1.5px;
+        left: -.1px;
+        right:20px;
+        top: -4.7px;
+        background-color:var(--white) ;
+        
+        
+    }
+    .hamburger.is-active .menu::after{
+        background-color:var(--white) ;
+        transform: rotate(-110deg);
+        left: .2px;
+        top: .2px;
+    
+    }
+    .hamburger.is-active .menu::before{
+        opacity: 0;
+    }
+    .hamburger.is-active{
+        background-color: var(--Thunderbird);
+        box-sizing: content-box;
+        padding: .5px .5px .5px;
+        border-radius: 50%;
+        width: 1.5rem;
+    }
+    .primary-navigation.is-active{
+        transform: translateX(0%);
+    }
+    /* .navHome, .navAbout{
+        background-color: transparent;
+        background-image: url(../assets/img/heroBacground.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    } */
+}
+@media (min-width:720px) {
+    .logo{
+        width: 12.4%;
+    }
+    .logo img{
+        width: 100%;
+    }
+    nav > ul li a{
+        
+        font-size: 12px;
+    
+    }
+    .downloadbtn a{
+        font-size: 10px;
+        padding: 1em 1.5em;
+        border-radius: 15px;
+    }
+    .primary-header{
+        padding-bottom: 0;
+
+    }
+    .supplierNAV{
+        background-color:white;
+        margin: 0;
+        width: 100%;
+        padding:1% 5% ;
+    }
+    .navHome, .navAbout{
+        background-color: #FFE8E3;
+        margin: 0;
+        width: 100%;
+        padding:1% 5% ;
+        z-index: 99999;
+    }
+    .navAbout{
+        background-color: transparent;
+        background-image: url(../assets/img/heroBacground.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+}
+@media (min-width:820px){
+    nav > ul li a{
+        
+        font-size: 13px;
+    
+    }
+    .downloadbtn a{
+        font-size: 11px;
+    }
+}
+@media (min-width:1020px){
+    nav > ul li a{
+        
+        font-size: 14px;
+    
+    }
+    .downloadbtn a{
+        font-size: 12px;
+    }
+}
+@media (min-width:1200px){
+    nav > ul li a{
+        
+        font-size: 14px;
+    
+    }
+    .downloadbtn a{
+        font-size: 13px;
+    }
+}
+@media (min-width:1300px){
+    nav > ul li a{
+        
+        font-size: 15px;
+    
+    }
+    .downloadbtn a{
+        font-size: 14px;
+    }
+}
