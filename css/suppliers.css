@@ -308,7 +308,7 @@
         padding: 5% 5%;
     }
     
-    .you-want-card{
+    #our-value-card{
         display: flex;
         gap: 10px;
     }
@@ -335,6 +335,7 @@
         position: relative;
         box-shadow: -4px 32px 14px -1px var(--Porcelain);
     }
+    
     .headtxt-card p{
         font-size: 14px;
     }
