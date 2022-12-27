@@ -474,6 +474,7 @@ header{
     background-color: var(--Wild-Sand);
     border-radius: 10px;
     margin-bottom: 20px;
+    position: relative;
 }
 .start-using{
     padding: 3.4%;
@@ -516,6 +517,7 @@ header{
     border-radius: 50%;
     background-color: var(--Thunderbird);
     margin-right: 5px;
+    
 }
 .su-btn{
     text-decoration: none;
@@ -529,8 +531,31 @@ header{
 } .su-txt p{
     display: none;
 }
+.su-img-crd{
+    width: 69%;
+    position: absolute;
+    bottom: -1%;
+    display: block;
+    left: 15%;
+}
+/* .su-img-crd */
+.su-img-crd::before{
+    content: '';
+    position: absolute;
+    width: 70%;
+    height: 13%;
+    background-color: var(--white);
+    border-radius: 20px;
+    top: 73%;
+    box-shadow: 2px 2px 5px -1px lightgrey;
+    right: -40px;
+    z-index: 1;
+}
 .su-crd img{
-    display: none;
+    width: 100%;
+    /* position: absolute;
+    bottom: 0; */
+
 }
 .checked{
     color: var(--Thunderbird);
@@ -649,6 +674,13 @@ header{
         height: 750px;
     }
 }
+
+@media (min-width:370px) {
+    .hero-btn1 img{
+        width: 159px;
+    }
+    
+}
 @media (min-width:400px) {
     header{
         height: 800px;
@@ -664,10 +696,36 @@ header{
         height: 950px;
     }
 }
+@media (min-width:445px) {
+    .su-img-crd{
+        width: 65%;
+        position: absolute;
+        bottom: -1%;
+        display: block;
+        left: 15%;
+    }
+}
+@media (min-width:469px) {
+    .su-img-crd{
+        width: 62%;
+        position: absolute;
+        bottom: -1%;
+        display: block;
+        left: 15%;
+    }
+}
+
 @media (min-width:500px) {
     .hero-img img{
         top: 9.9rem;
 
+    }
+    .su-img-crd{
+        width: 58%;
+        position: absolute;
+        bottom: -1%;
+        display: block;
+        left: 16%;
     }
 }
 @media (min-width:520px) {
@@ -679,10 +737,24 @@ header{
     .tx{
         margin-top: 5%;
     }
+    .su-img-crd{
+        width: 55%;
+        position: absolute;
+        bottom: -1%;
+        display: block;
+        left: 19%;
+    }
 }
 @media (min-width:570px) {
     .tx{
         margin-top: 2%;
+    }
+    .su-img-crd{
+        width: 53%;
+        position: absolute;
+        bottom: -1%;
+        display: block;
+        left: 20%;
     }
 }
 @media (min-width:585px) {
@@ -707,6 +779,33 @@ header{
         height: 1120px;
     }
 }
+@media (min-width:600px) {
+    .su-img-crd{
+        width: 51%;
+        position: absolute;
+        bottom: -1%;
+        display: block;
+        left: 22%;
+    }
+}
+@media (min-width:630px) {
+    .su-img-crd{
+        width: 47%;
+        position: absolute;
+        bottom: -1%;
+        display: block;
+        left: 23%;
+    }
+}
+@media (min-width:670px) {
+    .su-img-crd{
+        width: 45%;
+        position: absolute;
+        bottom: -1%;
+        display: block;
+        left: 25%;
+    }
+}
 @media (min-width:690px) {
     .tx{
         margin-top: -4%;
@@ -715,14 +814,14 @@ header{
         top: 7.5rem;
 
     }
-}
-@media (min-width:370px) {
-    .hero-btn1 img{
-        width: 159px;
+    .su-img-crd{
+        width: 43%;
+        position: absolute;
+        bottom: -1%;
+        display: block;
+        left: 26%;
     }
-    
 }
-
 
 @media (min-width:720px){
     header{
@@ -1466,7 +1565,7 @@ header{
     }
     .su-txt h3{
         font-size: 37px;
-        width: 100%;
+        width: 80%;
     }
     .su-txt p{
         display: block;
@@ -1477,8 +1576,11 @@ header{
         font-size: 16px;
         margin-bottom: 30px;
     }
+    .su-crd{
+        overflow: hidden;
+    }
     .su-img-crd{
-        width: 309px;
+        width: 290px;
         position: relative;
         top: 20px;
         left: 50px;
