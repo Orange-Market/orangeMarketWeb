@@ -626,3 +626,8 @@ footer{
         width: 150%;
     }
 }
+@media (min-height:920px) {
+    .download{
+        height: 350px;
+    }
+}
