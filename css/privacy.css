@@ -1,0 +1,227 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+.privacy-policy{
+    width: 100%;
+    margin-top: 30%;
+    padding: 0 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.privacy-tittle{
+    width: 100%;
+    text-align: center;
+    color: var(--black);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 11%;
+}
+.pri-h1{
+    font-size: 1.1rem;
+    line-height: 22px;
+}
+.pri-p1{
+    font-size: 0.8;
+    margin-top: 1%;
+    margin-bottom: 7%;
+    color: var(--lightblack);
+    opacity: 0.6;
+    line-height: 17px;
+}
+.pri-bold{
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 2.78%;
+    line-height: 19px;
+}
+.pri-light{
+    font-size: 0.8rem;
+    margin-bottom: 3.4%;
+    color: var(--lightblack);
+    opacity: 0.6;
+    line-height: 14px;
+}
+.pri-txt :last-child{
+    margin-bottom: 7.72%;
+}
+@media (min-width:720px) {
+    .privacy-policy{
+        width: 100%;
+        margin-top: 12%;
+    }
+    .privacy-tittle{
+        margin-bottom: 5%;
+    }
+    .pri-p1{
+        margin-bottom: 3%;
+    }
+    .pri-bold{
+        margin-bottom: 2%;
+    }
+    .pri-light{
+        margin-bottom: 2.5%;
+    }
+    .pri-txt :last-child{
+        margin-bottom: 6%;
+    }
+}
+@media (min-width:820px) {
+    .privacy-tittle{
+        margin-bottom: 5%;
+        font-size: 22px;
+    }
+    .pri-h1{
+        font-size: 1.18rem;
+        line-height: 25px;
+    }
+    .pri-p1{
+        margin-bottom: 3%;
+        font-size: 0.9rem;
+        line-height: 20px;
+    }
+    .pri-bold{
+        margin-bottom: 1.5%;
+        font-size: 1.06rem;
+    }
+    .pri-light{
+        margin-bottom: 1.5%;
+        font-size: 0.9rem;
+        line-height: 16px;
+    }
+    .pri-txt :last-child{
+        margin-bottom: 4.5%;
+    }
+}
+@media (min-width:920px) {
+    .privacy-tittle{
+        font-size: 24px;
+    }
+    .pri-h1{
+        font-size: 1.25rem;
+        line-height: 28px;
+    }
+    .pri-p1{
+        margin-bottom: 3%;
+        font-size: 1rem;
+        line-height: 22px;
+    }
+    .pri-bold{
+        margin-bottom: 1%;
+        font-size: 1.06rem;
+    }
+    .pri-light{
+        margin-bottom: 1.5%;
+        font-size: 0.93rem;
+        line-height: 17px;
+    }
+    .pri-txt :last-child{
+        margin-bottom: 4.5%;
+    }
+}
+@media (min-width:1020px) {
+    .privacy-tittle{
+        font-size: 25px;
+    }
+    .pri-h1{
+        font-size: 1.27rem;
+        line-height: 30px;
+    }
+    .pri-p1{
+        margin-bottom: 3%;
+        font-size: 1.15rem;
+        line-height: 22px;
+    }
+    .pri-bold{
+        margin-bottom: 1%;
+        font-size: 1.1rem;
+    }
+    .pri-light{
+        margin-bottom: 1.5%;
+        font-size: 1rem;
+        line-height: 19px;
+    }
+    .pri-txt :last-child{
+        margin-bottom: 4.5%;
+    }
+}
+@media (min-width:1200px) {
+    .privacy-tittle{
+        font-size: 27px;
+    }
+    .pri-h1{
+        font-size: 1.3rem;
+        line-height: 10px;
+    }
+    .pri-p1{
+        margin-bottom: 3%;
+        font-size: 1.18rem;
+        line-height: 23px;
+    }
+    .pri-bold{
+        margin-bottom: 1%;
+        font-size: 1.15rem;
+    }
+    .pri-light{
+        margin-bottom: 1.5%;
+        font-size: 1.05rem;
+        line-height: 19px;
+    }
+    .pri-txt :last-child{
+        margin-bottom: 4.5%;
+    }
+}
+@media (min-width:1200px) {
+    .privacy-tittle{
+        font-size: 27px;
+    }
+    .pri-h1{
+        font-size: 1.3rem;
+        line-height: 10px;
+    }
+    .pri-p1{
+        margin-bottom: 3%;
+        font-size: 1.18rem;
+        line-height: 23px;
+    }
+    .pri-bold{
+        margin-bottom: 1%;
+        font-size: 1.15rem;
+    }
+    .pri-light{
+        margin-bottom: 1.5%;
+        font-size: 1.05rem;
+        line-height: 19px;
+    }
+    .pri-txt :last-child{
+        margin-bottom: 4.5%;
+    }
+}
+@media (min-width:1300px) {
+    .privacy-tittle{
+        font-size: 29px;
+    }
+    .pri-h1{
+        font-size: 1.35rem;
+        line-height: 10px;
+    }
+    .pri-p1{
+        margin-bottom: 3%;
+        font-size: 1.2rem;
+        line-height: 23px;
+    }
+    .pri-bold{
+        margin-bottom: 1%;
+        font-size: 1.19rem;
+    }
+    .pri-light{
+        margin-bottom: 1.5%;
+        font-size: 1.1rem;
+        line-height: 19px;
+    }
+    .pri-txt :last-child{
+        margin-bottom: 4.5%;
+    }
+}
