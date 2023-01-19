@@ -371,6 +371,9 @@
     margin-bottom: 5%;
     line-height: 24px;
 }
+#who-p p{
+    margin-bottom: 1%;
+}
 /* team */
 .team{
     margin-top: 8%;
@@ -639,6 +642,11 @@
         width: 70%;
         font-size: 15px;
     }
+    .our-value-txt .p{
+        width: 95%;
+        font-size: 16px;
+        margin-bottom: 5%;
+    }
 }
 @media (min-width:1200px) {
     /* grid */
@@ -767,7 +775,7 @@
         line-height: 30px;
     }
     .team-txt p{
-        width: 75%;
+        width: 88%;
         line-height: 30px;
     }
 }

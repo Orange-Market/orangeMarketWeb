@@ -245,7 +245,7 @@ body{
     .navHome, .navAbout{
         background-color: #FFE8E3;
         margin: 0;
-        width: 100%;
+        width: 85%;
         padding:1% 5% ;
         z-index: 99999;
     }
@@ -276,6 +276,13 @@ body{
     }
     .downloadbtn a{
         font-size: 12px;
+    }
+    .navHome, .navAbout{
+        background-color: #FFE8E3;
+        margin: 0;
+        width: 100%;
+        padding:1% 5% ;
+        z-index: 99999;
     }
 }
 @media (min-width:1200px){

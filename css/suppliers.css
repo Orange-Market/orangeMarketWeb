@@ -686,7 +686,7 @@
     }
     .vec2{
         width: 30%;
-        top: 6.5rem;
+        top: 9.5rem;
     }
     
     .you-want-txt .headtxt-card p{
@@ -707,7 +707,7 @@
     }
     .vec2{
         width: 30%;
-        top: 3rem;
+        top: 9rem;
         right: 0;
     }
     .vec1 {
@@ -753,7 +753,7 @@
     }
     .vec2{
         width: 30%;
-        top: 2rem;
+        top: 5rem;
         right: 0;
     }
     .you-want-txt .headtxt-card h4{
@@ -780,7 +780,7 @@
         margin-top: 25px;
       }
     #values-card{
-        width: 26%;
+        width: 36%;
         padding-left:1% ;
         padding-right: 1%;
         padding-bottom: 15px;
@@ -861,7 +861,7 @@
         width: 100%;
     }
     .bc-txt p{
-        width: 85%;
+        width: 80%;
     }
     #headtexth2 {
         width: 44%;
@@ -870,4 +870,11 @@
         line-height: 54px;
 }
     
+}
+@media (min-height:920px) {
+    .hero-suppliers-container {
+        display: flex;
+        position: relative;
+        top: 50px;
+      }
 }

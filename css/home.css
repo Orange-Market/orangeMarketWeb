@@ -7,7 +7,7 @@
 }
 header{
     width: 100%;
-    height: 764px;
+    height:720px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -26,7 +26,7 @@ header{
     
 }
 .tx{
-    margin-top: 20%;
+    margin-top: 40%;
 }
 .ts{
     margin-top: 12%;
@@ -45,7 +45,7 @@ header{
 }
 /* hero text styling */
 .hero-text h1{
-    font-size: 2.13rem;
+    font-size: 1rem;
     color: var(--black);
     margin-bottom: 2%;
     font-weight: 900;
@@ -53,7 +53,7 @@ header{
 .hero-text p{
     margin: 0 auto;
     width: 81%;
-    font-size:1rem ;
+    font-size:.7rem ;
     color: var(--headerp);
     text-align:center;
     margin-bottom: 10%;
@@ -604,11 +604,15 @@ header{
 
 
 @media (min-width:331px) and (max-width:719px){
+    header{
+        width: 100%;
+        height:920px;
+    }
     .hero-container{
         padding: 0 10%;
     }
     .tx{
-        margin-top: 15%;
+        margin-top: 30%;
     }
     .hero-img img{
         width:130%;
@@ -620,7 +624,7 @@ header{
     
     .hero-text h1{
         width: 95%;
-        font-size: 34px;
+        font-size: 24px;
         font-weight:bold;
         text-align: center;
         margin: 0 auto;
@@ -657,21 +661,24 @@ header{
 
 @media (min-width:331px) {
     header{
-        height: 700px;
+        height: 800px;
     }
     .hero-img img{
         top: 11.9rem;
 
     }
 }
-@media (min-width:378px) {
+@media (min-width:373px) {
     header{
-        height: 720px;
+        height: 850px;
+    }
+    .tx{
+        margin-top: 10%;
     }
 }
 @media (min-width:390px) {
     header{
-        height: 750px;
+        height: 850px;
     }
 }
 
@@ -683,12 +690,15 @@ header{
 }
 @media (min-width:400px) {
     header{
-        height: 800px;
+        height: 870px;
     }
 }
 @media (min-width:420px) {
     header{
-        height: 830px;
+        height: 900px;
+    }
+    .tx{
+        margin-bottom: 12%;
     }
 }
 @media (min-width:440px) {
@@ -727,10 +737,16 @@ header{
         display: block;
         left: 16%;
     }
+    header{
+        height: 910px;
+    }
 }
 @media (min-width:520px) {
     header{
-        height: 1000px;
+        height: 1010px;
+    }
+    .tx{
+        margin-top: 8%;
     }
 }
 @media (min-width:540px) {
@@ -756,6 +772,13 @@ header{
         display: block;
         left: 20%;
     }
+    .hero-img img{
+        top: 7.9rem;
+
+    }
+    header{
+        height: 1000px;
+    }
 }
 @media (min-width:585px) {
     header{
@@ -767,16 +790,6 @@ header{
     .hero-img img{
         top: 8.9rem;
 
-    }
-}
-@media (min-width:570px) {
-    
-    .hero-img img{
-        top: 7.9rem;
-
-    }
-    header{
-        height: 1120px;
     }
 }
 @media (min-width:600px) {
@@ -796,6 +809,12 @@ header{
         display: block;
         left: 23%;
     }
+    header{
+       height: 1100px;
+    } 
+    .tx{
+        margin-top: 1%;
+    }
 }
 @media (min-width:670px) {
     .su-img-crd{
@@ -805,6 +824,9 @@ header{
         display: block;
         left: 25%;
     }
+    header{
+        height: 1150px;
+     } 
 }
 @media (min-width:690px) {
     .tx{
@@ -825,22 +847,23 @@ header{
 
 @media (min-width:720px){
     header{
-        height: 425px;
+        height: 450px;
         position: relative;
         background-image: none;
         background-color: #FFE8E3;
-        overflow:visible;
+        overflow:hi;
         isolation: isolate;
     }
 
     .tx{
-        margin-top: 7%;
+        margin-top: 5%;
+        margin-bottom: 0;
     }
     
     .hero{
         width: 100%;
         display: flex;
-        height: 100%;
+        /* height: 100%; */
         position: relative;
         overflow: hidden;
     }
@@ -852,9 +875,9 @@ header{
         margin-top: 70px;
     }
     .hero-text h1{
-        width: 60%;
+        width: 55%;
         text-align: left;
-        font-size: 2.1rem;
+        font-size: 1.45rem;
         font-weight: bold;
         color: var(--black);
         text-shadow: none;
@@ -1273,7 +1296,7 @@ header{
 @media (min-width:760px) {
     .hero-text h1{
         width: 60%;
-        font-size: 2.7rem;
+        font-size:1.8rem;
     }
     .hero-text p{
         width: 55%;
@@ -1292,7 +1315,7 @@ header{
 @media (min-width:800px){
     .hero-text h1{
         width: 60%;
-        font-size: 2.6rem;
+        font-size: 2rem;
     }
     .hero-text p{
         width: 55%;
@@ -1312,6 +1335,9 @@ header{
     }
     .supplies-txt{
         top:5rem;
+    }
+    .supplies-txt h1 {
+        font-size: 1.5rem;
     }
     .gridcard-2, .gridcard-1{
         min-height: 200px;
@@ -1470,6 +1496,9 @@ header{
     .su-img-crd{
         left: 55px;
     }
+    .supplies-txt h1 {
+        font-size: 1.6rem;
+    }
     .you-card h4{
         font-size: 20px;
     }
@@ -1478,6 +1507,9 @@ header{
     }
     .you-want-txt .yu-p{
         font-size: 14px;
+        width: 50%;
+    }
+    .hero-text p{
         width: 50%;
     }
 }
@@ -1492,7 +1524,7 @@ header{
     }
     .hero-text h1{
         width: 60%;
-        font-size: 3.2rem;
+        font-size: 2.6rem;
         
     }
     .hero-trusted p{
@@ -1514,6 +1546,7 @@ header{
     }
     .hero-trusted p{
         font-size: 13px;
+        
     }
     .All-supplies{
         top: 41rem;
@@ -1627,10 +1660,10 @@ header{
 }
 @media (min-width:1050px) {
     .hero-text{
-        margin-top: 10%;
+        margin-top: 7%;
     }
     .hero-text h1{
-        font-size: 3.5rem;
+        font-size: 2.7rem;
     }
     .hero-text p{
         font-size: 15px;
@@ -1690,10 +1723,13 @@ header{
     header{
         height: 655px;
     }
+    .hero-text {
+        margin-top: 5%;
+      }
     .hero-text h1{
         width: 60%;
         text-align: left;
-        font-size: 4.2rem;
+        font-size: 3.2rem;
         font-weight: bold;
         color: var(--ebony);
     }
