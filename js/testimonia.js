@@ -7,7 +7,7 @@ const rightArrow = document.querySelector('#right');
 var sectionIndex = 0;
 leftArrow.addEventListener('click', function(){
     sectionIndex =(sectionIndex > 0) ? sectionIndex - 1 : 0;
-    slider.style.transform = 'translate(' + (sectionIndex) * -32.5 + '%)';
+    slider.style.transform = 'translate(' + (sectionIndex) * -33.3 + '%)';
 });
 var sectionIndex = 0;
 rightArrow.addEventListener('click', function(){
