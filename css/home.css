@@ -996,6 +996,7 @@ header{
         top: 2rem;
         margin-bottom: 0;
         z-index: -1;
+        margin-top: 50px;
     }
     .supplies-txt ul li{
         font-size: .72rem;
@@ -1249,6 +1250,10 @@ header{
     }
     .ts{
         margin-top: 15%;
+    }
+    /* start using */
+    .start-using {
+        margin-bottom: 0;
     }
     /* carousel */
     .carousel{
