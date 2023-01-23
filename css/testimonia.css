@@ -46,11 +46,17 @@ body{
     margin: 0 auto;
     position: relative;
     margin-bottom: 20px;
+    margin-top: 15px;
 }
 .testimonia-img img{
     width: 100%;
     border-bottom-right-radius: 20px;
     border-top-right-radius: 20px;
+}
+.testimonia3 img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: .1px solid rgb(214, 213, 213);
 }
 .testimonia .fa-angle-left, .testimonia .fa-angle-right, .testimonia .fa-play{
     position: absolute;
@@ -82,8 +88,8 @@ body{
     color: var(--white);
 }
 .testimonia .fa-angle-left{ 
-    background-color: #ffffff;
-    color: lightgray;
+    background-color: var(--Thunderbird);
+    color: var(--white);
     cursor: pointer;
 }
 .testimonia .fa-angle-right:hover{ 
@@ -354,7 +360,7 @@ body{
     .slider-const{
         display: flex;
         width: 300%;
-        height: 650px;
+        height: 620px;
         transition: all 0.3s;
     }
 
