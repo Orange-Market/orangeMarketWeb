@@ -104,10 +104,28 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: var(--Beauty-Bush);
-    opacity: .2;
+    background-color: var(--profileBg);
     margin-bottom: 7px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
+}
+.tm-pic1{
+    background-image: url(../assets/img/joseph.png);
+    background-position: 2px;
+}
+.tm-pic2{
+    background-image: url(../assets/img/mubarack.jpg);
+    background-position: -10px;
+}
+.tm-pic3{
+    background-image: url(../assets/img/Gbenga.jpg);
+    background-position: 0px;
+}
+.tm-pic4{
+    background-image: url(../assets/img/friday.png);
+    background-position: -7px;
 }
 .tm-p1{
     display: flex;
@@ -371,6 +389,9 @@
     margin-bottom: 5%;
     line-height: 24px;
 }
+#who-p p{
+    margin-bottom: 1%;
+}
 /* team */
 .team{
     margin-top: 8%;
@@ -554,7 +575,7 @@
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    background-color: var(--Tuscany);
+    background-color: var(--profileBg);
     margin-bottom: 10px;
     
 }
@@ -638,6 +659,11 @@
     .team-txt p{
         width: 70%;
         font-size: 15px;
+    }
+    .our-value-txt .p{
+        width: 95%;
+        font-size: 16px;
+        margin-bottom: 5%;
     }
 }
 @media (min-width:1200px) {
@@ -767,7 +793,7 @@
         line-height: 30px;
     }
     .team-txt p{
-        width: 75%;
+        width: 88%;
         line-height: 30px;
     }
 }
